@@ -13,6 +13,10 @@ public class MoveScene : MonoBehaviour
    {
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
    }
+   public void keluar()
+   {
+      Application.Quit(); 
+   }
    public void koleksi()
    {
     SceneManager.LoadScene("Koleksi");
