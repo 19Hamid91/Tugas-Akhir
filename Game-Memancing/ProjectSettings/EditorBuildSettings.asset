@@ -15,8 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Map.unity
     guid: 94e0336221ea5f84a95a56a8a4dc67f3
   - enabled: 1
-    path: Assets/Scenes/GamePlay.unity
+    path: Assets/Scenes/GamePlayJawa.unity
     guid: c9ff012b8c785854eb495c5ca03bcfbd
+  - enabled: 1
+    path: Assets/Scenes/GamePlayKalimantan.unity
+    guid: becdcff8382e7834cb05e9848381c759
+  - enabled: 1
+    path: Assets/Scenes/GamePlaySumatra.unity
+    guid: 26a2e241c3dec314f84fd02e3a9b3c81
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: bd45f39fcb760bc4d9656e1f3e65ef9c

@@ -25,4 +25,16 @@ public class MoveScene : MonoBehaviour
    {
     SceneManager.LoadScene("MainMenu");
    }
+   public void gameplayjawa()
+   {
+      SceneManager.LoadScene("GamePlayJawa");
+   }
+   public void gameplaysumatra()
+   {
+      SceneManager.LoadScene("GamePlaySumatra");
+   }
+   public void gameplaykalimantan()
+   {
+      SceneManager.LoadScene("GamePlayKalimantan");
+   }
 }
