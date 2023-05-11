@@ -25,6 +25,11 @@ public class MoveScene : MonoBehaviour
    {
     SceneManager.LoadScene("MainMenu");
    }
+   public void Deskripsi()
+   {
+    SceneManager.LoadScene("Deskripsi");
+   }
+
    public void gameplayjawa()
    {
       SceneManager.LoadScene("GamePlayJawa");
@@ -36,5 +41,21 @@ public class MoveScene : MonoBehaviour
    public void gameplaykalimantan()
    {
       SceneManager.LoadScene("GamePlayKalimantan");
+   }
+
+   public void gameplay()
+   {
+      SceneManager.LoadScene(Data.Tempat);
+      Debug.Log(Data.Tempat);
+      Debug.Log(Data.Level);
+   }
+   public void level()
+   {
+      SceneManager.LoadScene("Level");
+   }
+   public void test()
+   {
+      Debug.Log(Data.Tempat);
+      Debug.Log(Data.Level);
    }
 }

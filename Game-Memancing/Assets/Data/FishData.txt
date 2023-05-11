@@ -1,0 +1,22 @@
+{
+    "fishData": [
+        {
+            "id" : 1,
+            "nama" : "Lele",
+            "kandungan" : "Protein, Karbohidrat, Lemak",
+            "habitat" : "Air Tawar"
+        },
+        {
+            "id" : 2,
+            "nama" : "Nila",
+            "kandungan" : "Protein, Karbohidrat",
+            "habitat" : "Air Laut"
+        },
+        {
+            "id" : 3,
+            "nama" : "Arwana",
+            "kandungan" : "Protein, Lemak",
+            "habitat" : "Danau"
+        }
+    ]
+}
