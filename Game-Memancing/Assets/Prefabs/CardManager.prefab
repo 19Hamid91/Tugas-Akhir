@@ -65,3 +65,33 @@ MonoBehaviour:
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 4
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 5
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 6
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 7
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 8
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 9
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf
