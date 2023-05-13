@@ -53,4 +53,8 @@ public class MoveScene : MonoBehaviour
    {
       SceneManager.LoadScene("Level");
    }
+   public void map()
+   {
+      SceneManager.LoadScene("Map");
+   }
 }
