@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6060439139005428344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6060439139005428350}
+  - component: {fileID: 6060439139005428351}
+  m_Layer: 0
+  m_Name: CardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6060439139005428350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6060439139005428344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.565955, y: 0.74573433, z: 70.07813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6060439139005428351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6060439139005428344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846ad8b5244de7649a62220cab973b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    nama: Lele
+    habitat: Sungai
+    kandungan: tr, tr, r,t ,dfh df,h b
+    rekomendasiMakanan: Pecel Lele
+  - cardSprite: {fileID: 21300000, guid: 0a3b88c613e73b3449a9b773546bc3c1, type: 3}
+    nama: Test1
+    habitat: Danau
+    kandungan: sdcvds ds ds d
+    rekomendasiMakanan: KEKEKEKE
+  - cardSprite: {fileID: 21300000, guid: 63308595064fe5848864da32c4b30db5, type: 3}
+    nama: Test2
+    habitat: Lautan CIna
+    kandungan: ' a  svrgrtghrt  h rt'
+    rekomendasiMakanan: safsadas
+  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Test 3
+    habitat: Pond
+    kandungan: dfsdcf s fds f
+    rekomendasiMakanan: ascsdf  feasf

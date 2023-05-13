@@ -2,21 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Data
 {
     public static string Tempat;
     public static int Level;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int indexIkan;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    
+    // public List<string> dataIkan = new List<string>();   
 }

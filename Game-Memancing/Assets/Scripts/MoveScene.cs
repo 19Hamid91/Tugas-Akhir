@@ -25,9 +25,11 @@ public class MoveScene : MonoBehaviour
    {
     SceneManager.LoadScene("MainMenu");
    }
-   public void Deskripsi()
+   public void Deskripsi(int index)
    {
     SceneManager.LoadScene("Deskripsi");
+    Data.indexIkan = index;
+    Debug.Log( Data.indexIkan);
    }
 
    public void gameplayjawa()
@@ -46,16 +48,9 @@ public class MoveScene : MonoBehaviour
    public void gameplay()
    {
       SceneManager.LoadScene(Data.Tempat);
-      Debug.Log(Data.Tempat);
-      Debug.Log(Data.Level);
    }
    public void level()
    {
       SceneManager.LoadScene("Level");
-   }
-   public void test()
-   {
-      Debug.Log(Data.Tempat);
-      Debug.Log(Data.Level);
    }
 }
