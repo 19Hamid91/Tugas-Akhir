@@ -9,5 +9,9 @@ public class Data
     public static int Level;
     public static int indexIkan;
 
+    public static int direction;
+    public static float speed;
+    public static bool isInsideArea;
+
     // public List<string> dataIkan = new List<string>();   
 }
