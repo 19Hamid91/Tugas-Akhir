@@ -5,12 +5,29 @@ using UnityEngine;
 public class Gameplay : MonoBehaviour
 {
     public GameObject movingLine;
+    public GameObject area;
+    public GameObject resultPanel;
+    public GameObject ResultManager;
+
+    float moveArea;
     // Start is called before the first frame update
     void Start()
     {
         Data.direction = -1;
-        Data.speed = 3f;
         Data.isInsideArea = false;
+        if(Data.Level == 1)
+        {
+            Data.speed = 3f;
+            area.transform.localScale = new Vector3(4, area.transform.localScale.y, area.transform.localScale.z);
+        } else if(Data.Level == 2)
+        {
+            Data.speed = 4f;
+            area.transform.localScale = new Vector3(3, area.transform.localScale.y, area.transform.localScale.z);
+        } else if(Data.Level == 3)
+        {
+            Data.speed = 5f;
+            area.transform.localScale = new Vector3(2, area.transform.localScale.y, area.transform.localScale.z);
+        }
     }
 
     // Update is called once per frame
@@ -50,23 +67,41 @@ public class Gameplay : MonoBehaviour
 
     public void TangkapIkan()
     {
+
         Data.speed = 0f;
         // play animasi menarik ikan
+        Data.indexIkan = Random.Range(0, 10);
+        // Debug.Log(Data.indexIkan);
+        resultPanel.SetActive(true);
 
         if (Data.isInsideArea == true)
         {
-            Debug.Log("Anda Dapat Ikan");
+            // Debug.Log("Anda Dapat Ikan");
+            ResultManager.GetComponent<GetResult>().FillResult();
             // menampilkan ikan hasil tangkapan
         }
         else
         {
-            Debug.Log("Ikan Lepas");
+            // Debug.Log("Ikan Lepas");
+            ResultManager.GetComponent<GetResult>().IkanLepas();
             // menampilkan pemeberitahuan gagal
         }
     }
 
     public void MulaiLagi()
     {
-        Data.speed = 3f;
+        if(Data.Level == 1)
+        {
+            Data.speed = 3f;
+        } else if(Data.Level == 2)
+        {
+            Data.speed = 4f;
+        } else if(Data.Level == 3)
+        {
+            Data.speed = 5f;
+        }
+        moveArea = Random.Range(-2.5f, 2.5f);
+        resultPanel.SetActive(false);
+        area.transform.position = new Vector3(moveArea, area.transform.position.y, area.transform.position.z);
     }
 }

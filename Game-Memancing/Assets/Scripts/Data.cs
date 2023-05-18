@@ -13,5 +13,7 @@ public class Data
     public static float speed;
     public static bool isInsideArea;
 
+    // public static int[] LockedFish;
+
     // public List<string> dataIkan = new List<string>();   
 }
