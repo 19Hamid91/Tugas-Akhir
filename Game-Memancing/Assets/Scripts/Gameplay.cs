@@ -15,11 +15,7 @@ public class Gameplay : MonoBehaviour
     {
         Data.direction = -1;
         Data.isInsideArea = false;
-        if(Data.Level == 1)
-        {
-            Data.speed = 3f;
-            area.transform.localScale = new Vector3(4, area.transform.localScale.y, area.transform.localScale.z);
-        } else if(Data.Level == 2)
+        if(Data.Level == 2)
         {
             Data.speed = 4f;
             area.transform.localScale = new Vector3(3, area.transform.localScale.y, area.transform.localScale.z);
@@ -27,6 +23,10 @@ public class Gameplay : MonoBehaviour
         {
             Data.speed = 5f;
             area.transform.localScale = new Vector3(2, area.transform.localScale.y, area.transform.localScale.z);
+        } else
+        {
+            Data.speed = 3f;
+            area.transform.localScale = new Vector3(4, area.transform.localScale.y, area.transform.localScale.z);
         }
     }
 
@@ -70,35 +70,34 @@ public class Gameplay : MonoBehaviour
 
         Data.speed = 0f;
         // play animasi menarik ikan
-        Data.indexIkan = Random.Range(0, 10);
-        // Debug.Log(Data.indexIkan);
         resultPanel.SetActive(true);
 
         if (Data.isInsideArea == true)
         {
             // Debug.Log("Anda Dapat Ikan");
+            Data.indexIkan = Random.Range(0, 10);
+            Data.unlockedFish.Add(Data.indexIkan);
+            Debug.Log(Data.indexIkan);
             ResultManager.GetComponent<GetResult>().FillResult();
-            // menampilkan ikan hasil tangkapan
         }
         else
         {
             // Debug.Log("Ikan Lepas");
             ResultManager.GetComponent<GetResult>().IkanLepas();
-            // menampilkan pemeberitahuan gagal
         }
     }
 
     public void MulaiLagi()
     {
-        if(Data.Level == 1)
-        {
-            Data.speed = 3f;
-        } else if(Data.Level == 2)
+        if(Data.Level == 2)
         {
             Data.speed = 4f;
         } else if(Data.Level == 3)
         {
             Data.speed = 5f;
+        } else
+        {
+            Data.speed = 3f;
         }
         moveArea = Random.Range(-2.5f, 2.5f);
         resultPanel.SetActive(false);

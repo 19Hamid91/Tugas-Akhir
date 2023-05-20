@@ -45,52 +45,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cards:
-  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
-    nama: Lele
+  - cardSprite: {fileID: 21300000, guid: 910d1988756c8ac448ca257be56cd490, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 04047b2be5ef2564fad04a8f378137ef, type: 3}
+    nama: Baung
     habitat: Sungai
     kandungan: tr, tr, r,t ,dfh df,h b
     rekomendasiMakanan: Pecel Lele
-  - cardSprite: {fileID: 21300000, guid: 0a3b88c613e73b3449a9b773546bc3c1, type: 3}
-    nama: Test1
+  - cardSprite: {fileID: 21300000, guid: 32daf2f0a4e0b3a4392ce991b80b6d6a, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 93a29435a71195047842e5942e0238a6, type: 3}
+    nama: Belida
     habitat: Danau
     kandungan: sdcvds ds ds d
     rekomendasiMakanan: KEKEKEKE
-  - cardSprite: {fileID: 21300000, guid: 63308595064fe5848864da32c4b30db5, type: 3}
-    nama: Test2
+  - cardSprite: {fileID: 21300000, guid: 3775d6ef0d5e89343bbda52d4390f9c2, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: d1fac692eaa6f3e4ca5737bdebda574d, type: 3}
+    nama: Betutu
     habitat: Lautan CIna
     kandungan: ' a  svrgrtghrt  h rt'
     rekomendasiMakanan: safsadas
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 3
+  - cardSprite: {fileID: 21300000, guid: ef127feb8215b2b4a8245f741c1c322c, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 21ee766f733f5974bbb8b8fa6ad4eb13, type: 3}
+    nama: Bilis
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 4
+  - cardSprite: {fileID: 21300000, guid: 667fd4179eef1d84ba2b91ff8b2ac81d, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: bdd69be49fcd65448a42b68650135ba5, type: 3}
+    nama: Jelawat
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 5
+  - cardSprite: {fileID: 21300000, guid: d3ebd2add04ba0141997e3365f0d993d, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 9b3349085a89e4c4a9b7b7e19b53074a, type: 3}
+    nama: Tapah
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
     nama: Test 6
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
     nama: Test 7
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
     nama: Test 8
     habitat: Pond
     kandungan: dfsdcf s fds f
     rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
     nama: Test 9
     habitat: Pond
     kandungan: dfsdcf s fds f

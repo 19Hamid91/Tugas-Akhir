@@ -6,6 +6,7 @@ using UnityEngine;
 public class CardDesc
 {
     public Sprite cardSprite;
+    public Sprite cardSiluetSprite;
     public string nama;
     public string habitat;
     [TextArea(1,3)]

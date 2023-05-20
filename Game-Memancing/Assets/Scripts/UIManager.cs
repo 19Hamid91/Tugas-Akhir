@@ -17,11 +17,28 @@ public class UIManager : MonoBehaviour
     {
         for (int i = 0; i < cardManager.cards.Count; i++)
         {
-            //Assign nama ikan
-            cardSlots[i].transform.GetChild(2).GetComponent<Text>().text = cardManager.cards[i].nama;
+            if(Data.unlockedFish.Contains(i))
+            {
+                //Assign nama ikan
+                cardSlots[i].transform.GetChild(2).GetComponent<Text>().text = cardManager.cards[i].nama;
 
-            //Assign gambar ikan
-            cardSlots[i].transform.GetChild(3).GetComponent<Image>().sprite = cardManager.cards[i].cardSprite;
+                //Assign gambar ikan
+                cardSlots[i].transform.GetChild(3).GetComponent<Image>().sprite = cardManager.cards[i].cardSprite;
+
+                //Activate button
+                cardSlots[i].transform.GetChild(4).gameObject.SetActive(true);
+            }
+            else
+            {
+                //Assign nama ikan
+                cardSlots[i].transform.GetChild(2).GetComponent<Text>().text = "?????";
+
+                //Assign gambar ikan
+                cardSlots[i].transform.GetChild(3).GetComponent<Image>().sprite = cardManager.cards[i].cardSiluetSprite;
+
+                //Deactivate button
+                cardSlots[i].transform.GetChild(4).gameObject.SetActive(false);
+            }
         }
     }
 }
