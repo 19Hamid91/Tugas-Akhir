@@ -5,13 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
+   private void Update() 
+   {
+      Debug.Log(Data.lastScene);
+   }
    public void nextScene()
    {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
    }
    public void prevScene()
    {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
    }
    public void keluar()
    {
@@ -19,42 +23,58 @@ public class MoveScene : MonoBehaviour
    }
    public void koleksi()
    {
-    SceneManager.LoadScene("Koleksi");
+      getSceneName();
+      SceneManager.LoadScene("Koleksi");
    }
    public void mainMenu()
    {
-    SceneManager.LoadScene("MainMenu");
+      getSceneName();
+      SceneManager.LoadScene("MainMenu");
    }
    public void Deskripsi(int index)
    {
-    SceneManager.LoadScene("Deskripsi");
-    Data.indexIkan = index;
+      getSceneName();
+      SceneManager.LoadScene("Deskripsi");
+      Data.indexIkan = index;
    }
-
-   public void gameplayjawa()
-   {
-      SceneManager.LoadScene("GamePlayJawa");
-   }
-   public void gameplaysumatra()
-   {
-      SceneManager.LoadScene("GamePlaySumatra");
-   }
-   public void gameplaykalimantan()
-   {
-      SceneManager.LoadScene("GamePlayKalimantan");
-   }
-
    public void gameplay()
    {
+      getSceneName();
       SceneManager.LoadScene(Data.Tempat);
       Debug.Log(Data.Level);
    }
    public void level()
    {
+      getSceneName();
       SceneManager.LoadScene("Level");
    }
    public void map()
    {
+      getSceneName();
       SceneManager.LoadScene("Map");
+   }
+   public void back()
+   {
+      SceneManager.LoadScene(Data.lastScene);
+   }
+
+   private void getSceneName()
+   {
+      // if(SceneManager.GetActiveScene().name != "Deskripsi")
+      // {
+      //    Data.lastScene = SceneManager.GetActiveScene().name;
+      // }
+      switch (SceneManager.GetActiveScene().name)
+      {
+         case "Deskripsi":
+            break;
+         case "Story":
+            break;
+         case "Koleksi":
+            break;
+         default:
+            Data.lastScene = SceneManager.GetActiveScene().name;
+            break;
+      }
    }
 }

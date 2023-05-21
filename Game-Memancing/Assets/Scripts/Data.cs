@@ -8,6 +8,7 @@ public class Data
     public static string Tempat;
     public static int Level;
     public static int indexIkan;
+    public static string lastScene;
 
     public static int direction;
     public static float speed;

@@ -5947,7 +5947,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7114461038678076938}
         m_TargetAssemblyTypeName: MoveScene, Assembly-CSharp
-        m_MethodName: mainMenu
+        m_MethodName: back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
