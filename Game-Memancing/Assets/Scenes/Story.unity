@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skip: {fileID: 1068818401}
-  timer: 5
+  timer: 1
 --- !u!4 &358755109
 Transform:
   m_ObjectHideFlags: 0

@@ -76,8 +76,18 @@ public class Gameplay : MonoBehaviour
         {
             // Debug.Log("Anda Dapat Ikan");
             Data.indexIkan = Random.Range(0, 10);
-            Data.unlockedFish.Add(Data.indexIkan);
-            Debug.Log(Data.indexIkan);
+            if(!Data.unlockedFish.Contains(Data.indexIkan))
+            {
+                Data.unlockedFish.Add(Data.indexIkan);
+            }
+
+            string result = "List contents: ";
+            foreach( var item in Data.unlockedFish) 
+            {
+                result += item.ToString() + ", ";
+            }
+            Debug.Log(result);
+
             ResultManager.GetComponent<GetResult>().FillResult();
         }
         else
