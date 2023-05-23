@@ -75,7 +75,16 @@ public class Gameplay : MonoBehaviour
         if (Data.isInsideArea == true)
         {
             // Debug.Log("Anda Dapat Ikan");
-            Data.indexIkan = Random.Range(0, 10);
+            var tingkatan = Data.probabilitas[Random.Range(0, Data.probabilitas.Length)];
+            if (tingkatan == 2)
+            {
+                Data.indexIkan = Random.Range(5, 9);
+            }
+            else
+            {
+                Data.indexIkan = Random.Range(0, 4);
+            }
+            
             if(!Data.unlockedFish.Contains(Data.indexIkan))
             {
                 Data.unlockedFish.Add(Data.indexIkan);
@@ -87,7 +96,6 @@ public class Gameplay : MonoBehaviour
                 result += item.ToString() + ", ";
             }
             Debug.Log(result);
-
             ResultManager.GetComponent<GetResult>().FillResult();
         }
         else

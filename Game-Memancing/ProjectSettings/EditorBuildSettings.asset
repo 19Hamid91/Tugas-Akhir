@@ -27,8 +27,11 @@ EditorBuildSettings:
     path: Assets/Scenes/GamePlaySumatra.unity
     guid: 26a2e241c3dec314f84fd02e3a9b3c81
   - enabled: 1
+    path: Assets/Scenes/AwalanQuiz.unity
+    guid: e1d4f8962deb0b54eaadb2eb5cde485b
+  - enabled: 1
     path: Assets/Scenes/Quiz.unity
-    guid: bd45f39fcb760bc4d9656e1f3e65ef9c
+    guid: ea82e48214b02a94aa5f131e95285e2e
   - enabled: 1
     path: Assets/Scenes/Koleksi.unity
     guid: 57fb13a9c556bcb448ab052adcc217fc

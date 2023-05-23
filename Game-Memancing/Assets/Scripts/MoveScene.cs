@@ -57,6 +57,14 @@ public class MoveScene : MonoBehaviour
    {
       SceneManager.LoadScene(Data.lastScene);
    }
+   public void awalanQuiz()
+   {
+      SceneManager.LoadScene("AwalanQuiz");
+   }
+   public void quiz()
+   {
+      SceneManager.LoadScene("Quiz");
+   }
 
    private void getSceneName()
    {
