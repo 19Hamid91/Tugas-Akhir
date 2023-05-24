@@ -67,7 +67,19 @@ public class Gameplay : MonoBehaviour
 
     public void TangkapIkan()
     {
-
+        switch (Data.Level)
+        {
+            case 3:
+                Data.uniqueRate = 20;
+                break;
+            case 2:
+                Data.uniqueRate = 30;
+                break;
+            default:
+                Data.uniqueRate = 40;
+                break;
+        }
+        Data.commonRate = 100 - Data.uniqueRate;
         Data.speed = 0f;
         // play animasi menarik ikan
         resultPanel.SetActive(true);
@@ -75,14 +87,18 @@ public class Gameplay : MonoBehaviour
         if (Data.isInsideArea == true)
         {
             // Debug.Log("Anda Dapat Ikan");
-            var tingkatan = Data.probabilitas[Random.Range(0, Data.probabilitas.Length)];
-            if (tingkatan == 2)
+            var diceroll = Random.Range(1,100);
+            if (Data.commonRate >= diceroll)
             {
-                Data.indexIkan = Random.Range(5, 9);
+                // dapat ikan biasa
+                Data.indexIkan = Random.Range(0,4);
+                Debug.Log("Ikan Biasa");
             }
             else
             {
-                Data.indexIkan = Random.Range(0, 4);
+                // dapat ikan langka
+                Data.indexIkan = Random.Range(5,10);
+                Debug.Log("Ikan Langka");
             }
             
             if(!Data.unlockedFish.Contains(Data.indexIkan))
@@ -90,12 +106,6 @@ public class Gameplay : MonoBehaviour
                 Data.unlockedFish.Add(Data.indexIkan);
             }
 
-            string result = "List contents: ";
-            foreach( var item in Data.unlockedFish) 
-            {
-                result += item.ToString() + ", ";
-            }
-            Debug.Log(result);
             ResultManager.GetComponent<GetResult>().FillResult();
         }
         else

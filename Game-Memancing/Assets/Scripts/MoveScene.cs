@@ -7,7 +7,7 @@ public class MoveScene : MonoBehaviour
 {
    private void Update() 
    {
-      Debug.Log(Data.lastScene);
+      // Debug.Log(Data.lastScene);
    }
    public void nextScene()
    {
