@@ -103,16 +103,11 @@ public class Gameplay : MonoBehaviour
                 Debug.Log("Ikan Langka");
             }
             
-            QuestManager.fishCounter++;
-            if (CardManager.cards[Data.indexIkan].nama == "Betutu")
-            {
-                QuestManager.namedFishCounter++;
-            }
             if(!Data.unlockedFish.Contains(Data.indexIkan))
             {
                 Data.unlockedFish.Add(Data.indexIkan);
             }
-
+            QuestManager.QuestCounter();
             ResultManager.FillResult();
         }
         else
