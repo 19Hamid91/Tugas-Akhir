@@ -18,14 +18,28 @@ public class QuestManager : MonoBehaviour
 
     void Awake()
     {
-        btnQuiz.SetActive(false);
         indexQuest = Random.Range(0,questData.Count);
-        Debug.Log(indexQuest);
-        // masukkan misi ke gameobject
+        getNamedFish();
+
+        if(Data.noProgress == false)
+        {
+            indexQuest = Data.lastIndexQuest;
+            fishCounter = Data.lastFishCounter;
+            namedFishCounter = Data.lastNamedFishCounter;
+            questData[indexQuest].NamedFish = Data.lastNamedFish;
+        }
+        
+        btnQuiz.SetActive(false);
+        
         misi1.GetComponent<Text>().text = questData[indexQuest].Misi1;
-        misi2.GetComponent<Text>().text = questData[indexQuest].Misi2;
+        misi2.GetComponent<Text>().text = questData[indexQuest].Misi2+" "+questData[indexQuest].NamedFish;
         counter1.GetComponent<Text>().text = fishCounter+"/"+questData[indexQuest].fishAmount;
         counter2.GetComponent<Text>().text = namedFishCounter+"/"+questData[indexQuest].namedFishAmount;
+
+        // save to data
+        Data.lastIndexQuest = indexQuest;
+        Data.lastNamedFish = questData[indexQuest].NamedFish;
+        Data.noProgress = false;
     }
     private void Update()
     {
@@ -39,7 +53,7 @@ public class QuestManager : MonoBehaviour
                 fishCounter++;
             }
 
-        if (CardManager.cards[Data.indexIkan].nama == "Betutu")
+        if (CardManager.cards[Data.indexIkan].nama == questData[indexQuest].NamedFish)
         {
             if (namedFishCounter < questData[indexQuest].namedFishAmount)
             {
@@ -50,5 +64,26 @@ public class QuestManager : MonoBehaviour
         {
             btnQuiz.SetActive(true);
         }
+
+        // save to data
+        Data.lastFishCounter = fishCounter;
+        Data.lastNamedFishCounter = namedFishCounter;
     }
+
+    private void getNamedFish()
+    {
+        if(Data.Level != 3)
+        {
+            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(0,CardManager.cards.Count)].nama;
+        }
+        else
+        {
+            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(5,CardManager.cards.Count)].nama;
+        }
+    }
+
+    // private void getDataFromLocal()
+    // {
+    //     // mengambil data misi dari local
+    // }
 }

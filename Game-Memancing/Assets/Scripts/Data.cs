@@ -17,6 +17,12 @@ public class Data
     public static List<int> unlockedFish = new List<int>();
     public static int uniqueRate;
     public static int commonRate;
+
+    public static bool noProgress = true;
+    public static int lastIndexQuest;
+    public static int lastFishCounter;
+    public static int lastNamedFishCounter;
+    public static string lastNamedFish;
     // public static int[] probabilitas =  new int[] {1,1,1,1,1,1,1,1,1,2};
     // public List<string> dataIkan = new List<string>();   
 }
