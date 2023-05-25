@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -120,12 +120,12 @@ TextureImporter:
       name: Pina_Nunggu-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 197.5
-        width: 271.5
-        height: 197.5
+        x: 22
+        y: 198
+        width: 249
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,11 +142,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 271
-        y: 197.5
-        width: 271.5
-        height: 197.5
+        y: 198
+        width: 252
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Pina_Nunggu-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0.5
-        width: 271.5
-        height: 197.5
+        x: 22
+        y: 9
+        width: 250
+        height: 190
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,9 +186,9 @@ TextureImporter:
         x: 271
         y: 0.5
         width: 271.5
-        height: 197.5
+        height: 198.5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

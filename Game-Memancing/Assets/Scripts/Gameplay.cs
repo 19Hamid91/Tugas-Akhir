@@ -7,7 +7,9 @@ public class Gameplay : MonoBehaviour
     public GameObject movingLine;
     public GameObject area;
     public GameObject resultPanel;
-    public GameObject ResultManager;
+    public GetResult ResultManager;
+    public QuestManager QuestManager;
+    public CardManager CardManager;
 
     float moveArea;
     // Start is called before the first frame update
@@ -101,17 +103,22 @@ public class Gameplay : MonoBehaviour
                 Debug.Log("Ikan Langka");
             }
             
+            QuestManager.fishCounter++;
+            if (CardManager.cards[Data.indexIkan].nama == "Betutu")
+            {
+                QuestManager.namedFishCounter++;
+            }
             if(!Data.unlockedFish.Contains(Data.indexIkan))
             {
                 Data.unlockedFish.Add(Data.indexIkan);
             }
 
-            ResultManager.GetComponent<GetResult>().FillResult();
+            ResultManager.FillResult();
         }
         else
         {
             // Debug.Log("Ikan Lepas");
-            ResultManager.GetComponent<GetResult>().IkanLepas();
+            ResultManager.IkanLepas();
         }
     }
 
