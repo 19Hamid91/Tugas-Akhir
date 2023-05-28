@@ -41,7 +41,6 @@ public class MoveScene : MonoBehaviour
    {
       getSceneName();
       SceneManager.LoadScene(Data.Tempat);
-      Debug.Log(Data.Level);
    }
    public void level()
    {
