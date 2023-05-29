@@ -45,63 +45,180 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cards:
-  - cardSprite: {fileID: 21300000, guid: 910d1988756c8ac448ca257be56cd490, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 04047b2be5ef2564fad04a8f378137ef, type: 3}
-    nama: Baung
-    habitat: Sungai
-    kandungan: tr, tr, r,t ,dfh df,h b
-    rekomendasiMakanan: Pecel Lele
-  - cardSprite: {fileID: 21300000, guid: 32daf2f0a4e0b3a4392ce991b80b6d6a, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 93a29435a71195047842e5942e0238a6, type: 3}
-    nama: Belida
-    habitat: Danau
-    kandungan: sdcvds ds ds d
-    rekomendasiMakanan: KEKEKEKE
-  - cardSprite: {fileID: 21300000, guid: 3775d6ef0d5e89343bbda52d4390f9c2, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: d1fac692eaa6f3e4ca5737bdebda574d, type: 3}
-    nama: Betutu
-    habitat: Lautan CIna
-    kandungan: ' a  svrgrtghrt  h rt'
-    rekomendasiMakanan: safsadas
-  - cardSprite: {fileID: 21300000, guid: ef127feb8215b2b4a8245f741c1c322c, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 21ee766f733f5974bbb8b8fa6ad4eb13, type: 3}
-    nama: Bilis
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: 667fd4179eef1d84ba2b91ff8b2ac81d, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: bdd69be49fcd65448a42b68650135ba5, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 1
+    nama: Teri
+    habitat: Sungai dan perairan air tawar lainnya.
+    kandungan: Protein, Omega-3 (EPA dan DHA), Kalsium, Zat besi, Vitamin B12, Vitamin
+      D
+    rekomendasiMakanan: Sambal ikan Teri, tumis ikan Teri, Teri Balado, Sambal Goreng
+      Teri.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 2
+    nama: Lele
+    habitat: Sungai, danau, rawa, atau kolam dengan substrat lumpur atau pasir.
+    kandungan: Protein, asam lemak omega-3, vitamin D, vitamin B12, zat besi, dan
+      mineral lainnya.
+    rekomendasiMakanan: Pecel lele, pepes lele, ikan lele goreng, atau sup lele.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 3
+    nama: Gabus
+    habitat: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
+      omega-3.
+    rekomendasiMakanan: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus
+      bakar.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 4
+    nama: Nila
+    habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
+    rekomendasiMakanan: Ikan Nila bakar, ikan Nila goreng, atau ikan Nila asam manis.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 5
+    nama: Mujair
+    habitat: Sungai, danau, rawa, dan kolam dengan sedimen lumpur atau pasir.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
+    rekomendasiMakanan: Ikan Mujair goreng, ikan Mujair bakar, atau ikan Mujair asam
+      pedas.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 6
+    nama: Bawal
+    habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
+      omega-3.
+    rekomendasiMakanan: Ikan Bawal bakar, ikan Bawal goreng, atau ikan Bawal asam
+      manis.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 7
+    nama: Haruan
+    habitat: Hidup di perairan sungai dengan aliran yang lambat dan perairan yang
+      tenang. Mereka dapat ditemukan di sekitar vegetasi air atau di antara akar
+      pohon.
+    kandungan: Mengandung protein tinggi, omega-3 asam lemak, vitamin D, vitamin
+      B12, dan fosfor. Mereka juga mengandung zat besi dan kalsium.
+    rekomendasiMakanan: Dapat dimasak dalam berbagai cara, seperti digoreng, dipepes,
+      atau diolah menjadi sup ikan. Mereka juga cocok untuk dijadikan bahan dalam
+      hidangan asam pedas atau tumis.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 8
+    nama: Semah
+    habitat: Semah hidup di sungai-sungai yang memiliki aliran yang cukup deras dan
+      berbatu. Mereka cenderung ditemukan di perairan yang jernih dengan substrat
+      yang keras.
+    kandungan: Semah mengandung protein tinggi, omega-3 asam lemak, vitamin B12,
+      fosfor, dan selenium. Mereka juga mengandung zat besi dan vitamin D.
+    rekomendasiMakanan: Semah bisa dimasak dengan cara digoreng, dipanggang, atau
+      diolah dalam hidangan kuah pedas seperti asam pedas.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 9
+    nama: Baung Batik
+    habitat: Baung Batik hidup di perairan sungai dengan aliran yang lambat dan substrat
+      berlumpur. Mereka cenderung ditemukan di daerah perairan dangkal dekat dengan
+      vegetasi air.
+    kandungan: Baung Batik mengandung protein tinggi, omega-3 asam lemak, vitamin
+      B12, fosfor, dan selenium. Mereka juga mengandung zat besi dan vitamin D.
+    rekomendasiMakanan: Baung Batik bisa dimasak dengan cara digoreng, direbus, atau
+      dijadikan bahan dalam hidangan pepes ikan.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 10
+    nama: Pelian
+    habitat: Pelian hidup di perairan sungai dengan aliran yang tenang dan substrat
+      berpasir. Mereka cenderung ditemukan di dekat vegetasi air atau di perairan
+      dangkal.
+    kandungan: Pelian mengandung protein tinggi, omega-3 asam lemak, vitamin B12,
+      fosfor, dan selenium. Mereka juga mengandung zat besi dan vitamin D.
+    rekomendasiMakanan: Pelian bisa dimasak dengan cara digoreng, dipepes, atau diolah
+      dalam hidangan kuah seperti sup ikan.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 11
+    nama: Tenggiri
+    habitat: Biasanya ditemukan di perairan tropis dan subtropis. Mereka cenderung
+      berada dekat dengan perairan terbuka dan sering berenang di dekat permukaan
+      air.
+    kandungan: Mengandung protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium.
+      Mereka juga merupakan sumber zat besi dan vitamin D.
+    rekomendasiMakanan: Beberapa rekomendasi masakan ikan Tenggiri antara lain pepes
+      tenggiri, tenggiri bakar.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 12
+    nama: Kerapu
+    habitat: Biasanya hidup di perairan tropis dan subtropis. Mereka dapat ditemukan
+      di terumbu karang, batu-batuan, dan perairan dangkal yang berdekatan dengan
+      perlindungan.
+    kandungan: Kerapu mengandung protein tinggi, omega-3 asam lemak, vitamin D, vitamin
+      B6, dan selenium. Mereka juga merupakan sumber zat besi dan fosfor.
+    rekomendasiMakanan: Beberapa rekomendasi masakan ikan Kerapu antara lain kerapu
+      panggang, sup ikan kerapu.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 13
+    nama: Layur
+    habitat: ': Ikan Layur terdapat di perairan hangat dan. Mereka cenderung berenang
+      di dekat permukaan air di lepas pantai.'
+    kandungan: Ikan Layur mengandung protein tinggi, omega-3 asam lemak, vitamin
+      B12, dan selenium. Mereka juga merupakan sumber fosfor dan vitamin D.
+    rekomendasiMakanan: "Beberapa rekomendasi masakan ikan Layur sashimi layur, layur
+      panggang\r"
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 14
+    nama: Kakap Merah
+    habitat: Hidup di perairan hangat dan tropis. Mereka cenderung menghuni terumbu
+      karang, terumbu dalam, dan sekitar struktur bawah laut lainnya.
+    kandungan: Mengandung protein tinggi, omega-3 asam lemak, vitamin D, vitamin
+      B6, dan selenium. Mereka juga merupakan sumber vitamin B12, fosfor, dan zat
+      besi.
+    rekomendasiMakanan: Beberapa rekomendasi masakan ikan Kakap Merah antara lain
+      kakap merah goreng tepung, kakap merah asam manis
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    idIkan: 15
     nama: Jelawat
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
+    habitat: hidup di perairan air tawar, seperti sungai, danau, rawa, atau kolam
+      dengan aliran air yang cukup kuat.
+    kandungan: Mengandung protein, asam lemak omega-3, vitamin B12, fosfor, zat besi,
+      dan vitamin D.
+    rekomendasiMakanan: Dapat dimasak dalam berbagai cara, seperti digoreng, dipepes,
+      atau diolah menjadi sup ikan. Mereka juga cocok untuk dijadikan bahan dalam
+      hidangan asam pedas atau tumis.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Tapah
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
+    idIkan: 16
+    nama: Arwana Kalimantan
+    habitat: Hidup di perairan tawar seperti sungai dan cenderung ditemukan di dekat
+      vegetasi air atau di perairan dangkal.
+    kandungan: Mengandung mineral penting seperti kalsium, fosfor, dan selenium dan
+      umumnya merupakan sumber protein yang baik.
+    rekomendasiMakanan: Tidak ada, Karena termasuk spesies yang dilindungi
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 6
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
+    idIkan: 17
+    nama: Marlin Hitam
+    habitat: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
+      Mereka cenderung menghuni perairan terbuka dan berenang di dekat permukaan
+      laut.
+    kandungan: Mengandung protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium.
+      Mereka juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
+    rekomendasiMakanan: Marlin hitam teriyaki, marlin hitam taco
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 7
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 8
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
-  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    nama: Test 9
-    habitat: Pond
-    kandungan: dfsdcf s fds f
-    rekomendasiMakanan: ascsdf  feasf
+    idIkan: 18
+    nama: Marlin Biru
+    habitat: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
+      perairan terbuka yang dalam di lepas pantai.
+    kandungan: Mengandung protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium.
+      Mereka juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
+    rekomendasiMakanan: Marlin biru panggang, marlin biru sashimi

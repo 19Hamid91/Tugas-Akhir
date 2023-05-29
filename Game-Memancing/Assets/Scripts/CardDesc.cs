@@ -8,9 +8,11 @@ public class CardDesc
     public Sprite cardSprite;
     public Sprite cardSiluetSprite;
     public string nama;
+    [TextArea(1,3)]
     public string habitat;
     [TextArea(1,3)]
     public string kandungan;
+    [TextArea(1,3)]
     public string rekomendasiMakanan;
 
 }
