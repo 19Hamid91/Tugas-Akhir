@@ -23,6 +23,7 @@ public class Data
     public static int lastFishCounter;
     public static int lastNamedFishCounter;
     public static string lastNamedFish;
+    public static bool timeIsUp = false;
 
     // public static int CorrectAnswer = 0;
     // public static int IncorrectAnswer = 0;

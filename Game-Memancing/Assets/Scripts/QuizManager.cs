@@ -18,7 +18,10 @@ public class QuizManager : MonoBehaviour
     public GameObject BtnRetry;
     public GameObject BtnNext;
 
+    public Text QuestionCounter;
+
     int totalQuestion = 0;
+    int answeredQuestion = 0;
     int score = 0;
     // Start is called before the first frame update
     void Start()
@@ -26,8 +29,17 @@ public class QuizManager : MonoBehaviour
         score = 0;
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
-        generateQuestion();
         totalQuestion = QnA.Count;
+        generateQuestion();
+    }
+
+    private void Update()
+    {
+        if (Data.timeIsUp)
+        {
+            QuizResult();
+            Debug.Log("Waktu Habis!");
+        }
     }
 
     public void retry()
@@ -84,6 +96,9 @@ public class QuizManager : MonoBehaviour
             currentQuestion = Random.Range(0, QnA.Count);
 
             QuestionTxt.text = QnA[currentQuestion].Question;
+            answeredQuestion++;
+            QuestionCounter.text = answeredQuestion+"/"+totalQuestion;
+
             SetAnswer();
         }
         else
@@ -91,6 +106,5 @@ public class QuizManager : MonoBehaviour
             Debug.Log("Pertanyaan Habis");
             QuizResult();
         }
-        
     }
 }

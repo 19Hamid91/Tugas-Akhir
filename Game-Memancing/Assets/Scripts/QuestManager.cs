@@ -29,7 +29,14 @@ public class QuestManager : MonoBehaviour
             questData[indexQuest].NamedFish = Data.lastNamedFish;
         }
         
-        btnQuiz.SetActive(false);
+        if(questData[indexQuest].fishAmount == fishCounter && questData[indexQuest].namedFishAmount == namedFishCounter)
+        {
+            btnQuiz.SetActive(true);
+        }
+        else
+        {
+            btnQuiz.SetActive(false);
+        }
         
         misi1.GetComponent<Text>().text = questData[indexQuest].Misi1;
         misi2.GetComponent<Text>().text = questData[indexQuest].Misi2+" "+questData[indexQuest].NamedFish;
