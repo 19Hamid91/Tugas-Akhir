@@ -81,11 +81,11 @@ public class QuestManager : MonoBehaviour
     {
         if(Data.Level != 3)
         {
-            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(0,CardManager.cards.Count)].nama;
+            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(0,CardManager.cards.Count - 2)].nama;
         }
         else
         {
-            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(5,CardManager.cards.Count)].nama;
+            questData[indexQuest].NamedFish = CardManager.cards[Random.Range(CardManager.cards.Count - 2,CardManager.cards.Count)].nama;
         }
     }
 

@@ -19,15 +19,15 @@ public class Gameplay : MonoBehaviour
         Data.isInsideArea = false;
         if(Data.Level == 2)
         {
-            Data.speed = 4f;
+            Data.speed = 6f;
             area.transform.localScale = new Vector3(3, area.transform.localScale.y, area.transform.localScale.z);
         } else if(Data.Level == 3)
         {
-            Data.speed = 5f;
+            Data.speed = 7f;
             area.transform.localScale = new Vector3(2, area.transform.localScale.y, area.transform.localScale.z);
         } else
         {
-            Data.speed = 3f;
+            Data.speed = 5f;
             area.transform.localScale = new Vector3(4, area.transform.localScale.y, area.transform.localScale.z);
         }
     }
@@ -72,13 +72,13 @@ public class Gameplay : MonoBehaviour
         switch (Data.Level)
         {
             case 3:
-                Data.uniqueRate = 20;
+                Data.uniqueRate = 10;
                 break;
             case 2:
-                Data.uniqueRate = 30;
+                Data.uniqueRate = 20;
                 break;
             default:
-                Data.uniqueRate = 40;
+                Data.uniqueRate = 30;
                 break;
         }
         Data.commonRate = 100 - Data.uniqueRate;
@@ -93,19 +93,19 @@ public class Gameplay : MonoBehaviour
             if (Data.commonRate >= diceroll)
             {
                 // dapat ikan biasa
-                Data.indexIkan = Random.Range(0,4);
+                Data.indexIkan = Random.Range(0,CardManager.cards.Count - 2);
                 Debug.Log("Ikan Biasa");
             }
             else
             {
                 // dapat ikan langka
-                Data.indexIkan = Random.Range(5,10);
+                Data.indexIkan = Random.Range(CardManager.cards.Count - 2,CardManager.cards.Count);
                 Debug.Log("Ikan Langka");
             }
             
-            if(!Data.unlockedFish.Contains(Data.indexIkan))
+            if(!Data.unlockedFish.Contains(CardManager.cards[Data.indexIkan].idIkan))
             {
-                Data.unlockedFish.Add(Data.indexIkan);
+                Data.unlockedFish.Add(CardManager.cards[Data.indexIkan].idIkan);
             }
             QuestManager.QuestCounter();
             ResultManager.FillResult();
@@ -121,13 +121,13 @@ public class Gameplay : MonoBehaviour
     {
         if(Data.Level == 2)
         {
-            Data.speed = 4f;
+            Data.speed = 6f;
         } else if(Data.Level == 3)
         {
-            Data.speed = 5f;
+            Data.speed = 7f;
         } else
         {
-            Data.speed = 3f;
+            Data.speed = 5f;
         }
         moveArea = Random.Range(-2.5f, 2.5f);
         resultPanel.SetActive(false);

@@ -47,7 +47,6 @@ MonoBehaviour:
   cards:
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 1
     nama: Teri
     habitat: Sungai dan perairan air tawar lainnya.
     kandungan: Protein, Omega-3 (EPA dan DHA), Kalsium, Zat besi, Vitamin B12, Vitamin
@@ -56,7 +55,6 @@ MonoBehaviour:
       Teri.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 2
     nama: Lele
     habitat: Sungai, danau, rawa, atau kolam dengan substrat lumpur atau pasir.
     kandungan: Protein, asam lemak omega-3, vitamin D, vitamin B12, zat besi, dan
@@ -64,23 +62,12 @@ MonoBehaviour:
     rekomendasiMakanan: Pecel lele, pepes lele, ikan lele goreng, atau sup lele.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 3
-    nama: Gabus
-    habitat: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
-    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
-      omega-3.
-    rekomendasiMakanan: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus
-      bakar.
-  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 4
     nama: Nila
     habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
     kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
     rekomendasiMakanan: Ikan Nila bakar, ikan Nila goreng, atau ikan Nila asam manis.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 5
     nama: Mujair
     habitat: Sungai, danau, rawa, dan kolam dengan sedimen lumpur atau pasir.
     kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
@@ -88,16 +75,6 @@ MonoBehaviour:
       pedas.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 6
-    nama: Bawal
-    habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
-    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
-      omega-3.
-    rekomendasiMakanan: Ikan Bawal bakar, ikan Bawal goreng, atau ikan Bawal asam
-      manis.
-  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
-    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 7
     nama: Haruan
     habitat: Hidup di perairan sungai dengan aliran yang lambat dan perairan yang
       tenang. Mereka dapat ditemukan di sekitar vegetasi air atau di antara akar
@@ -109,7 +86,6 @@ MonoBehaviour:
       hidangan asam pedas atau tumis.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 8
     nama: Semah
     habitat: Semah hidup di sungai-sungai yang memiliki aliran yang cukup deras dan
       berbatu. Mereka cenderung ditemukan di perairan yang jernih dengan substrat
@@ -120,7 +96,6 @@ MonoBehaviour:
       diolah dalam hidangan kuah pedas seperti asam pedas.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 9
     nama: Baung Batik
     habitat: Baung Batik hidup di perairan sungai dengan aliran yang lambat dan substrat
       berlumpur. Mereka cenderung ditemukan di daerah perairan dangkal dekat dengan
@@ -131,7 +106,6 @@ MonoBehaviour:
       dijadikan bahan dalam hidangan pepes ikan.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 10
     nama: Pelian
     habitat: Pelian hidup di perairan sungai dengan aliran yang tenang dan substrat
       berpasir. Mereka cenderung ditemukan di dekat vegetasi air atau di perairan
@@ -142,7 +116,6 @@ MonoBehaviour:
       dalam hidangan kuah seperti sup ikan.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 11
     nama: Tenggiri
     habitat: Biasanya ditemukan di perairan tropis dan subtropis. Mereka cenderung
       berada dekat dengan perairan terbuka dan sering berenang di dekat permukaan
@@ -153,7 +126,6 @@ MonoBehaviour:
       tenggiri, tenggiri bakar.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 12
     nama: Kerapu
     habitat: Biasanya hidup di perairan tropis dan subtropis. Mereka dapat ditemukan
       di terumbu karang, batu-batuan, dan perairan dangkal yang berdekatan dengan
@@ -164,7 +136,6 @@ MonoBehaviour:
       panggang, sup ikan kerapu.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 13
     nama: Layur
     habitat: ': Ikan Layur terdapat di perairan hangat dan. Mereka cenderung berenang
       di dekat permukaan air di lepas pantai.'
@@ -174,7 +145,6 @@ MonoBehaviour:
       panggang\r"
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 14
     nama: Kakap Merah
     habitat: Hidup di perairan hangat dan tropis. Mereka cenderung menghuni terumbu
       karang, terumbu dalam, dan sekitar struktur bawah laut lainnya.
@@ -185,7 +155,22 @@ MonoBehaviour:
       kakap merah goreng tepung, kakap merah asam manis
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 15
+    nama: Bawal
+    habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
+      omega-3.
+    rekomendasiMakanan: Ikan Bawal bakar, ikan Bawal goreng, atau ikan Bawal asam
+      manis.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
+    nama: Gabus
+    habitat: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
+    kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak
+      omega-3.
+    rekomendasiMakanan: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus
+      bakar.
+  - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
+    cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
     nama: Jelawat
     habitat: hidup di perairan air tawar, seperti sungai, danau, rawa, atau kolam
       dengan aliran air yang cukup kuat.
@@ -196,7 +181,6 @@ MonoBehaviour:
       hidangan asam pedas atau tumis.
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 16
     nama: Arwana Kalimantan
     habitat: Hidup di perairan tawar seperti sungai dan cenderung ditemukan di dekat
       vegetasi air atau di perairan dangkal.
@@ -205,7 +189,6 @@ MonoBehaviour:
     rekomendasiMakanan: Tidak ada, Karena termasuk spesies yang dilindungi
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 17
     nama: Marlin Hitam
     habitat: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
       Mereka cenderung menghuni perairan terbuka dan berenang di dekat permukaan
@@ -215,7 +198,6 @@ MonoBehaviour:
     rekomendasiMakanan: Marlin hitam teriyaki, marlin hitam taco
   - cardSprite: {fileID: 21300000, guid: a8558e6d615e53e43ad4b153c92a19ed, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 25238fe06713abf489d481d1f5a03ba1, type: 3}
-    idIkan: 18
     nama: Marlin Biru
     habitat: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
       perairan terbuka yang dalam di lepas pantai.
