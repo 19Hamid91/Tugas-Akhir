@@ -1847,6 +1847,76 @@ MonoBehaviour:
     - c
     - d
     CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawaban A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
   options:
   - {fileID: 1625410273}
   - {fileID: 1413702148}

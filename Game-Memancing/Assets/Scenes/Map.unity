@@ -1737,6 +1737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popups:
   - {fileID: 1278079236}
+  - {fileID: 214890710}
+  - {fileID: 361446857}
 --- !u!114 &1008240450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2042,6 +2044,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popups:
   - {fileID: 361446857}
+  - {fileID: 214890710}
+  - {fileID: 1278079236}
 --- !u!114 &1224428725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3049,6 +3053,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popups:
   - {fileID: 214890710}
+  - {fileID: 1278079236}
+  - {fileID: 361446857}
 --- !u!1 &1956533846
 GameObject:
   m_ObjectHideFlags: 0

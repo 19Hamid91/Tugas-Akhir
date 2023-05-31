@@ -25,6 +25,10 @@ public class Data
     public static string lastNamedFish;
     public static bool timeIsUp = false;
 
+    // public static List<int> JawaLevel = new List<int>();
+    // public static List<int> SumatraLevel = new List<int>();
+    // public static List<int> KalimantanLevel = new List<int>();
+
     // public static int CorrectAnswer = 0;
     // public static int IncorrectAnswer = 0;
 

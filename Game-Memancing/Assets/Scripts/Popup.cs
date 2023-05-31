@@ -8,6 +8,7 @@ public class Popup : MonoBehaviour
 
     public void showPopup()
     {
+        hidePopup();
         popups[0].SetActive(true);
     }
     public void hidePopup()

@@ -23,9 +23,19 @@ public class QuizManager : MonoBehaviour
     int totalQuestion = 0;
     int answeredQuestion = 0;
     int score = 0;
+    int minIndex;
+    int maxIndex;
     // Start is called before the first frame update
     void Start()
     {
+        if (Data.Level == 1)
+        {
+            QnA.RemoveRange(5, 10);
+        }
+        else if(Data.Level == 2)
+        {
+            QnA.RemoveRange(10, 5);
+        }
         score = 0;
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
@@ -64,7 +74,7 @@ public class QuizManager : MonoBehaviour
         ResultPanel.SetActive(true);
         ScoreTxt.text = score+"/"+totalQuestion;
 
-        if (score < 3)
+        if (score <= ((totalQuestion/2)))
         {
             BtnRetry.SetActive(true);
             BtnNext.SetActive(false);
@@ -74,6 +84,7 @@ public class QuizManager : MonoBehaviour
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
         }
+
     }
     void SetAnswer()
     {

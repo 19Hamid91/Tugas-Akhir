@@ -9,6 +9,22 @@ public class TimerSetting : MonoBehaviour
     public Text textTimer;
     public float Waktu;
 
+    void Start()
+    {
+        switch (Data.Level)
+        {
+            case 3:
+                Waktu = 480;
+                break;
+            case 2:
+                Waktu = 420;
+                break;
+            default:
+                Waktu = 300;
+                break;
+        }
+    }
+
     void SetText()
     {
         int Menit = Mathf.FloorToInt(Waktu / 60);
