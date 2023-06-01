@@ -7,32 +7,42 @@ public class SoundManager : MonoBehaviour
 {
     [SerializeField] Image soundOnImage;
     [SerializeField] Image soundOffImage;
-    private bool muted = false;
+
     // Start is called before the first frame update
     void Start()
     {
+        if (!PlayerPrefs.HasKey("muted"))
+        {
+            PlayerPrefs.SetInt("muted", 0);
+            Load();
+        }
+        else
+        {
+            Load();
+        }
         UpdateButton();
+        AudioListener.pause = Data.muted;
     }
 
-    // Update is called once per frame
     public void OnButtonPress()
     {
-        if(muted == false)
+        if(Data.muted == false)
         {
-            muted = true;
+            Data.muted = true;
             AudioListener.pause = true;
         }
         else
         {
-            muted = false;
+            Data.muted = false;
             AudioListener.pause = false;
         }
+        Save();
         UpdateButton();
     }
 
     private void UpdateButton()
     {
-         if(muted == true)
+         if(Data.muted == true)
         {
             soundOnImage.enabled = false;
             soundOffImage.enabled = true;
@@ -42,5 +52,15 @@ public class SoundManager : MonoBehaviour
             soundOnImage.enabled = true;
             soundOffImage.enabled = false;
         }
+    }
+
+    private void Load()
+    {
+        Data.muted = PlayerPrefs.GetInt("muted") == 1;
+    }
+
+    private void Save()
+    {
+        PlayerPrefs.SetInt("muted", Data.muted ? 1 : 0);
     }
 }

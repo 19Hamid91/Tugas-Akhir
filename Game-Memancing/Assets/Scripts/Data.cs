@@ -5,6 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class Data
 {
+    public static bool muted = false;
+
     public static string Tempat;
     public static int Level;
     public static int indexIkan;

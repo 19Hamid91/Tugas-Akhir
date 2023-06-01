@@ -29,7 +29,7 @@ public class BackgroundMusic : MonoBehaviour
         }   
         else if(SceneManager.GetActiveScene().name != "MainMenu")
         {
-            AudioListener.pause = false;
+            AudioListener.pause = Data.muted;
         }
     }
 }
