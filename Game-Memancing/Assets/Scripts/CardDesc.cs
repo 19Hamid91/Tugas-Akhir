@@ -7,6 +7,7 @@ public class CardDesc
 {
     public Sprite cardSprite;
     public Sprite cardSiluetSprite;
+    public Sprite cardReal;
     public int idIkan;
     public string nama;
     [TextArea(1,3)]

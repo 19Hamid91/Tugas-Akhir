@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
-   private void Update() 
-   {
-      // Debug.Log(Data.lastScene);
-   }
    public void nextScene()
    {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -54,7 +50,14 @@ public class MoveScene : MonoBehaviour
    }
    public void back()
    {
-      SceneManager.LoadScene(Data.lastScene);
+      if (Data.lastScene != null)
+      {
+         SceneManager.LoadScene(Data.lastScene);
+      }
+      else
+      {
+         SceneManager.LoadScene("Map");
+      }
    }
    public void awalanQuiz()
    {
@@ -67,10 +70,6 @@ public class MoveScene : MonoBehaviour
 
    private void getSceneName()
    {
-      // if(SceneManager.GetActiveScene().name != "Deskripsi")
-      // {
-      //    Data.lastScene = SceneManager.GetActiveScene().name;
-      // }
       switch (SceneManager.GetActiveScene().name)
       {
          case "Deskripsi":
