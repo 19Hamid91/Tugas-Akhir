@@ -27,7 +27,7 @@ public class LockMap : MonoBehaviour
         for (int i = 0; i < mapObject.Length - unlockedMap; i++)
         {
             // lock map
-            mapObject[i].gameObject.SetActive(false);
+            mapObject[i].transform.GetChild(2).gameObject.SetActive(false);
         }
     }
 

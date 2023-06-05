@@ -1039,10 +1039,10 @@ RectTransform:
   m_Father: {fileID: 894204414}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 10.948}
-  m_SizeDelta: {x: 1755.01, y: 766.68}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &413105144
 MonoBehaviour:
@@ -2827,9 +2827,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapObject:
-  - {fileID: 1224428722}
-  - {fileID: 1008240447}
-  - {fileID: 1951346737}
+  - {fileID: 361446857}
+  - {fileID: 1278079236}
+  - {fileID: 214890710}
 --- !u!4 &1582223038
 Transform:
   m_ObjectHideFlags: 0

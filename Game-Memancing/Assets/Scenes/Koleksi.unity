@@ -1907,6 +1907,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 07d40cde23a34494aa45fe9bb7c6caae, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[10].habitat
+      value: Ikan Layur terdapat di perairan hangat dan. Mereka cenderung berenang
+        di dekat permukaan air di lepas pantai.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[12].habitat
       value: 
       objectReference: {fileID: 0}
@@ -1967,6 +1972,10 @@ PrefabInstance:
       propertyPath: cards.Array.data[12].cardReal
       value: 
       objectReference: {fileID: 21300000, guid: e9d4be8f930e2e14289dca1852661c40, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a4bf7ff9bfdee64dba7903178dfd656, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[14].cardReal
       value: 
@@ -2061,6 +2070,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 98a7ed34991d1214dacefd470f39f43b, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6e76228aa88c3774d9924f20862a428f, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[14].cardSprite
       value: 
       objectReference: {fileID: 21300000, guid: 1fc921ffdd6717a4fbefb3d3d65389da, type: 3}
@@ -2132,6 +2145,10 @@ PrefabInstance:
       propertyPath: cards.Array.data[12].cardSiluetSprite
       value: 
       objectReference: {fileID: 21300000, guid: 6880dfbab8401ec4786524f88b017b59, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3094980d07b65f64daa44f337abc40c2, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[14].cardSiluetSprite
       value: 
