@@ -81,6 +81,18 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
+            if (Data.Tempat == "GamePlayJawa")
+            {
+                Data.JawaLevel++;
+            }
+            else if (Data.Tempat == "GamePlaySumatra")
+            {
+                Data.SumatraLevel++;
+            }
+            else if (Data.Tempat == "GamePlayKalimantan")
+            {
+                Data.KalimantanLevel++;
+            }
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
         }
