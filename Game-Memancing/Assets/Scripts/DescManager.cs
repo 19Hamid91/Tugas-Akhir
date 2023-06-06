@@ -6,7 +6,13 @@ using UnityEngine.UI;
 public class DescManager : MonoBehaviour
 {
     public CardManager cardManager;
-    public GameObject[] inputField;
+    // public GameObject[] inputField;
+    public GameObject spriteIkan;
+    public GameObject gambarIkan;
+    public Text namaIkan;
+    public Text habitat;
+    public Text kandungan;
+    public Text rekomendasiMakanan;
     // Start is called before the first frame update
     private void Start()
     {
@@ -16,18 +22,21 @@ public class DescManager : MonoBehaviour
     private void FillDescription()
     {
             //Assign nama ikan
-            inputField[0].transform.GetChild(0).transform.GetChild(2).GetComponent<Text>().text = cardManager.cards[Data.indexIkan].nama;
+            namaIkan.text = cardManager.cards[Data.indexIkan].nama;
+
+            //Assign sprite ikan
+            spriteIkan.GetComponent<Image>().sprite = cardManager.cards[Data.indexIkan].cardSprite;
 
             //Assign gambar ikan
-            inputField[0].transform.GetChild(0).transform.GetChild(1).GetComponent<Image>().sprite = cardManager.cards[Data.indexIkan].cardSprite;
+            gambarIkan.GetComponent<Image>().sprite = cardManager.cards[Data.indexIkan].cardReal;
 
             //Assign habitat
-            inputField[0].transform.GetChild(1).transform.GetChild(1).transform.GetChild(0).GetComponent<Text>().text = cardManager.cards[Data.indexIkan].habitat;
+            habitat.text = cardManager.cards[Data.indexIkan].habitat;
 
             //Assign kandungan
-            inputField[0].transform.GetChild(1).transform.GetChild(1).transform.GetChild(1).GetComponent<Text>().text = cardManager.cards[Data.indexIkan].kandungan;
+            kandungan.text = cardManager.cards[Data.indexIkan].kandungan;
 
             //Assign rekomendasi masakan
-            inputField[0].transform.GetChild(1).transform.GetChild(1).transform.GetChild(2).GetComponent<Text>().text = cardManager.cards[Data.indexIkan].rekomendasiMakanan;
+            rekomendasiMakanan.text = cardManager.cards[Data.indexIkan].rekomendasiMakanan;
     }
 }

@@ -1580,39 +1580,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].nama
-      value: Bawal
+      value: Bilis
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].nama
       value: Gabus
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].nama
-      value: Jelawat
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].nama
-      value: Arwana Kalimantan
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].nama
-      value: Marlin Hitam
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].idIkan
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].idIkan
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].idIkan
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].idIkan
@@ -1624,86 +1596,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].habitat
-      value: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
+      value: Ikan Bilis biasanya ditemukan di perairan air tawar seperti sungai,
+        danau, atau rawa.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].habitat
       value: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].habitat
-      value: hidup di perairan air tawar, seperti sungai, danau, rawa, atau kolam
-        dengan aliran air yang cukup kuat.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[4].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: e9d4be8f930e2e14289dca1852661c40, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].habitat
-      value: Hidup di perairan tawar seperti sungai dan cenderung ditemukan di dekat
-        vegetasi air atau di perairan dangkal.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].habitat
-      value: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
-        Mereka cenderung menghuni perairan terbuka dan berenang di dekat permukaan
-        laut.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[5].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a4bf7ff9bfdee64dba7903178dfd656, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].kandungan
-      value: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak omega-3.
+      value: Ikan Bilis kaya akan protein, asam lemak omega-3, vitamin D, vitamin
+        B12, fosfor, zat besi, dan kalsium.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].kandungan
       value: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak omega-3.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].kandungan
-      value: Mengandung protein, asam lemak omega-3, vitamin B12, fosfor, zat besi,
-        dan vitamin D.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[4].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 98a7ed34991d1214dacefd470f39f43b, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].kandungan
-      value: Mengandung mineral penting seperti kalsium, fosfor, dan selenium dan
-        umumnya merupakan sumber protein yang baik.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[5].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6e76228aa88c3774d9924f20862a428f, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].kandungan
-      value: Mengandung protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium.
-        Mereka juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[4].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6880dfbab8401ec4786524f88b017b59, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].kandungan
-      value: Mengandung protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium.
-        Mereka juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
+      propertyPath: cards.Array.data[5].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3094980d07b65f64daa44f337abc40c2, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].rekomendasiMakanan
-      value: Ikan Bawal bakar, ikan Bawal goreng, atau ikan Bawal asam manis.
+      value: Ikan Bilis umumnya diolah menjadi bahan tambahan dalam masakan seperti
+        sambal ikan Bilis, tumis ikan Bilis, atau digunakan sebagai bumbu penyedap.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].rekomendasiMakanan
       value: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus bakar.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].rekomendasiMakanan
-      value: Dapat dimasak dalam berbagai cara, seperti digoreng, dipepes, atau diolah
-        menjadi sup ikan. Mereka juga cocok untuk dijadikan bahan dalam hidangan
-        asam pedas atau tumis.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].rekomendasiMakanan
-      value: Tidak ada, Karena termasuk spesies yang dilindungi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].rekomendasiMakanan
-      value: Marlin hitam teriyaki, marlin hitam taco
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}

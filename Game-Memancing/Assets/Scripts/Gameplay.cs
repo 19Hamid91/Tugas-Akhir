@@ -101,7 +101,7 @@ public class Gameplay : MonoBehaviour
             else
             {
                 // dapat ikan langka
-                Data.indexIkan = Random.Range(CardManager.cards.Count - 2,CardManager.cards.Count);
+                Data.indexIkan = Random.Range(CardManager.cards.Count - 4,CardManager.cards.Count);
                 Debug.Log("Ikan Langka");
             }
             
