@@ -10,6 +10,7 @@ public class Gameplay : MonoBehaviour
     public GetResult ResultManager;
     public QuestManager QuestManager;
     public CardManager CardManager;
+    public Animator Pina;
 
     float moveArea;
     // Start is called before the first frame update
@@ -88,6 +89,7 @@ public class Gameplay : MonoBehaviour
 
         if (Data.isInsideArea == true)
         {
+            Pina.SetBool("Tangkap", true);
             // Debug.Log("Anda Dapat Ikan");
             var diceroll = Random.Range(1,100);
             if (Data.commonRate >= diceroll)
@@ -119,6 +121,7 @@ public class Gameplay : MonoBehaviour
 
     public void MulaiLagi()
     {
+        Pina.SetBool("Tangkap", false);
         if(Data.Level == 2)
         {
             Data.speed = 6f;
