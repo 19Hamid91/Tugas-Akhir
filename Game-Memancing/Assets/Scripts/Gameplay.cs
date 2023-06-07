@@ -83,14 +83,12 @@ public class Gameplay : MonoBehaviour
                 break;
         }
         Data.commonRate = 100 - Data.uniqueRate;
-        Data.speed = 0f;
+        
         // play animasi menarik ikan
         resultPanel.SetActive(true);
 
         if (Data.isInsideArea == true)
         {
-            Pina.SetBool("Tangkap", true);
-            // Debug.Log("Anda Dapat Ikan");
             if (Data.Level == 3)
             {
                 var diceroll = Random.Range(1,100);
@@ -135,7 +133,7 @@ public class Gameplay : MonoBehaviour
 
     public void MulaiLagi()
     {
-        Pina.SetBool("Tangkap", false);
+        Pina.SetTrigger("Lempar");
         if(Data.Level == 2)
         {
             Data.speed = 6f;
@@ -149,5 +147,18 @@ public class Gameplay : MonoBehaviour
         moveArea = Random.Range(-2.5f, 2.5f);
         resultPanel.SetActive(false);
         area.transform.position = new Vector3(moveArea, area.transform.position.y, area.transform.position.z);
+    }
+
+    IEnumerator playAnimasi()
+    {
+        Data.speed = 0f;
+        Pina.SetTrigger("Tangkap");
+        yield return new WaitForSeconds(2);
+        TangkapIkan();
+    }
+
+    public void Tangkap()
+    {
+        StartCoroutine(playAnimasi());
     }
 }
