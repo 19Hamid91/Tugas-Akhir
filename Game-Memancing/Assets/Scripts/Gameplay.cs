@@ -21,15 +21,15 @@ public class Gameplay : MonoBehaviour
         if(Data.Level == 2)
         {
             Data.speed = 6f;
-            area.transform.localScale = new Vector3(3, area.transform.localScale.y, area.transform.localScale.z);
+            area.transform.localScale = new Vector3(1.5f, area.transform.localScale.y, area.transform.localScale.z);
         } else if(Data.Level == 3)
         {
             Data.speed = 7f;
-            area.transform.localScale = new Vector3(2, area.transform.localScale.y, area.transform.localScale.z);
+            area.transform.localScale = new Vector3(1, area.transform.localScale.y, area.transform.localScale.z);
         } else
         {
             Data.speed = 5f;
-            area.transform.localScale = new Vector3(4, area.transform.localScale.y, area.transform.localScale.z);
+            area.transform.localScale = new Vector3(2, area.transform.localScale.y, area.transform.localScale.z);
         }
     }
 
@@ -91,19 +91,33 @@ public class Gameplay : MonoBehaviour
         {
             Pina.SetBool("Tangkap", true);
             // Debug.Log("Anda Dapat Ikan");
-            var diceroll = Random.Range(1,100);
-            if (Data.commonRate >= diceroll)
+            if (Data.Level == 3)
             {
-                // dapat ikan biasa
+                var diceroll = Random.Range(1,100);
+                if (Data.commonRate >= diceroll)
+                {
+                    // dapat ikan biasa
+                    Data.indexIkan = Random.Range(0,CardManager.cards.Count - 2);
+                    Debug.Log("Ikan Biasa");
+                }
+                else
+                {
+                    // dapat ikan langka
+                    Data.indexIkan = Random.Range(CardManager.cards.Count - 4,CardManager.cards.Count);
+                    Debug.Log(Data.indexIkan);
+                }
+            }
+            else if(Data.Level == 2)
+            {
                 Data.indexIkan = Random.Range(0,CardManager.cards.Count - 2);
-                Debug.Log("Ikan Biasa");
+                Debug.Log("0-4");
             }
             else
             {
-                // dapat ikan langka
-                Data.indexIkan = Random.Range(CardManager.cards.Count - 4,CardManager.cards.Count);
-                Debug.Log("Ikan Langka");
+                Data.indexIkan = Random.Range(0,CardManager.cards.Count - 4);
+                Debug.Log("0-2");
             }
+                
             
             if(!Data.unlockedFish.Contains(CardManager.cards[Data.indexIkan].idIkan))
             {

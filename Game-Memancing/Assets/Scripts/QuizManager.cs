@@ -93,6 +93,7 @@ public class QuizManager : MonoBehaviour
             {
                 Data.KalimantanLevel++;
             }
+            Data.noProgress = true;
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
         }
