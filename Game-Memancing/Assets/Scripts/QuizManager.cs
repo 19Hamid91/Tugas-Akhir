@@ -28,6 +28,23 @@ public class QuizManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (Data.Tempat == "GamePlayJawa")
+        {
+            QnA.RemoveRange(15, 30);
+            Debug.Log("Jawa");
+        }
+        else if(Data.Tempat == "GamePlaySumatra")
+        {
+            QnA.RemoveRange(30, 15);
+            QnA.RemoveRange(0, 15);
+            Debug.Log("Sumatra");
+        }
+        else if(Data.Tempat == "GamePlayKalimantan")
+        {
+            QnA.RemoveRange(0, 30);
+            Debug.Log("Kalimantan");
+        }
+
         if (Data.Level == 1)
         {
             QnA.RemoveRange(5, 10);

@@ -1888,6 +1888,216 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa B
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 2
+  - Question: Jawa C
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 3
+  - Question: Jawa D
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 4
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Jawa A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
+  - Question: Sumatra A
+    Answer:
+    - a
+    - b
+    - c
+    - d
+    CorrectAnswer: 1
   - Question: Jawaban A
     Answer:
     - a
@@ -1895,27 +2105,27 @@ MonoBehaviour:
     - c
     - d
     CorrectAnswer: 1
-  - Question: Jawaban B
+  - Question: Jawaban A
     Answer:
     - a
     - b
     - c
     - d
-    CorrectAnswer: 2
-  - Question: Jawaban C
+    CorrectAnswer: 1
+  - Question: Jawaban A
     Answer:
     - a
     - b
     - c
     - d
-    CorrectAnswer: 3
-  - Question: Jawaban D
+    CorrectAnswer: 1
+  - Question: Jawaban A
     Answer:
     - a
     - b
     - c
     - d
-    CorrectAnswer: 4
+    CorrectAnswer: 1
   - Question: Jawaban A
     Answer:
     - a
