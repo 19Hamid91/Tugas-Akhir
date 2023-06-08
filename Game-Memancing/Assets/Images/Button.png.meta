@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8dd123273a3610d43ab4d1945fedfc9f
+guid: 9beec7e781790554b983f1c0bab0fe83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 238, y: 465, z: 239, w: 468}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -117,85 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pina Penunggu_0
+      name: Button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 540
-        width: 540
-        height: 540
+        x: 243
+        y: 478
+        width: 594
+        height: 124
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46ed9049b1ca33b4497c747c384620d2
-      internalID: 373492968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pina Penunggu_1
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 540
-        width: 540
-        height: 540
-      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c043873c61f6bb141a9a0c337f0b7132
-      internalID: 1933047344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pina Penunggu_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 540
-        height: 540
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17afaa603dc0f3f42aa8f227bf90db94
-      internalID: 1678266079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pina Penunggu_3
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 0
-        width: 540
-        height: 540
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad917bfb6788e534b8915c89440f92f2
-      internalID: -1950436905
+      spriteID: fef6b105711eb00488af35bc204f0d52
+      internalID: -1266785346
       vertices: []
       indices: 
       edges: []
@@ -204,17 +141,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pina Penunggu_1: 1933047344
-      Pina Penunggu_3: -1950436905
-      Pina Penunggu_0: 373492968
-      Pina Penunggu_2: 1678266079
+      Button_0: -1266785346
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
