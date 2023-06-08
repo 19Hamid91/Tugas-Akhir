@@ -12,6 +12,7 @@ public class QuizManager : MonoBehaviour
 
     public Text QuestionTxt;
     public Text ScoreTxt;
+    public Text Ucapan;
     public GameObject QuizPanel;
     public GameObject ResultPanel;
 
@@ -90,6 +91,7 @@ public class QuizManager : MonoBehaviour
         QuizPanel.SetActive(false);
         ResultPanel.SetActive(true);
         ScoreTxt.text = score+"/"+totalQuestion;
+        
 
         if (score <= ((totalQuestion/2)))
         {
@@ -113,6 +115,15 @@ public class QuizManager : MonoBehaviour
             Data.noProgress = true;
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
+        }
+
+        if (Data.Level != 4)
+        {
+            Ucapan.text = "Selamat Level Baru Telah Terbuka";
+        }
+        else
+        {
+            Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
         }
 
     }

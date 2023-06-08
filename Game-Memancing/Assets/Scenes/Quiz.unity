@@ -309,7 +309,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &180352296
 RectTransform:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ RectTransform:
   - {fileID: 132252607}
   - {fileID: 807690334}
   m_Father: {fileID: 1634114151}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -411,7 +411,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -30.000006, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184289101
 MonoBehaviour:
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -435,10 +435,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ab36816fec1316c4c9c13ee4af6245bb, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -489,7 +489,7 @@ RectTransform:
   m_Children:
   - {fileID: 1998402666}
   m_Father: {fileID: 2059265924}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -636,7 +636,7 @@ RectTransform:
   m_Children:
   - {fileID: 1696471176}
   m_Father: {fileID: 2059265924}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -785,7 +785,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -30, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &585052381
 MonoBehaviour:
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -809,10 +809,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ab36816fec1316c4c9c13ee4af6245bb, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -867,8 +867,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: -150}
-  m_SizeDelta: {x: 265.65, y: 75}
+  m_AnchoredPosition: {x: -220, y: -190}
+  m_SizeDelta: {x: 380, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758461165
 MonoBehaviour:
@@ -1094,8 +1094,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: -150}
-  m_SizeDelta: {x: 265.65, y: 75}
+  m_AnchoredPosition: {x: 220, y: -190}
+  m_SizeDelta: {x: 380, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845116699
 MonoBehaviour:
@@ -1281,6 +1281,86 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0109dc5f1e99715469822fb73ca816cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &908239874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 908239875}
+  - component: {fileID: 908239877}
+  - component: {fileID: 908239876}
+  m_Layer: 5
+  m_Name: Ucapan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &908239875
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908239874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2059265924}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.28, y: 134.36}
+  m_SizeDelta: {x: 826.11, y: 87.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &908239876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908239874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ab36816fec1316c4c9c13ee4af6245bb, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Selamat Level Baru Telah Terbuka
+--- !u!222 &908239877
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908239874}
+  m_CullTransparentMesh: 1
 --- !u!1 &918627166
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,7 +1541,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -30, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &987576830
 MonoBehaviour:
@@ -1476,7 +1556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1485,10 +1565,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ab36816fec1316c4c9c13ee4af6245bb, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1541,7 +1621,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -30, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000009218
 MonoBehaviour:
@@ -1556,7 +1636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1565,10 +1645,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ab36816fec1316c4c9c13ee4af6245bb, type: 3}
-    m_FontSize: 40
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1762,7 +1842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1806,15 +1886,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1835,6 +1915,10 @@ PrefabInstance:
     - target: {fileID: 7114461037977287569, guid: ebccac25044edb84faca40f8596aab74, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7114461037977287571, guid: ebccac25044edb84faca40f8596aab74, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: back
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebccac25044edb84faca40f8596aab74, type: 3}
@@ -1888,111 +1972,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Jawa A
+  - Question: 'Ikan teri (Clupeidae) biasanya ditemukan di habitat mana? '
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa B
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 2
-  - Question: Jawa C
-    Answer:
-    - a
-    - b
-    - c
-    - d
+    - Laut
+    - 'Hutan Jawa '
+    - 'Sungai '
+    - Gunung
     CorrectAnswer: 3
-  - Question: Jawa D
+  - Question: 'Kandungan apa yang terdapat dalam ikan teri? '
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - 'Serat, vitamin C, dan kalsium '
+    - 'Protein, omega-3, kalsium '
+    - 'Karbohidrat, vitamin A, dan magnesium '
+    - Lemak, vitamin K, dan kalium
+    CorrectAnswer: 2
+  - Question: 'Masakan apa yang direkomendasikan untuk ikan teri? '
+    Answer:
+    - Sushi
+    - 'Burger '
+    - 'Sambal ikan teri '
+    - Steak
+    CorrectAnswer: 3
+  - Question: Ikan lele (Clarias gariepinus) biasanya ditemukan di habitat mana?
+    Answer:
+    - 'Gunung '
+    - 'Laut '
+    - Danau
+    - Hutan
+    CorrectAnswer: 3
+  - Question: Kandungan apa yang terdapat dalam ikan lele?
+    Answer:
+    - Karbohidrat, vitamin A, dan magnesium
+    - Serat, vitamin C, dan kalsium
+    - Lemak, vitamin K, dan kalium
+    - Protein, asam lemak omega-3
     CorrectAnswer: 4
-  - Question: Jawa A
+  - Question: Habitat alami ikan nila (Oreochromis niloticus) umumnya terdapat dimana?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - 'Laut '
+    - 'Kolam '
+    - 'Danau '
+    - 'Perairan asin '
+    CorrectAnswer: 3
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan nila?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - Protein, vitamin C, dan kalsium
+    - Serat, vitamin A, dan magnesium
+    - Vitamin D, vitamin B12, dan fosfo
+    - Lemak, vitamin K, dan kalium
+    CorrectAnswer: 3
+  - Question: 'Rekomendasi masakan yang umum untuk ikan nila adalah:'
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - Ikan nila bakar, ikan nila goreng
+    - 'Sushi, sashimi '
+    - 'Sup ikan nila, ikan nila kukus '
+    - 'Ikan nila panggang '
     CorrectAnswer: 1
-  - Question: Jawa A
+  - Question: 'Habitat alami ikan belut umumnya terdapat di:'
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - Laut dalam
+    - 'Air payau '
+    - Sungai, rawa-rawa
+    - Kolam dengan air dingin
+    CorrectAnswer: 3
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan belut?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - 'Serat, vitamin C, kalsium '
+    - 'Protein, vitamin A, vitamin E '
+    - ' Lemak, vitamin K, kalium'
+    - Vitamin A, vitamin E, vitamin B12
+    CorrectAnswer: 4
+  - Question: 'Habitat alami ikan bilis biasanya terdapat di:'
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - Laut dalam
+    - 'Kolam air dingin '
+    - 'Perairan air tawar '
+    - Perairan payau
+    CorrectAnswer: 3
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan bilis?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - Serat, vitamin C, kalsium
+    - Protein, asam lemak omega-3
+    - Lemak, vitamin K, kalium
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
+  - Question: Rekomendasi umum untuk mengolah ikan bilis adalah
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - Ikan bilis bakar
+    - 'Ikan bilis goreng '
+    - Tumis ikan bilis
+    - Ikan bilis kukus
+    CorrectAnswer: 3
+  - Question: 'Habitat alami ikan gabus (Channa striata) biasanya terdapat di:'
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
+    - 'Laut dalam '
+    - 'Perairan payau '
+    - 'Kolam '
+    - Danau
+    CorrectAnswer: 4
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan gabus?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawa A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
+    - 'Serat, vitamin C, kalsium '
+    - 'Protein, vitamin D, vitamin B12, fosfor '
+    - 'Lemak, vitamin K, kalium '
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
   - Question: Sumatra A
     Answer:
     - a
@@ -2211,6 +2295,7 @@ MonoBehaviour:
   currentQuestion: 0
   QuestionTxt: {fileID: 1811367800}
   ScoreTxt: {fileID: 1650111843}
+  Ucapan: {fileID: 908239876}
   QuizPanel: {fileID: 180352295}
   ResultPanel: {fileID: 2059265923}
   BtnRetry: {fileID: 1978392096}
@@ -2255,7 +2340,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 220, y: -37.5}
-  m_SizeDelta: {x: 265.65, y: 75}
+  m_SizeDelta: {x: 380, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1413702151
 MonoBehaviour:
@@ -2390,7 +2475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5567501115344676163, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5567501115344676163, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2536,7 +2621,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -220, y: -37.5}
-  m_SizeDelta: {x: 265.65, y: 75}
+  m_SizeDelta: {x: 380, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1625410276
 MonoBehaviour:
@@ -2740,10 +2825,10 @@ RectTransform:
   m_Children:
   - {fileID: 29795599}
   - {fileID: 1935994179}
-  - {fileID: 1281064404}
   - {fileID: 2059265924}
   - {fileID: 180352296}
   - {fileID: 1570317175}
+  - {fileID: 1281064404}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2783,12 +2868,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2059265924}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 24}
-  m_SizeDelta: {x: 536.23, y: 245.51}
+  m_AnchoredPosition: {x: -0.0000076293945, y: -16.92}
+  m_SizeDelta: {x: 308.59, y: 152.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1650111843
 MonoBehaviour:
@@ -2883,7 +2968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3283,7 +3368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3345,7 +3430,7 @@ RectTransform:
   m_Children:
   - {fileID: 1971350620}
   m_Father: {fileID: 2059265924}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3497,7 +3582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.6784314, g: 0.14509805, b: 0.14509805, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3543,7 +3628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2059265924
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3556,12 +3641,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 908239875}
   - {fileID: 1650111842}
   - {fileID: 510451699}
   - {fileID: 1978392097}
   - {fileID: 390610822}
   m_Father: {fileID: 1634114151}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

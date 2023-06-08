@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GamePlayJawa.unity
     guid: c9ff012b8c785854eb495c5ca03bcfbd
   - enabled: 1
-    path: Assets/Scenes/GamePlayKalimantan.unity
-    guid: becdcff8382e7834cb05e9848381c759
-  - enabled: 1
-    path: Assets/Scenes/GamePlaySumatra.unity
-    guid: 26a2e241c3dec314f84fd02e3a9b3c81
-  - enabled: 1
     path: Assets/Scenes/AwalanQuiz.unity
     guid: e1d4f8962deb0b54eaadb2eb5cde485b
   - enabled: 1
@@ -38,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Deskripsi.unity
     guid: 022100c15a008604cbb919cf8f368369
+  - enabled: 1
+    path: Assets/Scenes/Informasi.unity
+    guid: 0fdd79d59ee3d264d87954d653ae2c15
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 60d80d8afd45cb04aa602d7be8056f0f
   m_configObjects: {}

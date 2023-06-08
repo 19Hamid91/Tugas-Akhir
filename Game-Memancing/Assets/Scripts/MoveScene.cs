@@ -35,6 +35,7 @@ public class MoveScene : MonoBehaviour
    }
    public void gameplay()
    {
+      Debug.Log(Data.Tempat);
       getSceneName();
       SceneManager.LoadScene(Data.Tempat);
    }
@@ -47,6 +48,14 @@ public class MoveScene : MonoBehaviour
    {
       getSceneName();
       SceneManager.LoadScene("Map");
+   }
+   public void informasi()
+   {
+      SceneManager.LoadScene("Informasi");
+   }
+   public void HowToPlay()
+   {
+      SceneManager.LoadScene("HowToPlay");
    }
    public void back()
    {
@@ -79,9 +88,17 @@ public class MoveScene : MonoBehaviour
             break;
          case "Koleksi":
             break;
+         case "Quiz":
+            SceneManager.LoadScene(Data.Tempat);
+            break;
          default:
             Data.lastScene = SceneManager.GetActiveScene().name;
             break;
       }
+   }
+
+   public void test()
+   {
+      Debug.Log("Test");
    }
 }
