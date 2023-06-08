@@ -19,6 +19,9 @@ public class QuizManager : MonoBehaviour
     public GameObject BtnRetry;
     public GameObject BtnNext;
 
+    public GameObject benar;
+    public GameObject salah;
+
     public Text QuestionCounter;
 
     int totalQuestion = 0;
@@ -34,16 +37,16 @@ public class QuizManager : MonoBehaviour
             QnA.RemoveRange(15, 30);
             Debug.Log("Jawa");
         }
-        else if(Data.Tempat == "GamePlaySumatra")
+        else if(Data.Tempat == "GamePlayKalimantan")
         {
             QnA.RemoveRange(30, 15);
             QnA.RemoveRange(0, 15);
-            Debug.Log("Sumatra");
+            Debug.Log("Kalimantan");
         }
-        else if(Data.Tempat == "GamePlayKalimantan")
+        else if(Data.Tempat == "GamePlaySumatra")
         {
             QnA.RemoveRange(0, 30);
-            Debug.Log("Kalimantan");
+            Debug.Log("Sumatra");
         }
 
         if (Data.Level == 1)
@@ -57,6 +60,8 @@ public class QuizManager : MonoBehaviour
         score = 0;
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
+        benar.SetActive(false);
+        salah.SetActive(false);
         totalQuestion = QnA.Count;
         generateQuestion();
     }
@@ -76,14 +81,18 @@ public class QuizManager : MonoBehaviour
     }
     public void correct()
     {
+        // benar.SetActive(true);
         score++;
         QnA.RemoveAt(currentQuestion);
-        generateQuestion();
+        StartCoroutine(feedbackBenar());
+        // generateQuestion();
     }
     public void incorrect()
     {
+        // salah.SetActive(true);
         QnA.RemoveAt(currentQuestion);
-        generateQuestion();
+        StartCoroutine(feedbackSalah());
+        // generateQuestion();
         // Data.IncorrectAnswer +=1;
     }
     public void QuizResult()
@@ -145,6 +154,8 @@ public class QuizManager : MonoBehaviour
     {
         if (QnA.Count > 0)
         {
+            benar.SetActive(false);
+            salah.SetActive(false);
             currentQuestion = Random.Range(0, QnA.Count);
 
             QuestionTxt.text = QnA[currentQuestion].Question;
@@ -158,5 +169,18 @@ public class QuizManager : MonoBehaviour
             Debug.Log("Pertanyaan Habis");
             QuizResult();
         }
+    }
+
+    IEnumerator feedbackBenar()
+    {
+        benar.SetActive(true);
+        yield return new WaitForSeconds(1);
+        generateQuestion();
+    }
+    IEnumerator feedbackSalah()
+    {
+        salah.SetActive(true);
+        yield return new WaitForSeconds(1);
+        generateQuestion();
     }
 }

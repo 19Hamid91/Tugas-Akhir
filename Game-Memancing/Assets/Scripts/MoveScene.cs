@@ -96,9 +96,4 @@ public class MoveScene : MonoBehaviour
             break;
       }
    }
-
-   public void test()
-   {
-      Debug.Log("Test");
-   }
 }

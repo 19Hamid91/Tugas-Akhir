@@ -5,6 +5,7 @@ using UnityEngine;
 public class Popup : MonoBehaviour
 {
     public List<GameObject> popups = new List<GameObject>();
+    private bool hide = true;
 
     public void showPopup()
     {
@@ -16,6 +17,23 @@ public class Popup : MonoBehaviour
         for (int index = 0; index < popups.Count; index++)
         {
             popups[index].SetActive(false);
+        }
+    }
+
+    public void OnOff()
+    {
+        if (hide)
+        {
+            for (int index = 0; index < popups.Count; index++)
+            {
+                popups[index].SetActive(true);
+            }
+            hide = false;
+        }
+        else
+        {
+            hidePopup();
+            hide = true;
         }
     }
 }

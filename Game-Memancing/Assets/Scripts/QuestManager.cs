@@ -37,10 +37,6 @@ public class QuestManager : MonoBehaviour
 
         if(questProgress > Data.Level)
         {
-            // indexQuest = Data.lastIndexQuest;
-            // fishCounter = Data.lastFishCounter;
-            // namedFishCounter = Data.lastNamedFishCounter;
-            // questData[indexQuest].NamedFish = Data.lastNamedFish;
             questData[indexQuest].fishAmount = questData[indexQuest].fishAmount;
             questData[indexQuest].namedFishAmount = questData[indexQuest].namedFishAmount;
             completed.SetActive(true);
@@ -128,9 +124,4 @@ public class QuestManager : MonoBehaviour
             questData[indexQuest].NamedFish = CardManager.cards[Random.Range(0,CardManager.cards.Count - 4)].nama;
         }
     }
-
-    // private void getDataFromLocal()
-    // {
-    //     // mengambil data misi dari local
-    // }
 }
