@@ -2135,215 +2135,215 @@ MonoBehaviour:
     - 'Lemak, vitamin K, kalium '
     - Vitamin A, vitamin E, asam folat
     CorrectAnswer: 2
-  - Question: Sumatra A
+  - Question: 'Habitat alami ikan haruan atau ikan gabus adalah di:'
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - Laut
+    - Perairan sungai
+    - Kolam air dingin
+    - Perairan payau
+    CorrectAnswer: 2
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan haruan?
+    Answer:
+    - Serat, vitamin C, kalsium
+    - Protein tinggi, omega-3 asam lemak
+    - Lemak, vitamin K, kalium
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
+  - Question: 'Rekomendasi masakan yang umum untuk ikan haruan adalah:'
+    Answer:
+    - Ikan haruan bakar
+    - Ikan haruan goreng
+    - ' Digoreng'
+    - Ikan haruan kukus
+    CorrectAnswer: 3
+  - Question: 'Habitat alami ikan betutu umumnya terdapat di:'
+    Answer:
+    - Laut dalam
+    - Air payau di muara sungai
+    - Perairan tawar
+    - Kolam dengan air dingin
+    CorrectAnswer: 3
+  - Question: Kandungan nutrisi apa yang terdapat dalam ikan betutu?
+    Answer:
+    - Serat, vitamin C, kalsium
+    - Protein, asam lemak omega-3
+    - Lemak, vitamin K, kalium
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
+  - Question: ' Habitat alami ikan baung meliputi:'
+    Answer:
+    - Laut dalam
+    - Perairan air tawar
+    - Air payau di muara sungai
+    - Kolam dengan air dingin
+    CorrectAnswer: 2
+  - Question: 'Kandungan nutrisi yang terdapat dalam ikan baung meliputi:'
+    Answer:
+    - Protein, vitamin C, kalsium
+    - Protein, vitamin D, vitamin B12
+    - Lemak, vitamin K, kalium
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
+  - Question: 'Rekomendasi masakan yang umum untuk ikan baung adalah:'
+    Answer:
+    - Pepes baung
+    - ' Ikan baung goreng'
+    - Sup ikan baung
+    - Semua jawaban di atas
+    CorrectAnswer: 4
+  - Question: 'Habitat alami ikan belida umumnya terdapat di:'
+    Answer:
+    - Laut dalam
+    - Air payau di muara sungai
+    - Perairan air tawar
+    - Kolam dengan air dingin
+    CorrectAnswer: 3
+  - Question: 'Kandungan nutrisi yang terdapat dalam ikan belida meliputi:'
+    Answer:
+    - Serat, vitamin C, kalsium
+    - Protein, vitamin D, vitamin B1
+    - Lemak, vitamin K, kalium
+    - Vitamin A, vitamin E, asam folat
+    CorrectAnswer: 2
+  - Question: ' Ikan Jelawat hidup di perairan jenis apa?'
+    Answer:
+    - Air tawar
+    - Air laut
+    - Air asin
+    - Air payau
     CorrectAnswer: 1
-  - Question: Sumatra A
+  - Question: Nutrisi apa yang terkandung dalam ikan Jelawat?
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - Karbohidrat, vitamin C, serat
+    - Protein, asam lemak omega-3, vitamin B12
+    - Lemak jenuh, kolesterol, gula
+    - Sodium, kalium, magnesium
+    CorrectAnswer: 2
+  - Question: Apa rekomendasi masakan yang umum untuk ikan Jelawat?
+    Answer:
+    - Ikan Jelawat bakar
+    - Ikan Jelawat asin
+    - Ikan Jelawat kukus
+    - Ikan Jelawat goreng
     CorrectAnswer: 1
-  - Question: Sumatra A
+  - Question: Di habitat alaminya, di mana biasanya arwana ditemukan?
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - Perairan laut dalam
+    - Sungai, danau, rawa
+    - Samudera terbuka
+    - Kolam renang
+    CorrectAnswer: 2
+  - Question: Apa peran utama arwana dalam masyarakat?
+    Answer:
+    - Ikan konsumsi yang sering dimasak
+    - Ikan hias yang umumnya ditemukan dalam akuarium atau kolam hias
+    - Ikan predator yang membantu menjaga populasi ikan lain
+    - Ikan yang terancam punah dan dilindungi
+    CorrectAnswer: 2
+  - Question: Di habitat alaminya, di mana biasanya ikan Tenggiri ditemukan?
+    Answer:
+    - Perairan dingin, beku
+    - Perairan tropis, subtropis
+    - Danau, rawa
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Tenggiri?
+    Answer:
+    - Protein, vitamin C, zat besi
+    - Protein, omega-3 asam lemak, vitamin B12
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
+    CorrectAnswer: 2
+  - Question: Rekomendasi masakan yang umum untuk ikan Tenggiri adalah?
+    Answer:
+    - Tenggiri asap
+    - Tenggiri asin
+    - Tenggiri goreng
+    - Tenggiri manis pedas
+    CorrectAnswer: 3
+  - Question: Di habitat alaminya, di mana biasanya ikan Kerapu ditemukan?
+    Answer:
+    - Perairan dingin, beku
+    - Perairan tropis, subtropis
+    - Danau, rawa
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Kerapu?
+    Answer:
+    - Protein, vitamin D, vitamin B12
+    - Protein, vitamin C, zat besi
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
     CorrectAnswer: 1
-  - Question: Sumatra A
+  - Question: Di habitat alaminya, di mana biasanya ikan Layur ditemukan?
     Answer:
-    - a
-    - b
-    - c
-    - d
+    - Perairan dingin, beku
+    - Perairan tropis, hangat
+    - Danau, rawa
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Layur?
+    Answer:
+    - Protein, vitamin C, zat besi
+    - Protein, omega-3 asam lemak, vitamin B12
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
+    CorrectAnswer: 2
+  - Question: Rekomendasi masakan yang umum untuk ikan Layur adalah?
+    Answer:
+    - Layur asap
+    - Layur rebus
+    - Sashimi layur
+    - Layur bakar
+    CorrectAnswer: 3
+  - Question: Di habitat alaminya, di mana biasanya ikan Kakap Merah ditemukan?
+    Answer:
+    - Perairan dingin dan beku
+    - ' Perairan tropis dan hangat'
+    - Danau dan rawa
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Kakap Merah?
+    Answer:
+    - Protein, vitamin D, vitamin B12
+    - Protein, vitamin C, zat besi
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
     CorrectAnswer: 1
-  - Question: Sumatra A
+  - Question: Di habitat alaminya, di mana biasanya ikan Marlin Hitam ditemukan?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
+    - Perairan dingin dan beku
+    - Perairan tropis dan hangat
+    - Danau-danau dalam
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Marlin Hitam?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
+    - Protein, vitamin C, zat besi
+    - Protein, omega-3 asam lemak, vitamin B12
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
+    CorrectAnswer: 2
+  - Question: Rekomendasi masakan yang umum untuk ikan Marlin Hitam adalah?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
+    - Marlin hitam panggang
+    - Marlin hitam rebus
+    - Marlin hitam teriyaki
+    - Marlin hitam goreng
+    CorrectAnswer: 3
+  - Question: Di habitat alaminya, di mana biasanya ikan Marlin Biru ditemukan?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
+    - Perairan dingin dan beku
+    - Perairan tropis dan hangat
+    - Danau-danau dalam
+    - Sungai-sungai besar
+    CorrectAnswer: 2
+  - Question: Apa kandungan utama yang terdapat dalam ikan Marlin Biru?
     Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Sumatra A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
-    CorrectAnswer: 1
-  - Question: Jawaban A
-    Answer:
-    - a
-    - b
-    - c
-    - d
+    - Protein, vitamin D, vitamin B12
+    - Protein, vitamin C, zat besi
+    - Lemak jenuh, kolesterol, gula
+    - Vitamin A, vitamin E, serat
     CorrectAnswer: 1
   options:
   - {fileID: 1625410273}

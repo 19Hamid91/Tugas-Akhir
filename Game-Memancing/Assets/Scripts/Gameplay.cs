@@ -83,18 +83,7 @@ public class Gameplay : MonoBehaviour
 
     public void TangkapIkan()
     {
-        switch (Data.Level)
-        {
-            case 3:
-                Data.uniqueRate = 10;
-                break;
-            case 2:
-                Data.uniqueRate = 20;
-                break;
-            default:
-                Data.uniqueRate = 30;
-                break;
-        }
+        Data.uniqueRate = 20; 
         Data.commonRate = 100 - Data.uniqueRate;
         
         // play animasi menarik ikan

@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardManager: {fileID: 719020579}
-  Gagal: {fileID: 21300000, guid: 56359849f610904419ee9dfa66ad2801, type: 3}
+  Gagal: {fileID: 21300000, guid: 6efebeb811f887140a1893da1bbc612a, type: 3}
   Header: {fileID: 1121248211}
   GambarIkan: {fileID: 246094892}
   NamaIkan: {fileID: 680348433}
@@ -699,32 +699,32 @@ MonoBehaviour:
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 3
     NamedFish: 
-    fishAmount: 3
-    namedFishAmount: 1
+    fishAmount: 10
+    namedFishAmount: 3
     questCompleted: 0
   - Misi1: Tangkap 15 ikan
     Misi2: Tangkap 5
     NamedFish: 
-    fishAmount: 3
-    namedFishAmount: 1
+    fishAmount: 15
+    namedFishAmount: 5
     questCompleted: 0
   - Misi1: Tangkap 20 ikan
     Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 20
+    namedFishAmount: 2
     questCompleted: 0
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 5
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 10
+    namedFishAmount: 5
     questCompleted: 0
   - Misi1: Tangkap 30 ikan
     Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 30
+    namedFishAmount: 2
     questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0

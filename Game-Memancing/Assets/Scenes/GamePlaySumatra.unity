@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardManager: {fileID: 719020579}
-  Gagal: {fileID: 21300000, guid: 56359849f610904419ee9dfa66ad2801, type: 3}
+  Gagal: {fileID: 21300000, guid: 6efebeb811f887140a1893da1bbc612a, type: 3}
   Header: {fileID: 1121248211}
   GambarIkan: {fileID: 246094892}
   NamaIkan: {fileID: 680348433}
@@ -699,32 +699,32 @@ MonoBehaviour:
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 3
     NamedFish: 
-    fishAmount: 3
-    namedFishAmount: 1
+    fishAmount: 10
+    namedFishAmount: 3
     questCompleted: 0
   - Misi1: Tangkap 15 ikan
     Misi2: Tangkap 5
     NamedFish: 
-    fishAmount: 3
-    namedFishAmount: 1
+    fishAmount: 15
+    namedFishAmount: 5
     questCompleted: 0
   - Misi1: Tangkap 20 ikan
     Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 20
+    namedFishAmount: 2
     questCompleted: 0
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 5
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 10
+    namedFishAmount: 5
     questCompleted: 0
   - Misi1: Tangkap 30 ikan
     Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 4
-    namedFishAmount: 1
+    fishAmount: 30
+    namedFishAmount: 2
     questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 820c16d4c7dcfd44889784ae01e14237, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfa74b2676bd84f4e9506a5a1d1b3649, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -841,9 +841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d927e8f8a6631f44685eb8d8ab5bd92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgLvl1: {fileID: 21300000, guid: 820c16d4c7dcfd44889784ae01e14237, type: 3}
-  bgLvl2: {fileID: 21300000, guid: 7f02a7903e3313e4599eaa826ede29cf, type: 3}
-  bgLvl3: {fileID: 21300000, guid: 1901a10932bbee24e8de284b9164a978, type: 3}
+  bgLvl1: {fileID: 21300000, guid: dfa74b2676bd84f4e9506a5a1d1b3649, type: 3}
+  bgLvl2: {fileID: 21300000, guid: e912aab96ee3bd543aff74a12b828a25, type: 3}
+  bgLvl3: {fileID: 21300000, guid: 64f78c0f9ec1df14cac66feb2440e0e4, type: 3}
 --- !u!1 &402424910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,71 +1698,279 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].nama
+      value: Tenggiri
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].nama
+      value: Kerapu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].nama
+      value: Layur
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].nama
+      value: Kakap Merah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].nama
-      value: Bilis
+      value: Marlin Hitam
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].nama
-      value: Gabus
+      value: Marlin Biru
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].nama
+      value: Marlin Hitam
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].nama
+      value: Marlin Biru
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].idIkan
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].idIkan
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].idIkan
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].idIkan
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].idIkan
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].idIkan
-      value: 13
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].habitat
+      value: Perairan tropis dan subtropis. Mereka cenderung berada dekat dengan
+        perairan terbuka dan sering berenang di dekat permukaan air.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].idIkan
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].idIkan
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].habitat
+      value: Perairan tropis dan subtropis. Dapat ditemukan di terumbu karang, batu-batuan,
+        dan perairan dangkal yang berdekatan dengan perlindungan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].habitat
+      value: Ikan Layur terdapat di perairan hangat dan. Mereka cenderung berenang
+        di dekat permukaan air di lepas pantai.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].habitat
+      value: Hidup di perairan hangat dan tropis. Mereka cenderung menghuni terumbu
+        karang, terumbu dalam, dan sekitar struktur bawah laut lainnya.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].habitat
-      value: Ikan Bilis biasanya ditemukan di perairan air tawar seperti sungai,
-        danau, atau rawa.
+      value: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
+        Cenderung menghuni perairan terbuka dan dekat permukaan laut.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].habitat
-      value: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
+      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
+        perairan terbuka yang dalam di lepas pantai.
       objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 55e0729976121924e930d698edabf441, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].habitat
+      value: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
+        Cenderung menghuni perairan terbuka dan dekat permukaan laut.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].habitat
+      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
+        perairan terbuka yang dalam di lepas pantai.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 735aa5e9e67374e4c838e5c903c51358, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 52b94ceec52c47143bf336dcb7eb9d7c, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 4affd0fc255324f47ad0f565cd22c4f0, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: e9d4be8f930e2e14289dca1852661c40, type: 3}
+      objectReference: {fileID: 21300000, guid: 7d3a09d5779fb70488f8034b2eab018b, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 4a4bf7ff9bfdee64dba7903178dfd656, type: 3}
+      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].kandungan
+      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
+        juga merupakan sumber zat besi dan vitamin D.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d3a09d5779fb70488f8034b2eab018b, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].kandungan
+      value: Protein tinggi, omega-3 asam lemak, vitamin D, vitamin B6, dan selenium.
+        Mereka juga merupakan sumber zat besi dan fosfor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].kandungan
+      value: Ikan Layur mengandung protein tinggi, omega-3 asam lemak, vitamin B12,
+        dan selenium. Mereka juga merupakan sumber fosfor dan vitamin D.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].kandungan
+      value: Protein tinggi, omega-3 asam lemak, vitamin D, vitamin B6, selenium,
+        vitamin B12, fosfor, dan zat besi.
+      objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].kandungan
-      value: Ikan Bilis kaya akan protein, asam lemak omega-3, vitamin D, vitamin
-        B12, fosfor, zat besi, dan kalsium.
+      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
+        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].kandungan
-      value: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan asam lemak omega-3.
+      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
+        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
       objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4b40f46b4bed5045a6a3b667d9f69b6, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].kandungan
+      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
+        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].kandungan
+      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
+        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 95aa14bff85fbeb4cb1b6d69c4614bbf, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e03677ffe854d8c4ab7dcf19eef36971, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ec6c85a14e84e334780cc5e5560320db, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 98a7ed34991d1214dacefd470f39f43b, type: 3}
+      objectReference: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6e76228aa88c3774d9924f20862a428f, type: 3}
+      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 601611167529fb648b2aa905472ca9ce, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e3db695fbec429f4699a94ae72243a5d, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 91855117c67539842b45af9bb7ba794d, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a07b09d510b544d4695f9b37ed8ad73c, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardSiluetSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6880dfbab8401ec4786524f88b017b59, type: 3}
+      objectReference: {fileID: 21300000, guid: 796a443185bd6a74798416befaab54e0, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardSiluetSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3094980d07b65f64daa44f337abc40c2, type: 3}
+      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 796a443185bd6a74798416befaab54e0, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].rekomendasiMakanan
+      value: Beberapa rekomendasi masakan ikan Tenggiri antara lain pepes tenggiri,
+        tenggiri bakar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].rekomendasiMakanan
+      value: Beberapa rekomendasi masakan ikan Kerapu antara lain kerapu panggang,
+        sup ikan kerapu.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].rekomendasiMakanan
+      value: "Beberapa rekomendasi masakan ikan Layur sashimi layur, layur panggang\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].rekomendasiMakanan
+      value: Beberapa rekomendasi masakan ikan Kakap Merah antara lain kakap merah
+        goreng tepung, kakap merah asam manis
+      objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].rekomendasiMakanan
-      value: Ikan Bilis umumnya diolah menjadi bahan tambahan dalam masakan seperti
-        sambal ikan Bilis, tumis ikan Bilis, atau digunakan sebagai bumbu penyedap.
+      value: Marlin hitam teriyaki, marlin hitam taco
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].rekomendasiMakanan
-      value: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus bakar.
+      value: Marlin biru panggang, marlin biru sashimi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[12].rekomendasiMakanan
+      value: Marlin hitam teriyaki, marlin hitam taco
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[13].rekomendasiMakanan
+      value: Marlin biru panggang, marlin biru sashimi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
