@@ -714,6 +714,18 @@ MonoBehaviour:
     fishAmount: 4
     namedFishAmount: 1
     questCompleted: 0
+  - Misi1: Tangkap 10 ikan
+    Misi2: Tangkap 5
+    NamedFish: 
+    fishAmount: 4
+    namedFishAmount: 1
+    questCompleted: 0
+  - Misi1: Tangkap 30 ikan
+    Misi2: Tangkap 2
+    NamedFish: 
+    fishAmount: 4
+    namedFishAmount: 1
+    questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0
   misi1: {fileID: 964055134}
@@ -844,6 +856,7 @@ GameObject:
   - component: {fileID: 402424915}
   - component: {fileID: 402424914}
   - component: {fileID: 402424913}
+  - component: {fileID: 402424916}
   m_Layer: 5
   m_Name: Tap
   m_TagString: Untagged
@@ -928,6 +941,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 402424916}
+        m_TargetAssemblyTypeName: SaveLoadData, Assembly-CSharp
+        m_MethodName: SaveToJson
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &402424914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,6 +991,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402424910}
   m_CullTransparentMesh: 1
+--- !u!114 &402424916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402424910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412ca33038c00ed4393ba06cfcb712d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &453185137
 GameObject:
   m_ObjectHideFlags: 0

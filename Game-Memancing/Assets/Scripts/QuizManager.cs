@@ -166,6 +166,8 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
+            benar.SetActive(false);
+            salah.SetActive(false);
             Debug.Log("Pertanyaan Habis");
             QuizResult();
         }
