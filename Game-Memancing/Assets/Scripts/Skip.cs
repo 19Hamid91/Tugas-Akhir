@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class Skip : MonoBehaviour
 {
    public GameObject skip;
    public float timer;
-     void Start()
-     {
-         StartCoroutine(Show(timer));
-     }
-     IEnumerator Show(float delay)
-     {
-         yield return new WaitForSeconds(delay);
-         skip.SetActive(true);
-     }
+   [SerializeField]
+   VideoPlayer myVideoPlayer;
+    void Start()
+    {
+        skip.SetActive(false);
+        StartCoroutine(Show(timer));
+        myVideoPlayer.loopPointReached += LoadNextScene;
+    }
+    
+    IEnumerator Show(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        skip.SetActive(true);
+    }
+
+    void LoadNextScene(VideoPlayer vp)
+    {
+        SceneManager.LoadScene("Map");
+    }
 }
