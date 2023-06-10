@@ -125,6 +125,7 @@ public class Gameplay : MonoBehaviour
             }
             QuestManager.QuestCounter();
             ResultManager.FillResult();
+            SaveLoadData.SaveToJson();
         }
         else
         {

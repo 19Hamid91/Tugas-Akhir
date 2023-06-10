@@ -40,6 +40,7 @@ public class QuestManager : MonoBehaviour
             questData[indexQuest].fishAmount = questData[indexQuest].fishAmount;
             questData[indexQuest].namedFishAmount = questData[indexQuest].namedFishAmount;
             completed.SetActive(true);
+            btnQuiz.SetActive(false);
             misi1.SetActive(false);
             misi2.SetActive(false);
             counter1.SetActive(false);

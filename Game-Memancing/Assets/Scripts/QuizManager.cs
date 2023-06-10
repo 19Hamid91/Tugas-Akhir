@@ -104,6 +104,7 @@ public class QuizManager : MonoBehaviour
 
         if (score <= ((totalQuestion/2)))
         {
+            Ucapan.text = "Jawabanmu Masih Kurang Tepat";
             BtnRetry.SetActive(true);
             BtnNext.SetActive(false);
         }
@@ -124,16 +125,17 @@ public class QuizManager : MonoBehaviour
             Data.noProgress = true;
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
+
+            if (Data.Level == 3)
+            {
+                Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
+            }
+            else
+            {
+                Ucapan.text = "Selamat Level Baru Telah Terbuka";
+            }
         }
 
-        if (Data.Level != 4)
-        {
-            Ucapan.text = "Selamat Level Baru Telah Terbuka";
-        }
-        else
-        {
-            Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
-        }
 
     }
     void SetAnswer()

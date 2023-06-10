@@ -697,34 +697,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questData:
   - Misi1: Tangkap 10 ikan
-    Misi2: Tangkap 3
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 10
-    namedFishAmount: 3
+    namedFishAmount: 1
     questCompleted: 0
   - Misi1: Tangkap 15 ikan
-    Misi2: Tangkap 5
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 15
-    namedFishAmount: 5
+    namedFishAmount: 1
     questCompleted: 0
   - Misi1: Tangkap 20 ikan
-    Misi2: Tangkap 2
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 20
-    namedFishAmount: 2
+    namedFishAmount: 1
     questCompleted: 0
   - Misi1: Tangkap 10 ikan
-    Misi2: Tangkap 5
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 10
-    namedFishAmount: 5
+    namedFishAmount: 1
     questCompleted: 0
   - Misi1: Tangkap 30 ikan
-    Misi2: Tangkap 2
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 30
-    namedFishAmount: 2
+    namedFishAmount: 1
     questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0
@@ -941,18 +941,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 402424916}
-        m_TargetAssemblyTypeName: SaveLoadData, Assembly-CSharp
-        m_MethodName: SaveToJson
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &402424914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1000,7 +988,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 402424910}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 412ca33038c00ed4393ba06cfcb712d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c3a09a32bc6cee469c2f55b18f59e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &453185137
