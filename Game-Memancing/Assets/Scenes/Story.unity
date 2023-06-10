@@ -153,7 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skip: {fileID: 1068818401}
-  timer: 1
+  timer: 5
+  myVideoPlayer: {fileID: 1211483385}
 --- !u!4 &358755109
 Transform:
   m_ObjectHideFlags: 0
@@ -340,7 +341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1068818402
 RectTransform:
   m_ObjectHideFlags: 0
@@ -514,7 +515,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211483383}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: aa0a4fe413ef21546a4a957cf45c0a9c, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: f7722badd386e724a9a61e6dac799ff0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
