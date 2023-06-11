@@ -55,7 +55,7 @@ public class QuestManager : MonoBehaviour
             questData[indexQuest].NamedFish = Data.lastNamedFish;
         }
         
-        if(fishCounter == questData[indexQuest].fishAmount && namedFishCounter == questData[indexQuest].namedFishAmount)
+        if(fishCounter >= questData[indexQuest].fishAmount && namedFishCounter >= questData[indexQuest].namedFishAmount)
         {
             btnQuiz.SetActive(true);
         }
@@ -95,7 +95,7 @@ public class QuestManager : MonoBehaviour
                 namedFishCounter++;
             }
         }
-       if(fishCounter == questData[indexQuest].fishAmount && namedFishCounter == questData[indexQuest].namedFishAmount)
+       if(fishCounter >= questData[indexQuest].fishAmount && namedFishCounter >= questData[indexQuest].namedFishAmount)
         {
             btnQuiz.SetActive(true);
         }

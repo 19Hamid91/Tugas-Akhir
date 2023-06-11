@@ -11,7 +11,7 @@ public class LockMap : MonoBehaviour
     void Start()
     {
         unlockedMap = 1;
-        if (Data.SumatraLevel == 4)
+        if (Data.KalimantanLevel == 4)
         {
             unlockedMap += 2;
         }

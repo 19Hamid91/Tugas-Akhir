@@ -699,32 +699,32 @@ MonoBehaviour:
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 10
-    namedFishAmount: 1
+    fishAmount: 1
+    namedFishAmount: 0
     questCompleted: 0
   - Misi1: Tangkap 15 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 15
-    namedFishAmount: 1
+    fishAmount: 1
+    namedFishAmount: 0
     questCompleted: 0
   - Misi1: Tangkap 20 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 20
-    namedFishAmount: 1
+    fishAmount: 1
+    namedFishAmount: 0
     questCompleted: 0
   - Misi1: Tangkap 10 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 10
-    namedFishAmount: 1
+    fishAmount: 1
+    namedFishAmount: 0
     questCompleted: 0
   - Misi1: Tangkap 30 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 30
-    namedFishAmount: 1
+    fishAmount: 1
+    namedFishAmount: 0
     questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0
