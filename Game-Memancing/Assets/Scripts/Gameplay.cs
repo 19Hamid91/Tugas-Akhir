@@ -6,6 +6,7 @@ public class Gameplay : MonoBehaviour
 {
     public GameObject movingLine;
     public GameObject area;
+    public GameObject disabler;
     public GameObject resultPanel;
     public GetResult ResultManager;
     public QuestManager QuestManager;
@@ -17,6 +18,7 @@ public class Gameplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        disabler.SetActive(false);
         if (Data.Tempat == "GamePlayKalimantan")
         {
             tempat = "Kalimantan";
@@ -24,6 +26,14 @@ public class Gameplay : MonoBehaviour
         else if(Data.Tempat == "GamePlaySumatra")
         {
             tempat = "Sumatra";
+        }
+        else if(Data.Tempat == "GamePlaySulawesi")
+        {
+            tempat = "Sulawesi";
+        }
+        else if(Data.Tempat == "GamePlayPapua")
+        {
+            tempat = "Papua";
         }
         else
         {
@@ -136,6 +146,7 @@ public class Gameplay : MonoBehaviour
 
     public void MulaiLagi()
     {
+
         Pina.SetTrigger("Lempar");
         if(Data.Level == 2)
         {
@@ -150,6 +161,7 @@ public class Gameplay : MonoBehaviour
         moveArea = Random.Range(-2.5f, 2.5f);
         resultPanel.SetActive(false);
         area.transform.position = new Vector3(moveArea, area.transform.position.y, area.transform.position.z);
+        disabler.SetActive(false);
     }
 
     IEnumerator playAnimasi()
@@ -162,6 +174,7 @@ public class Gameplay : MonoBehaviour
 
     public void Tangkap()
     {
+        disabler.SetActive(true);
         StartCoroutine(playAnimasi());
     }
 }

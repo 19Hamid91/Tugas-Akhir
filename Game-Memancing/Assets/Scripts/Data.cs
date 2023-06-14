@@ -30,4 +30,6 @@ public class Data
     public static int JawaLevel = 1;
     public static int SumatraLevel = 1;
     public static int KalimantanLevel = 1;
+    public static int SulawesiLevel = 1;
+    public static int PapuaLevel = 1;
 }

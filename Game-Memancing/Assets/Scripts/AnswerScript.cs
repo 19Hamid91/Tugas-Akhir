@@ -9,6 +9,7 @@ public class AnswerScript : MonoBehaviour
 
     public void Answer()
     {
+        quizManager.Disabler.SetActive(true);
         if (isCorrect)
         {
             Debug.Log("Correct");

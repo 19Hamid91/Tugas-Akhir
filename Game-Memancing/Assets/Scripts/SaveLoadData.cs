@@ -24,7 +24,9 @@ public static class SaveLoadData
             { "lastNamedFishCounter", Data.lastNamedFishCounter },
             { "JawaLevel", Data.JawaLevel },
             { "SumatraLevel", Data.SumatraLevel },
-            { "KalimantanLevel", Data.KalimantanLevel }
+            { "KalimantanLevel", Data.KalimantanLevel },
+            { "SulawesiLevel", Data.SulawesiLevel },
+            { "PapuaLevel", Data.PapuaLevel }
         };
         string gameData = JsonConvert.SerializeObject(dataDict);
         string filePath = Application.persistentDataPath + "/PinaPemancingData.json";
@@ -89,6 +91,16 @@ public static class SaveLoadData
             if (dataDict.TryGetValue("KalimantanLevel", out value) && value is long kalimantanLevel)
             {
                 Data.KalimantanLevel = (int)kalimantanLevel;
+            }
+
+            if (dataDict.TryGetValue("SulawesiLevel", out value) && value is long sulawesiLevel)
+            {
+                Data.SulawesiLevel = (int)sulawesiLevel;
+            }
+
+            if (dataDict.TryGetValue("PapuaLevel", out value) && value is long papuaLevel)
+            {
+                Data.PapuaLevel = (int)papuaLevel;
             }
 
             if (dataDict.TryGetValue("lastNamedFish", out value) && value is string lastNamedFish)

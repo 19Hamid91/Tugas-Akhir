@@ -15,6 +15,7 @@ public class QuizManager : MonoBehaviour
     public Text Ucapan;
     public GameObject QuizPanel;
     public GameObject ResultPanel;
+    public GameObject Disabler;
 
     public GameObject BtnRetry;
     public GameObject BtnNext;
@@ -60,6 +61,7 @@ public class QuizManager : MonoBehaviour
         score = 0;
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
+        Disabler.SetActive(false);
         benar.SetActive(false);
         salah.SetActive(false);
         totalQuestion = QnA.Count;
@@ -180,11 +182,13 @@ public class QuizManager : MonoBehaviour
         benar.SetActive(true);
         yield return new WaitForSeconds(1);
         generateQuestion();
+        Disabler.SetActive(false);
     }
     IEnumerator feedbackSalah()
     {
         salah.SetActive(true);
         yield return new WaitForSeconds(1);
         generateQuestion();
+        Disabler.SetActive(false);
     }
 }
