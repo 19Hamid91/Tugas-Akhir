@@ -15,10 +15,12 @@ public class MoveScene : MonoBehaviour
    }
    public void keluar()
    {
+      SaveLoadData.SaveToJson();
       Application.Quit(); 
    }
    public void koleksi()
    {
+      SaveLoadData.SaveToJson();
       getSceneName();
       SceneManager.LoadScene("Koleksi");
    }
@@ -35,6 +37,7 @@ public class MoveScene : MonoBehaviour
    }
    public void gameplay()
    {
+      SaveLoadData.SaveToJson();
       Debug.Log(Data.Tempat);
       getSceneName();
       SceneManager.LoadScene(Data.Tempat);
@@ -46,6 +49,7 @@ public class MoveScene : MonoBehaviour
    }
    public void map()
    {
+      SaveLoadData.SaveToJson();
       getSceneName();
       SceneManager.LoadScene("Map");
    }
@@ -59,6 +63,7 @@ public class MoveScene : MonoBehaviour
    }
    public void back()
    {
+      SaveLoadData.SaveToJson();
       if (Data.lastScene != null)
       {
          SceneManager.LoadScene(Data.lastScene);
@@ -75,6 +80,7 @@ public class MoveScene : MonoBehaviour
    }
    public void quiz()
    {
+      SaveLoadData.SaveToJson();
       SceneManager.LoadScene("Quiz");
    }
 

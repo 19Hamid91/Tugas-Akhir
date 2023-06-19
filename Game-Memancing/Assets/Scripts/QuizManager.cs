@@ -112,6 +112,15 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
+            if (Data.Level == 3)
+            {
+                Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
+            }
+            else
+            {
+                Ucapan.text = "Selamat Level Baru Telah Terbuka";
+            }
+            
             if (Data.Tempat == "GamePlayJawa")
             {
                 Data.JawaLevel++;
@@ -124,18 +133,19 @@ public class QuizManager : MonoBehaviour
             {
                 Data.KalimantanLevel++;
             }
+            else if (Data.Tempat == "GamePlaySulawesi")
+            {
+                Data.SulawesiLevel++;
+            }
+            else if (Data.Tempat == "GamePlayPapua")
+            {
+                Data.PapuaLevel++;
+            }
             Data.noProgress = true;
+            SaveLoadData.SaveToJson();
             BtnRetry.SetActive(false);
             BtnNext.SetActive(true);
 
-            if (Data.Level == 3)
-            {
-                Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
-            }
-            else
-            {
-                Ucapan.text = "Selamat Level Baru Telah Terbuka";
-            }
         }
 
 

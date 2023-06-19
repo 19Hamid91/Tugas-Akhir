@@ -22,6 +22,14 @@ public class LockLevel : MonoBehaviour
         {
             openLevel = Data.KalimantanLevel;
         }
+        else if (Data.Tempat == "GamePlaySulawesi")
+        {
+            openLevel = Data.SulawesiLevel;
+        }
+        else if (Data.Tempat == "GamePlayPapua")
+        {
+            openLevel = Data.PapuaLevel;
+        }
         else
         {
             openLevel = 1;

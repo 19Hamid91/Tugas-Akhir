@@ -6,6 +6,7 @@ using UnityEngine;
 public class Data
 {
     public static bool muted = false;
+    public static bool storyWatched = false;
 
     public static string Tempat;
     public static int Level;

@@ -12,9 +12,16 @@ public class Skip : MonoBehaviour
    VideoPlayer myVideoPlayer;
     void Start()
     {
-        skip.SetActive(false);
-        StartCoroutine(Show(timer));
-        myVideoPlayer.loopPointReached += LoadNextScene;
+        if (!Data.storyWatched)
+        {
+            Data.storyWatched = true;
+            skip.SetActive(false);
+            StartCoroutine(Show(timer));
+            myVideoPlayer.loopPointReached += LoadNextScene;
+        } else
+        {
+            skip.SetActive(true);  
+        }
     }
     
     IEnumerator Show(float delay)

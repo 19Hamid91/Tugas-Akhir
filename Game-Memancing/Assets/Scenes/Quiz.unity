@@ -469,6 +469,7 @@ GameObject:
   - component: {fileID: 390610824}
   - component: {fileID: 390610823}
   - component: {fileID: 390610826}
+  - component: {fileID: 390610827}
   m_Layer: 5
   m_Name: BtnNext
   m_TagString: Untagged
@@ -603,6 +604,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c3a09a32bc6cee469c2f55b18f59e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &390610827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390610821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930412fdd952e1146828de7722ab1f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &510451698
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +629,7 @@ GameObject:
   - component: {fileID: 510451701}
   - component: {fileID: 510451700}
   - component: {fileID: 510451703}
+  - component: {fileID: 510451704}
   m_Layer: 5
   m_Name: BtnKoleksi
   m_TagString: Untagged
@@ -748,6 +762,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c3a09a32bc6cee469c2f55b18f59e35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &510451704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510451698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 930412fdd952e1146828de7722ab1f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &585052379
