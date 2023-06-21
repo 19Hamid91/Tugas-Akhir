@@ -33,4 +33,32 @@ public class Data
     public static int KalimantanLevel = 1;
     public static int SulawesiLevel = 1;
     public static int PapuaLevel = 1;
+
+    public static void ResetVariables()
+    {
+        // Set all variables to their default values
+        muted = false;
+        storyWatched = false;
+        Tempat = null;
+        Level = 0;
+        indexIkan = 0;
+        lastScene = null;
+        direction = 0;
+        speed = 0f;
+        isInsideArea = false;
+        unlockedFish.Clear();
+        uniqueRate = 0;
+        commonRate = 0;
+        noProgress = true;
+        lastIndexQuest = 0;
+        lastFishCounter = 0;
+        lastNamedFishCounter = 0;
+        lastNamedFish = null;
+        timeIsUp = false;
+        JawaLevel = 1;
+        SumatraLevel = 1;
+        KalimantanLevel = 1;
+        SulawesiLevel = 1;
+        PapuaLevel = 1;
+    }
 }

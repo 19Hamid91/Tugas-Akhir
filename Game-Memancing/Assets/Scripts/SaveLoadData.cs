@@ -124,4 +124,19 @@ public static class SaveLoadData
             Debug.Log("Data Not Found");
         }
     }
+
+    public static void ResetDataJson()
+    {
+        string filePath = Application.persistentDataPath + "/PinaPemancingData.json";
+        Debug.Log(filePath);
+        if (File.Exists(filePath))
+        {
+            File.Delete(filePath);
+            Data.ResetVariables();
+        }
+        else
+        {
+            Debug.Log("Data Not Found");
+        }
+    }
 }

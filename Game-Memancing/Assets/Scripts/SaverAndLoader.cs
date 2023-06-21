@@ -24,4 +24,9 @@ public class SaverAndLoader : MonoBehaviour
     {
         SaveLoadData.SaveToJson();
     }
+
+    public void ResetData()
+    {
+        SaveLoadData.ResetDataJson();
+    }
 }
