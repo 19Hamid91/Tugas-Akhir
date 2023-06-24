@@ -7,6 +7,13 @@ public class Popup : MonoBehaviour
     public List<GameObject> popups = new List<GameObject>();
     private bool hide = true;
 
+    private void Start() {
+        for (int i = 0; i < popups.Count; i++)
+        {
+            popups[i].SetActive(false);
+        }
+    }
+
     public void showPopup()
     {
         hidePopup();

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SaverAndLoader : MonoBehaviour
 {
@@ -28,5 +29,6 @@ public class SaverAndLoader : MonoBehaviour
     public void ResetData()
     {
         SaveLoadData.ResetDataJson();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

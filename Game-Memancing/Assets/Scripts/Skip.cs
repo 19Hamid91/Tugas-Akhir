@@ -15,6 +15,7 @@ public class Skip : MonoBehaviour
         if (!Data.storyWatched)
         {
             Data.storyWatched = true;
+            SaveLoadData.SaveToJson();
             skip.SetActive(false);
             StartCoroutine(Show(timer));
             myVideoPlayer.loopPointReached += LoadNextScene;
