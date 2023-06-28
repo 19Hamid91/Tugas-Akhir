@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gameplay : MonoBehaviour
 {
@@ -8,16 +9,51 @@ public class Gameplay : MonoBehaviour
     public GameObject area;
     public GameObject disabler;
     public GameObject resultPanel;
+    public GameObject nyawaHabisPanel;
     public GetResult ResultManager;
     public QuestManager QuestManager;
     public CardManager CardManager;
     public Animator Pina;
+    public Text Nyawa;
 
     float moveArea;
     string tempat;
+    int questProgress;
     // Start is called before the first frame update
     void Start()
     {
+        Data.nyawaCounter = 3;
+        if (Data.Tempat == "GamePlayJawa")
+            {
+                questProgress = Data.JawaLevel;
+            }
+        else if (Data.Tempat == "GamePlaySumatra")
+            {
+                questProgress = Data.SumatraLevel;
+            }
+        else if (Data.Tempat == "GamePlayKalimantan")
+            {
+                questProgress = Data.KalimantanLevel;
+            }
+        else if (Data.Tempat == "GamePlaySulawesi")
+            {
+                questProgress = Data.SulawesiLevel;
+            }
+        else if (Data.Tempat == "GamePlayPapua")
+            {
+                questProgress = Data.PapuaLevel;
+            }
+
+        if(questProgress > Data.Level)
+        {
+            Nyawa.text = "-";
+        }
+        else
+        {
+            Nyawa.text = ""+Data.nyawaCounter;
+        }
+        nyawaHabisPanel.SetActive(false);
+        resultPanel.SetActive(false);
         disabler.SetActive(false);
         if (Data.Tempat == "GamePlayKalimantan")
         {
@@ -139,7 +175,16 @@ public class Gameplay : MonoBehaviour
         }
         else
         {
-            // Debug.Log("Ikan Lepas");
+            if(questProgress <= Data.Level)
+            {
+                Data.nyawaCounter--;
+                Nyawa.text = ""+Data.nyawaCounter;
+                if (Data.nyawaCounter == 0)
+                {
+                    nyawaHabisPanel.SetActive(true);
+                }
+            }
+            Debug.Log("Ikan Lepas");
             ResultManager.IkanLepas();
         }
     }
@@ -176,5 +221,14 @@ public class Gameplay : MonoBehaviour
     {
         disabler.SetActive(true);
         StartCoroutine(playAnimasi());
+    }
+
+    public void resetNyawa()
+    {
+        Data.nyawaCounter = 3;
+        QuestManager.getNewQuest();
+        Nyawa.text = ""+Data.nyawaCounter;
+        nyawaHabisPanel.SetActive(false);
+        MulaiLagi();
     }
 }

@@ -14,6 +14,7 @@ public class Data
     public static string lastScene;
 
     public static int direction;
+    public static int nyawaCounter = 3;
     public static float speed;
     public static bool isInsideArea;
 
