@@ -1695,6 +1695,213 @@ PrefabInstance:
       propertyPath: cards.Array.size
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].nama
+      value: Barakuda
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].nama
+      value: Singa
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].nama
+      value: Cumi cumi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].nama
+      value: Anthias
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].nama
+      value: Hiu Paus
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].nama
+      value: Lumba lumba
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].idIkan
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].idIkan
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].idIkan
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].idIkan
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].idIkan
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].idIkan
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].habitat
+      value: Ikan Barakuda biasanya ditemukan di perairan terbuka, terumbu karang,
+        dan dekat dengan permukaan.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].habitat
+      value: Ikan Singa biasanya ditemukan di perairan terumbu karang dan daerah
+        berbatu di sekitar Laut Arafura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].habitat
+      value: Cumi-cumi biasanya ditemukan di perairan laut dangkal hingga dalam,
+        termasuk Laut Arafura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].habitat
+      value: kan Anthias ditemukan di perairan terumbu karang dan sering berkumpul
+        dalam kelompok.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].habitat
+      value: Ikan Hiu Paus ditemukan di perairan tropis dan subtropis, termasuk Laut
+        Arafura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].habitat
+      value: Lumba-lumba hidup di perairan laut yang hangat, termasuk Laut Arafura.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ca3d177381ccb4458d817eddab96122, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 7558319c4d7a9e24c8d2a93935f24516, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: b59b3311482cf21418d6edb374ac46b7, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 3dd7cc60b28320142b5b3d1aad827c11, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: 99274994092d3fa4f83d38e56c82b806, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].cardReal
+      value: 
+      objectReference: {fileID: 21300000, guid: dd865d2c113775b4284e01c61f525610, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].kandungan
+      value: Ikan Barakuda kaya akan protein dan juga mengandung omega-3 asam lemak.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].kandungan
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].kandungan
+      value: Cumi-cumi mengandung protein tinggi, rendah lemak, dan juga beberapa
+        mineral dan vitamin.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].kandungan
+      value: Ikan Anthias mengandung protein dan nutrisi yang bervariasi tergantung
+        pada jenisnya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].kandungan
+      value: Ikan Hiu Paus tidak biasa dikonsumsi secara umum, karena ukurannya yang
+        besar dan perlindungan hukum yang mengatur penangkapannya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].kandungan
+      value: Lumba-lumba biasanya tidak dikonsumsi sebagai makanan manusia, melainkan
+        menjadi objek wisata dan perlindungan satwa liar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 900b230e291c6714ba903abf6026d4bc, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6570c26e5a5440b4e9156e9932fe2933, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6beb080b1cbb25249b3850442d317fcb, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].cardSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cb77ed73878d6a6438a9d236ea0bbacb, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f677467cd546fc48a65522ca1e2c855, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b598a90fed01ab24f90fd06683efbb70, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 84683cd55d357ee40b34633f8d0e55f8, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6946a9751e664a54d9b6039af9b88d0c, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 24129ae1864f4e5498d9bbd770e9c8eb, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].cardSiluetSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0a93d361e7eced4448732cfe65f25e04, type: 3}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].rekomendasiMakanan
+      value: Ikan Barakuda sering kali menjadi target pemancingan olahraga dan bisa
+        diolah menjadi hidangan panggang, bakar, atau tumis.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].rekomendasiMakanan
+      value: Meskipun ikan Lionfish memiliki daging yang dapat dikonsumsi, beberapa
+        spesies Lionfish mengandung duri berbisa pada tubuhnya. Oleh karena itu tidak
+        dianjurkan dimasak sendiri kecuali oleh ahlinya.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].rekomendasiMakanan
+      value: Cumi-cumi dapat diolah menjadi berbagai hidangan, seperti tumis, goreng,
+        atau dimasak dalam saus.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].rekomendasiMakanan
+      value: Beberapa spesies ikan Anthias mungkin kurang umum untuk dikonsumsi dan
+        umumnya lebih dikenal sebagai ikan hias dalam akuarium.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].rekomendasiMakanan
+      value: Ikan Hiu Paus umumnya tidak direkomendasikan untuk dikonsumsi, melainkan
+        untuk dinikmati dalam kegiatan penelitian, wisata alam, atau snorkeling.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].rekomendasiMakanan
+      value: Lumba-lumba bukanlah target umum untuk dikonsumsi.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
 --- !u!114 &719020579 stripped
