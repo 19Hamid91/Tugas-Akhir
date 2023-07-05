@@ -172,6 +172,16 @@ MonoBehaviour:
   Header: {fileID: 1121248211}
   GambarIkan: {fileID: 246094892}
   NamaIkan: {fileID: 680348433}
+--- !u!1 &96363358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993470356889162529, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+  m_PrefabInstance: {fileID: 3993470356945907839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &96363359 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+  m_PrefabInstance: {fileID: 3993470356945907839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &112471257
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2860402708672100192, guid: a7b831afb62e33442a5060146b3ab299, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2860402708672100192, guid: a7b831afb62e33442a5060146b3ab299, type: 3}
       propertyPath: m_AnchorMax.x
@@ -811,7 +821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4ba42d11731ebc34aa12b6671f628696, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e3ace2f2b5af1d4e9276d9199374dc3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -841,9 +851,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d927e8f8a6631f44685eb8d8ab5bd92f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bgLvl1: {fileID: 21300000, guid: 4ba42d11731ebc34aa12b6671f628696, type: 3}
-  bgLvl2: {fileID: 21300000, guid: 76318053e83ecfb4186c1bdb9d57bd36, type: 3}
-  bgLvl3: {fileID: 21300000, guid: 03baed1fbe346944b89430d8a0aec6e8, type: 3}
+  bgLvl1: {fileID: 21300000, guid: 1e3ace2f2b5af1d4e9276d9199374dc3, type: 3}
+  bgLvl2: {fileID: 21300000, guid: b993ed70dc826d6489bbc7c42a2f0852, type: 3}
+  bgLvl3: {fileID: 21300000, guid: 764d36b62c6b4ac4fbe1b814d4824278, type: 3}
 --- !u!1 &402424910
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +888,7 @@ RectTransform:
   m_Children:
   - {fileID: 275512101}
   m_Father: {fileID: 1228428223}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1685,414 +1695,6 @@ PrefabInstance:
       propertyPath: cards.Array.size
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].nama
-      value: Marlin Biru
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].idIkan
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].habitat
-      value: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
-        perairan terbuka yang dalam di lepas pantai.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].kandungan
-      value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
-        juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[0].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[2].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[5].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[6].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[7].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[8].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[9].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[10].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[11].rekomendasiMakanan
-      value: Marlin biru panggang, marlin biru sashimi
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
 --- !u!114 &719020579 stripped
@@ -2310,7 +1912,7 @@ RectTransform:
   - {fileID: 246094893}
   - {fileID: 680348434}
   m_Father: {fileID: 1228428223}
-  m_RootOrder: 8
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2469,113 +2071,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &925870764
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1228428223}
-    m_Modifications:
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 241.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 229.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.1642e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -138.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3993470356889162529, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-      propertyPath: m_Name
-      value: Disabler
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
---- !u!224 &925870765 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-  m_PrefabInstance: {fileID: 925870764}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &925870766 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3993470356889162529, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
-  m_PrefabInstance: {fileID: 925870764}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &964055134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,7 +2424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5567501115344676163, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5567501115344676163, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3134,12 +2629,14 @@ RectTransform:
   - {fileID: 493512652}
   - {fileID: 1009858759}
   - {fileID: 1371722623}
+  - {fileID: 1643086661}
   - {fileID: 402424911}
-  - {fileID: 1243580680}
-  - {fileID: 800609040}
   - {fileID: 269287858}
   - {fileID: 1227191523}
-  - {fileID: 925870765}
+  - {fileID: 96363359}
+  - {fileID: 1243580680}
+  - {fileID: 800609040}
+  - {fileID: 1745742079}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3185,7 +2682,7 @@ RectTransform:
   - {fileID: 1261501893}
   - {fileID: 1988233865}
   m_Father: {fileID: 1228428223}
-  m_RootOrder: 7
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -3562,6 +3059,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504041996}
   m_CullTransparentMesh: 1
+--- !u!224 &1643086661 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+  m_PrefabInstance: {fileID: 4632643281932599941}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1725487241
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,6 +3211,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c3a09a32bc6cee469c2f55b18f59e35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1745742078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7583583713254180503, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+  m_PrefabInstance: {fileID: 7583583713657220713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1745742079 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+  m_PrefabInstance: {fileID: 7583583713657220713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1845552194
 GameObject:
   m_ObjectHideFlags: 0
@@ -3995,12 +3507,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movingLine: {fileID: 1977522026}
   area: {fileID: 2133093827}
-  disabler: {fileID: 925870766}
+  disabler: {fileID: 96363358}
   resultPanel: {fileID: 800609039}
+  nyawaHabisPanel: {fileID: 1745742078}
   ResultManager: {fileID: 12634100}
   QuestManager: {fileID: 375490696}
   CardManager: {fileID: 719020579}
   Pina: {fileID: 493512653}
+  Nyawa: {fileID: 2134324046}
 --- !u!61 &1977522028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4395,3 +3909,309 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2134324046 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4632643282785432011, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+  m_PrefabInstance: {fileID: 4632643281932599941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3993470356945907839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228428223}
+    m_Modifications:
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 241.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 229.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.1642e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -138.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162528, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993470356889162529, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+      propertyPath: m_Name
+      value: Disabler
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6fb279da43b6ae49a98d4d46c6d8ef0, type: 3}
+--- !u!1001 &4632643281932599941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228428223}
+    m_Modifications:
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 156.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -586.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 288
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841152, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632643282480841153, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+      propertyPath: m_Name
+      value: BgNyawa
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb3065cad72772c4eab7fb9055e8cce2, type: 3}
+--- !u!1001 &7583583713657220713
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1228428223}
+    m_Modifications:
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 709.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 423.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180502, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583713254180503, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_Name
+      value: PanelNyawaHabis
+      objectReference: {fileID: 0}
+    - target: {fileID: 7583583714531793423, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1977522027}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 400e559eb73ee7c4aaa869ac36ef7509, type: 3}

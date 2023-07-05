@@ -7,9 +7,11 @@ public class UIManager : MonoBehaviour
 {
     public CardManager cardManager;
     public GameObject[] cardSlots;
+    public Text fishCountText;
     // Start is called before the first frame update
     private void Start()
     {
+        fishCountText.text = Data.unlockedFish.Count + " / 30";
         DisplayCards();
     }
 

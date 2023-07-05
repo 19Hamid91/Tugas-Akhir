@@ -28,10 +28,10 @@ EditorBuildSettings:
     guid: c195b48bf22f6cc4c926bf815f4cc3a1
   - enabled: 1
     path: Assets/Scenes/GamePlaySulawesi.unity
-    guid: 4f34771481e3f3641b4423d85f85620d
+    guid: c26837bad0bb2794f8dc7c0a4e414e37
   - enabled: 1
     path: Assets/Scenes/GamePlayPapua.unity
-    guid: b9c73b157f6b0d448a707239c720daf2
+    guid: c0dfabf0c70892444ad9517618124b59
   - enabled: 1
     path: Assets/Scenes/AwalanQuiz.unity
     guid: e1d4f8962deb0b54eaadb2eb5cde485b

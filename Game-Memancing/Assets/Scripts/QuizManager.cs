@@ -35,19 +35,36 @@ public class QuizManager : MonoBehaviour
     {
         if (Data.Tempat == "GamePlayJawa")
         {
-            QnA.RemoveRange(15, 30);
+            //1-15
+            QnA.RemoveRange(15, 60);
             Debug.Log("Jawa");
         }
         else if(Data.Tempat == "GamePlayKalimantan")
         {
-            QnA.RemoveRange(30, 15);
+            //15-30
+            QnA.RemoveRange(30, 45);
             QnA.RemoveRange(0, 15);
             Debug.Log("Kalimantan");
         }
         else if(Data.Tempat == "GamePlaySumatra")
         {
+            //31-45
+            QnA.RemoveRange(45, 30);
             QnA.RemoveRange(0, 30);
             Debug.Log("Sumatra");
+        }
+        else if(Data.Tempat == "GamePlaySulawesi")
+        {
+            //46-60
+            QnA.RemoveRange(60, 15);
+            QnA.RemoveRange(0, 45);
+            Debug.Log("Sulawesi");
+        }
+        else if(Data.Tempat == "GamePlayPapua")
+        {
+            //61-75
+            QnA.RemoveRange(0, 60);
+            Debug.Log("Papua");
         }
 
         if (Data.Level == 1)
