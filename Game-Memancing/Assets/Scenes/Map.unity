@@ -807,7 +807,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Musi
+  m_Text: Andaman
 --- !u!222 &278574558
 CanvasRenderer:
   m_ObjectHideFlags: 0
