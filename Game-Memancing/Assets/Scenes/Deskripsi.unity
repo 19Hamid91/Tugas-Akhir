@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 174340110}
   - component: {fileID: 174340109}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -305, y: 94}
-  m_SizeDelta: {x: 338.53, y: 228.07}
+  m_AnchoredPosition: {x: -303.7, y: 108}
+  m_SizeDelta: {x: 360.61, y: 242.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174340109
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 84e39446297b6704c91f87f5af448dcb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e755ca5fdae266a419656466a42fb609, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1599,10 +1599,14 @@ MonoBehaviour:
   cardManager: {fileID: 719788630}
   spriteIkan: {fileID: 859489880}
   gambarIkan: {fileID: 785118546}
+  borderIkan: {fileID: 174340107}
   namaIkan: {fileID: 1196346820}
   habitat: {fileID: 955212180}
   kandungan: {fileID: 638801954}
   rekomendasiMakanan: {fileID: 1331489960}
+  commonBorder: {fileID: 21300000, guid: 87ac59cafa456784aa812fff0ca8bed2, type: 3}
+  rareBorder: {fileID: 21300000, guid: e755ca5fdae266a419656466a42fb609, type: 3}
+  rareFish: 04000000050000000a0000000b000000100000001100000016000000170000001c0000001d000000
 --- !u!114 &990236038 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5567501115524870356, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}

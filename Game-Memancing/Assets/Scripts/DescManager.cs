@@ -9,14 +9,26 @@ public class DescManager : MonoBehaviour
     // public GameObject[] inputField;
     public GameObject spriteIkan;
     public GameObject gambarIkan;
+    public GameObject borderIkan;
     public Text namaIkan;
     public Text habitat;
     public Text kandungan;
     public Text rekomendasiMakanan;
+    public Sprite commonBorder;
+    public Sprite rareBorder;
+    public List<int> rareFish = new List<int>();
     // Start is called before the first frame update
     private void Start()
     {
         FillDescription();
+        if (rareFish.Contains(cardManager.cards[Data.indexIkan].idIkan))
+        {
+            borderIkan.GetComponent<Image>().sprite = rareBorder;
+        }
+        else
+        {
+            borderIkan.GetComponent<Image>().sprite = commonBorder;
+        }
     }
 
     private void FillDescription()

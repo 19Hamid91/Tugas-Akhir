@@ -47,7 +47,7 @@ MonoBehaviour:
   cards:
   - cardSprite: {fileID: 21300000, guid: b4d45ec1e435cca4d866494b1de2a752, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 2766ed77613c81e4f8161068523114f8, type: 3}
-    cardReal: {fileID: 21300000, guid: 07d40cde23a34494aa45fe9bb7c6caae, type: 3}
+    cardReal: {fileID: 21300000, guid: 479ea75d8fb80e7408b3b00737730629, type: 3}
     idIkan: 0
     nama: Teri
     habitat: Sungai dan perairan air tawar lainnya.
@@ -55,26 +55,26 @@ MonoBehaviour:
       D
     rekomendasiMakanan: Sambal ikan Teri, tumis ikan Teri, Teri Balado, Sambal Goreng
       Teri.
-  - cardSprite: {fileID: 21300000, guid: 1e404a81118ccbe43a1fda87ede462e1, type: 3}
+  - cardSprite: {fileID: 21300000, guid: 61f904d737c0b7049901bd01a9566243, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: c0c5c15dd80ed1442aab65d649586ba3, type: 3}
-    cardReal: {fileID: 21300000, guid: f1afdcd94654422478f3ce510ae5a8fb, type: 3}
+    cardReal: {fileID: 21300000, guid: bd8f40f71ea514a40acde0871ff30b7e, type: 3}
     idIkan: 1
     nama: Lele
     habitat: Sungai, danau, rawa, atau kolam dengan substrat lumpur atau pasir.
     kandungan: Protein, asam lemak omega-3, vitamin D, vitamin B12, zat besi, dan
       mineral lainnya.
     rekomendasiMakanan: Pecel lele, pepes lele, ikan lele goreng, atau sup lele.
-  - cardSprite: {fileID: 21300000, guid: ac7bd7c564ddc014f8668a5ce8573bac, type: 3}
+  - cardSprite: {fileID: 21300000, guid: a0ae071177694ab44b2a39c7ac1de4d8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 178b0de262e753041bb0d0da900c0609, type: 3}
-    cardReal: {fileID: 21300000, guid: 1fe6bb38a41efed4a9a7da6dc2e25580, type: 3}
+    cardReal: {fileID: 21300000, guid: 41544f375bf53c04198a985338df4ee1, type: 3}
     idIkan: 2
     nama: Nila
     habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
     kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
     rekomendasiMakanan: Ikan Nila bakar, ikan Nila goreng, atau ikan Nila asam manis.
-  - cardSprite: {fileID: 21300000, guid: b924808afa804ee48969d9dd9e91caa0, type: 3}
+  - cardSprite: {fileID: 21300000, guid: 39f9e79915e8a374bb5ac3d0ed017bd9, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4e25b9ee8fe1587408538d928b4a2553, type: 3}
-    cardReal: {fileID: 21300000, guid: 42808c6d62c22ec46af3e45592c78bf5, type: 3}
+    cardReal: {fileID: 21300000, guid: d203f5a1f91bade42b929db802ae2bfa, type: 3}
     idIkan: 3
     nama: Belut
     habitat: Sungai, rawa-rawa, dan danau, di dasar perairan yang berlumpur atau
@@ -86,7 +86,7 @@ MonoBehaviour:
       ikan belut tumis '
   - cardSprite: {fileID: 21300000, guid: 98a7ed34991d1214dacefd470f39f43b, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 6880dfbab8401ec4786524f88b017b59, type: 3}
-    cardReal: {fileID: 21300000, guid: e9d4be8f930e2e14289dca1852661c40, type: 3}
+    cardReal: {fileID: 21300000, guid: f9552900115228c47a7523f0244c2627, type: 3}
     idIkan: 4
     nama: Bilis
     habitat: Ikan Bilis biasanya ditemukan di perairan air tawar seperti sungai,
@@ -105,9 +105,9 @@ MonoBehaviour:
       omega-3.
     rekomendasiMakanan: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus
       bakar.
-  - cardSprite: {fileID: 21300000, guid: 96e6f762061aa0d46a4f0805689423ad, type: 3}
+  - cardSprite: {fileID: 21300000, guid: c05f35199c790f1479f4e51d1d5626bd, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 8958d7b2271a11d4190f76db8522fe00, type: 3}
-    cardReal: {fileID: 21300000, guid: 3f80df0015472934681c7577dc8d98ac, type: 3}
+    cardReal: {fileID: 21300000, guid: c9b38840dbd8fc54e9f07ae16c4d384e, type: 3}
     idIkan: 6
     nama: Haruan
     habitat: Perairan sungai dengan aliran yang lambat dan perairan yang tenang.
@@ -118,7 +118,7 @@ MonoBehaviour:
       bahan dalam hidangan asam pedas atau tumis.
   - cardSprite: {fileID: 21300000, guid: 692fe20f3bb090e4493dd63f6b33daa8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 0c4675e6d05abb74b8601a068200819c, type: 3}
-    cardReal: {fileID: 21300000, guid: 56168adbd461094408ad2c126b9a9eff, type: 3}
+    cardReal: {fileID: 21300000, guid: 342bfb3d99ce3b84a9c017532714e5f3, type: 3}
     idIkan: 7
     nama: Betutu
     habitat: Sungai, danau, rawa, atau kolam dengan substrat lumpur atau pasir.
@@ -128,7 +128,7 @@ MonoBehaviour:
       Betutu.
   - cardSprite: {fileID: 21300000, guid: b1469fe760358aa47911068ab23360d8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 1928b47076e25144c98bcdcb06aa9960, type: 3}
-    cardReal: {fileID: 21300000, guid: a12a3d3d3dcf6b2478b000ae6e50e0e8, type: 3}
+    cardReal: {fileID: 21300000, guid: 410918abffc130b4993dbaa3291d2e62, type: 3}
     idIkan: 8
     nama: Baung
     habitat: Sungai dengan aliran yang lambat dan substrat berlumpur. Cenderung ditemukan
@@ -139,7 +139,7 @@ MonoBehaviour:
       bahan dalam hidangan pepes ikan.
   - cardSprite: {fileID: 21300000, guid: ae404431471a6fd4d83c72fd4257d6af, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: b8ae49077ed53604b99eedcbd8f77ef1, type: 3}
-    cardReal: {fileID: 21300000, guid: de93a979116303c479d4803027ef1f61, type: 3}
+    cardReal: {fileID: 21300000, guid: b2c53a5198bf9ed479dd5dcf886fddec, type: 3}
     idIkan: 9
     nama: Belida
     habitat: Ikan Belida hidup di perairan air tawar, seperti sungai, danau, rawa,
@@ -149,7 +149,7 @@ MonoBehaviour:
     rekomendasiMakanan: Pepes Belida, ikan Belida bakar, atau ikan Belida asam pedas.
   - cardSprite: {fileID: 21300000, guid: 1fc921ffdd6717a4fbefb3d3d65389da, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: cffdef3e8413ed5408a646748d05473e, type: 3}
-    cardReal: {fileID: 21300000, guid: 87d1ed99c3e036c488ee12897bfff014, type: 3}
+    cardReal: {fileID: 21300000, guid: 8794fc92bc56f56489b2ca53f9a51598, type: 3}
     idIkan: 10
     nama: Jelawat
     habitat: hidup di perairan air tawar, seperti sungai, danau, rawa, atau kolam
@@ -160,7 +160,7 @@ MonoBehaviour:
       Cocok dijadikan bahan dalam hidangan asam pedas atau tumis.
   - cardSprite: {fileID: 21300000, guid: 491b1847645460f47878bf68b060e48d, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 19ddf12d792f9534bae5acc7c3081c5e, type: 3}
-    cardReal: {fileID: 21300000, guid: 4ef2b3d0c76f6cc43b92c35c403360f1, type: 3}
+    cardReal: {fileID: 21300000, guid: ebd96ecea8a40414fa46654ab30e9669, type: 3}
     idIkan: 11
     nama: Arwana
     habitat: 'Biasanya ditemukan di sungai-sungai, danau-danau, atau rawa-rawa dengan
@@ -171,7 +171,7 @@ MonoBehaviour:
       dan eksotis. Oleh karena itu, tidak ada rekomendasi masakan khusus.
   - cardSprite: {fileID: 21300000, guid: b4b40f46b4bed5045a6a3b667d9f69b6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 601611167529fb648b2aa905472ca9ce, type: 3}
-    cardReal: {fileID: 21300000, guid: 55e0729976121924e930d698edabf441, type: 3}
+    cardReal: {fileID: 21300000, guid: 0326d513a135de0409c0b11e0979c745, type: 3}
     idIkan: 12
     nama: Tenggiri
     habitat: Perairan tropis dan subtropis. Mereka cenderung berada dekat dengan
@@ -182,7 +182,7 @@ MonoBehaviour:
       tenggiri, tenggiri bakar.
   - cardSprite: {fileID: 21300000, guid: 95aa14bff85fbeb4cb1b6d69c4614bbf, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: e3db695fbec429f4699a94ae72243a5d, type: 3}
-    cardReal: {fileID: 21300000, guid: 735aa5e9e67374e4c838e5c903c51358, type: 3}
+    cardReal: {fileID: 21300000, guid: 6d29080e9f6f0c246a274bb6669f2112, type: 3}
     idIkan: 13
     nama: Kerapu
     habitat: Perairan tropis dan subtropis. Dapat ditemukan di terumbu karang, batu-batuan,
@@ -193,7 +193,7 @@ MonoBehaviour:
       panggang, sup ikan kerapu.
   - cardSprite: {fileID: 21300000, guid: e03677ffe854d8c4ab7dcf19eef36971, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 91855117c67539842b45af9bb7ba794d, type: 3}
-    cardReal: {fileID: 21300000, guid: 52b94ceec52c47143bf336dcb7eb9d7c, type: 3}
+    cardReal: {fileID: 21300000, guid: 602ffe20190446b46a95efbea60bb74d, type: 3}
     idIkan: 14
     nama: Layur
     habitat: Ikan Layur terdapat di perairan hangat dan. Mereka cenderung berenang
@@ -204,7 +204,7 @@ MonoBehaviour:
       panggang\r"
   - cardSprite: {fileID: 21300000, guid: ec6c85a14e84e334780cc5e5560320db, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: a07b09d510b544d4695f9b37ed8ad73c, type: 3}
-    cardReal: {fileID: 21300000, guid: 4affd0fc255324f47ad0f565cd22c4f0, type: 3}
+    cardReal: {fileID: 21300000, guid: a4168e1812a3e0041b0c966e5fb36f00, type: 3}
     idIkan: 15
     nama: Kakap Merah
     habitat: Hidup di perairan hangat dan tropis. Mereka cenderung menghuni terumbu
@@ -215,7 +215,7 @@ MonoBehaviour:
       kakap merah goreng tepung, kakap merah asam manis
   - cardSprite: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 796a443185bd6a74798416befaab54e0, type: 3}
-    cardReal: {fileID: 21300000, guid: 7d3a09d5779fb70488f8034b2eab018b, type: 3}
+    cardReal: {fileID: 21300000, guid: 16297a947b9f9ef4fb35be99d3d6d154, type: 3}
     idIkan: 16
     nama: Marlin Hitam
     habitat: Dikenal sebagai marlin Atlantic, hidup di perairan tropis dan subtropic.
@@ -225,7 +225,7 @@ MonoBehaviour:
     rekomendasiMakanan: Marlin hitam teriyaki, marlin hitam taco
   - cardSprite: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
-    cardReal: {fileID: 21300000, guid: 194695351a51773479c01921e52085e6, type: 3}
+    cardReal: {fileID: 21300000, guid: 39fcf84a5a3f8aa40a586d92fc5b6a4b, type: 3}
     idIkan: 17
     nama: Marlin Biru
     habitat: Dapat ditemukan di perairan tropis dan subtropis. Mereka cenderung menghuni
@@ -235,7 +235,7 @@ MonoBehaviour:
     rekomendasiMakanan: Marlin biru panggang, marlin biru sashimi
   - cardSprite: {fileID: 21300000, guid: cc4972d73e39a164aa5d47b9acb40947, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: fddfbdd419f427f4f8217c080b876a3a, type: 3}
-    cardReal: {fileID: 21300000, guid: 8bf964c67d6885041ab38d5e38352992, type: 3}
+    cardReal: {fileID: 21300000, guid: 30cb585488b47d04c8383f062d2f635a, type: 3}
     idIkan: 18
     nama: Pari
     habitat: Ikan Pari hidup di perairan dangkal dan terumbu karang di sekitar Laut
@@ -245,7 +245,7 @@ MonoBehaviour:
       atau sup ikan.
   - cardSprite: {fileID: 21300000, guid: b4a393528851f3a42ab9637b0bfe7b3c, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4e2eaed400fd7b148bc06793e27989f1, type: 3}
-    cardReal: {fileID: 21300000, guid: 62f71144e6e1aca4e99e85c7381dd77d, type: 3}
+    cardReal: {fileID: 21300000, guid: 0bf189159a595a448b5bf96152726c8d, type: 3}
     idIkan: 19
     nama: Leter Anam
     habitat: 
@@ -253,7 +253,7 @@ MonoBehaviour:
     rekomendasiMakanan: 
   - cardSprite: {fileID: 21300000, guid: afa9416745cda28498b09029a99068c6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4022c80c8736a0647bafe3dfa7045fb6, type: 3}
-    cardReal: {fileID: 21300000, guid: d718eb35262d6c74daabad06d5aba4c3, type: 3}
+    cardReal: {fileID: 21300000, guid: 8ca50e6a9faa9d94096bf0ca056a3636, type: 3}
     idIkan: 20
     nama: Tuna
     habitat: Ikan Tuna umumnya ditemukan di perairan terbuka dan bergerombol di sekitar
@@ -264,7 +264,7 @@ MonoBehaviour:
       atau sushi.
   - cardSprite: {fileID: 21300000, guid: 60b0551082d60084a9ea56aa0668374a, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 3954ec2bafd3c444c8d60bd81a4a134c, type: 3}
-    cardReal: {fileID: 21300000, guid: 4f70f51e3ec3ff246950802f49a91f86, type: 3}
+    cardReal: {fileID: 21300000, guid: e1ce801c1f900614fa9455bdda33dfb9, type: 3}
     idIkan: 21
     nama: Buntal
     habitat: Ikan Buntal ditemukan di perairan dangkal, terumbu karang, dan daerah
@@ -276,7 +276,7 @@ MonoBehaviour:
       berhati-hati saat memasak atau mengonsumsi\_ikan\_ini."
   - cardSprite: {fileID: 21300000, guid: 41db194883a83b74baed9e98c4595dd7, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 07e4bf53787b51642a7e07d008840dc8, type: 3}
-    cardReal: {fileID: 21300000, guid: 931393d0b34d8d148baf739c1f566162, type: 3}
+    cardReal: {fileID: 21300000, guid: 336d9997766616a48b7d8a858a88dcc0, type: 3}
     idIkan: 22
     nama: Badut
     habitat: Ikan Badut sering ditemukan di terumbu karang dan daerah berlumpur di
@@ -287,7 +287,7 @@ MonoBehaviour:
       untuk dikonsumsi.
   - cardSprite: {fileID: 21300000, guid: 26148fcb73f0a2d41a56b12964c61613, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: a9d9b2e6cca9bc841bd14d2f839db22c, type: 3}
-    cardReal: {fileID: 21300000, guid: 3cfe8356fd02ad14797dbc6d9e7e1463, type: 3}
+    cardReal: {fileID: 21300000, guid: cbb52ac6f2652e64db4a1991b099514a, type: 3}
     idIkan: 23
     nama: Kuda Laut
     habitat: Ikan Kuda Laut biasanya hidup di terumbu karang, rumput laut, dan perairan
@@ -300,7 +300,7 @@ MonoBehaviour:
 '
   - cardSprite: {fileID: 21300000, guid: 900b230e291c6714ba903abf6026d4bc, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 7f677467cd546fc48a65522ca1e2c855, type: 3}
-    cardReal: {fileID: 21300000, guid: 3ca3d177381ccb4458d817eddab96122, type: 3}
+    cardReal: {fileID: 21300000, guid: 6e49ad6bea6ad0e43b75760d7389dad5, type: 3}
     idIkan: 24
     nama: Barakuda
     habitat: Ikan Barakuda biasanya ditemukan di perairan terbuka, terumbu karang,
@@ -310,7 +310,7 @@ MonoBehaviour:
       dan bisa diolah menjadi hidangan panggang, bakar, atau tumis.
   - cardSprite: {fileID: 21300000, guid: 6570c26e5a5440b4e9156e9932fe2933, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: b598a90fed01ab24f90fd06683efbb70, type: 3}
-    cardReal: {fileID: 21300000, guid: 7558319c4d7a9e24c8d2a93935f24516, type: 3}
+    cardReal: {fileID: 21300000, guid: c43ec833e38dd8246a6ca3263e97a648, type: 3}
     idIkan: 25
     nama: Singa
     habitat: Ikan Singa biasanya ditemukan di perairan terumbu karang dan daerah
@@ -321,7 +321,7 @@ MonoBehaviour:
       itu tidak dianjurkan dimasak sendiri kecuali oleh ahlinya.
   - cardSprite: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 84683cd55d357ee40b34633f8d0e55f8, type: 3}
-    cardReal: {fileID: 21300000, guid: b59b3311482cf21418d6edb374ac46b7, type: 3}
+    cardReal: {fileID: 21300000, guid: 86d90de5ce4953443b6492da03828774, type: 3}
     idIkan: 26
     nama: Cumi cumi
     habitat: Cumi-cumi biasanya ditemukan di perairan laut dangkal hingga dalam,
@@ -332,7 +332,7 @@ MonoBehaviour:
       tumis, goreng, atau dimasak dalam saus.
   - cardSprite: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 6946a9751e664a54d9b6039af9b88d0c, type: 3}
-    cardReal: {fileID: 21300000, guid: 3dd7cc60b28320142b5b3d1aad827c11, type: 3}
+    cardReal: {fileID: 21300000, guid: 5db9e6daa73f9194b98ea23a42d128f7, type: 3}
     idIkan: 27
     nama: Anthias
     habitat: kan Anthias ditemukan di perairan terumbu karang dan sering berkumpul
@@ -343,7 +343,7 @@ MonoBehaviour:
       dan umumnya lebih dikenal sebagai ikan hias dalam akuarium.
   - cardSprite: {fileID: 21300000, guid: 6beb080b1cbb25249b3850442d317fcb, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 24129ae1864f4e5498d9bbd770e9c8eb, type: 3}
-    cardReal: {fileID: 21300000, guid: 99274994092d3fa4f83d38e56c82b806, type: 3}
+    cardReal: {fileID: 21300000, guid: a826d77ce559b2b4d80b40cdd779a40a, type: 3}
     idIkan: 28
     nama: Hiu Paus
     habitat: Ikan Hiu Paus ditemukan di perairan tropis dan subtropis, termasuk Laut
@@ -354,7 +354,7 @@ MonoBehaviour:
       melainkan untuk dinikmati dalam kegiatan penelitian, wisata alam, atau snorkeling.
   - cardSprite: {fileID: 21300000, guid: cb77ed73878d6a6438a9d236ea0bbacb, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 0a93d361e7eced4448732cfe65f25e04, type: 3}
-    cardReal: {fileID: 21300000, guid: dd865d2c113775b4284e01c61f525610, type: 3}
+    cardReal: {fileID: 21300000, guid: e6594ab0f26c0a349826656ddeaeeb8a, type: 3}
     idIkan: 29
     nama: Lumba lumba
     habitat: Lumba-lumba hidup di perairan laut yang hangat, termasuk Laut Arafura.
