@@ -21,7 +21,7 @@ public class UIManager : MonoBehaviour
         {
             // if(Data.unlockedFish.Contains(i))
             // {
-            //     //Assign nama ikan
+                //Assign nama ikan
                 cardSlots[i].transform.GetChild(1).GetComponent<Text>().text = cardManager.cards[i].nama;
 
                 //Assign gambar ikan

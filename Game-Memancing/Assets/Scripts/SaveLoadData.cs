@@ -39,6 +39,7 @@ public static class SaveLoadData
         string filePath = Application.persistentDataPath + "/PinaPemancingData.json";
         if (File.Exists(filePath))
         {
+            Debug.Log(filePath);
             string gameData = File.ReadAllText(filePath);
 
             Dictionary<string, object> dataDict = JsonConvert.DeserializeObject<Dictionary<string, object>>(gameData);

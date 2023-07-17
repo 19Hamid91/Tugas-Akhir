@@ -14,6 +14,7 @@ public class DescManager : MonoBehaviour
     public Text habitat;
     public Text kandungan;
     public Text rekomendasiMakanan;
+    public Text sumber;
     public Sprite commonBorder;
     public Sprite rareBorder;
     public List<int> rareFish = new List<int>();
@@ -50,5 +51,8 @@ public class DescManager : MonoBehaviour
 
             //Assign rekomendasi masakan
             rekomendasiMakanan.text = cardManager.cards[Data.indexIkan].rekomendasiMakanan;
+
+            //Assign sumber
+            sumber.text = "Sumber: "+ cardManager.cards[Data.indexIkan].sumber;
     }
 }

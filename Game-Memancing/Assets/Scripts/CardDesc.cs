@@ -16,5 +16,6 @@ public class CardDesc
     public string kandungan;
     [TextArea(1,3)]
     public string rekomendasiMakanan;
+    public string sumber;
 
 }

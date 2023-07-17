@@ -22,6 +22,8 @@ public class QuizManager : MonoBehaviour
 
     public GameObject benar;
     public GameObject salah;
+    public GameObject lulus;
+    public GameObject gagal;
 
     public Text QuestionCounter;
 
@@ -81,6 +83,8 @@ public class QuizManager : MonoBehaviour
         Disabler.SetActive(false);
         benar.SetActive(false);
         salah.SetActive(false);
+        lulus.SetActive(false);
+        gagal.SetActive(false);
         totalQuestion = QnA.Count;
         generateQuestion();
     }
@@ -123,12 +127,14 @@ public class QuizManager : MonoBehaviour
 
         if (score <= ((totalQuestion/2)))
         {
+            gagal.SetActive(true);
             Ucapan.text = "Jawabanmu Masih Kurang Tepat";
             BtnRetry.SetActive(true);
             BtnNext.SetActive(false);
         }
         else
         {
+            lulus.SetActive(true);
             if (Data.Level == 3)
             {
                 Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
