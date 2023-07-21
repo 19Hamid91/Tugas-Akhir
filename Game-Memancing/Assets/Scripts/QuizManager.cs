@@ -137,7 +137,16 @@ public class QuizManager : MonoBehaviour
             lulus.SetActive(true);
             if (Data.Level == 3)
             {
-                Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
+                if (Data.Tempat == "GamePlayPapua")
+                {
+                    // berpindah ke ending
+                    Debug.Log("Ending");
+                    return;
+                }
+                else
+                {
+                    Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
+                }
             }
             else
             {

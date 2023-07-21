@@ -707,34 +707,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questData:
   - Misi1: Tangkap 10 ikan
-    Misi2: Tangkap 1
+    Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 1
-    namedFishAmount: 0
+    fishAmount: 10
+    namedFishAmount: 2
     questCompleted: 0
   - Misi1: Tangkap 15 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 1
-    namedFishAmount: 0
+    fishAmount: 15
+    namedFishAmount: 1
     questCompleted: 0
   - Misi1: Tangkap 20 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 1
-    namedFishAmount: 0
+    fishAmount: 20
+    namedFishAmount: 1
     questCompleted: 0
-  - Misi1: Tangkap 10 ikan
-    Misi2: Tangkap 1
+  - Misi1: Tangkap 15 ikan
+    Misi2: Tangkap 2
     NamedFish: 
-    fishAmount: 1
-    namedFishAmount: 0
-    questCompleted: 0
-  - Misi1: Tangkap 30 ikan
-    Misi2: Tangkap 1
-    NamedFish: 
-    fishAmount: 1
-    namedFishAmount: 0
+    fishAmount: 15
+    namedFishAmount: 2
     questCompleted: 0
   fishCounter: 0
   namedFishCounter: 0
@@ -1798,7 +1792,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].habitat
-      value: 
+      value: Ikan leter anam atau Paracanthurus hepatus biasanya ditemukan di perairan
+        hangat di Samudra Pasifik dan Samudra Hindia. Mereka sering bermigrasi di
+        sekitar terumbu karang yang kaya akan sumber makanan.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].habitat
@@ -1903,7 +1899,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: dd865d2c113775b4284e01c61f525610, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].kandungan
-      value: 
+      value: Ikan leter anam kaya akan nutrisi seperti protein, lemak sehat, vitamin,
+        dan mineral. Mereka juga mengandung omega-3, asam lemak esensial yang baik
+        untuk kesehatan jantung dan otak.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].kandungan
@@ -2054,7 +2052,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].rekomendasiMakanan
-      value: 
+      value: Ikan leter anam memiliki daging yang lezat dan sering digunakan dalam
+        masakan Asia, contohnya ikan leter anam goreng, sup ikan leter anam, ikan
+        leter anam panggang, dan sashimi ikan leter anam.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].rekomendasiMakanan

@@ -2551,215 +2551,224 @@ MonoBehaviour:
     - Lemak jenuh, kolesterol, gula
     - Vitamin A, vitamin E, serat
     CorrectAnswer: 1
-  - Question: Sulawesi A
+  - Question: Ikan leter anam atau Paracanthurus hepatus biasanya ditemukan di perairan
+      hangat di...
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Sulawesi A
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 1
-  - Question: Papua D
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Samudra Atlantik dan Hindia
+    - Laut Arafura
+    - Laut Timor
+    - Samudra Pasifik dan Hindia
     CorrectAnswer: 4
-  - Question: Papua D
+  - Question: Ikan Pari biasanya ditemukan di perairan dangkal dan terumbu karang
+      di sekitar...
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Laut Bunaken
+    - Laut Arafura
+    - Samudra Pasifik
+    - Samudra Hindia
+    CorrectAnswer: 1
+  - Question: Ikan Pari mengandung protein, omega-3 asam lemak, dan beberapa...
+    Answer:
+    - Garam
+    - Vitamin C
+    - Mineral
+    - Lemak sehat
+    CorrectAnswer: 3
+  - Question: Ikan leter anam kaya akan nutrisi seperti protein, lemak sehat, vitamin,
+      dan...
+    Answer:
+    - Kalsium
+    - Serat
+    - Karbohidrat
+    - Omega-3 asam lemak
     CorrectAnswer: 4
-  - Question: Papua D
+  - Question: Ikan Pari dapat diolah menjadi hidangan panggang, pepes, atau...
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Sup ikan
+    - Sushi
+    - Tumis
+    - Salad
+    CorrectAnswer: 1
+  - Question: Ikan Tuna umumnya ditemukan di perairan...
+    Answer:
+    - Terbuka dan bergerombol
+    - Terumbu karang
+    - Berlumpur
+    - Arafura
+    CorrectAnswer: 1
+  - Question: Ikan Buntal memiliki kandungan protein, vitamin B12, zat besi, dan
+      beberapa...
+    Answer:
+    - Gula
+    - Lemak sehat
+    - Karbohidrat
+    - Mineral
     CorrectAnswer: 4
-  - Question: Papua D
+  - Question: Ikan Tuna mengandung protein tinggi, omega-3 asam lemak, vitamin D,
+      dan...
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Vitamin A
+    - Serat
+    - Mineral
+    - Kalsium
+    CorrectAnswer: 3
+  - Question: Beberapa spesies Ikan Buntal umumnya tidak direkomendasikan untuk dikonsumsi
+      karena mengandung
+    Answer:
+    - Berbagai nutrisi
+    - Racun
+    - Lemak sehat
+    - Protein
+    CorrectAnswer: 2
+  - Question: Ikan Tuna dapat diolah menjadi hidangan panggang, tumis, atau...
+    Answer:
+    - Salad
+    - Sup ikan
+    - Sushi
+    - Nasi goreng
+    CorrectAnswer: 3
+  - Question: Ikan Badut sering ditemukan di terumbu karang dan daerah berlumpur
+      di sekitar...
+    Answer:
+    - Terumbu karang
+    - Arafura
+    - Pasifik
+    - Rawa
+    CorrectAnswer: 1
+  - Question: Ikan Kuda Laut umumnya memiliki kandungan protein dan nutrisi yang...
+    Answer:
+    - Tinggi
+    - Rendah
+    - Beragam
+    - Mengandung racun
+    CorrectAnswer: 2
+  - Question: Ikan Badut mengandung protein dan nutrisi yang bervariasi tergantung
+      pada...
+    Answer:
+    - Musim
+    - Umur
+    - Ukuran
+    - Jenisnya
     CorrectAnswer: 4
-  - Question: Papua D
+  - Question: Ikan Kuda Laut sering kali dilindungi dan tidak direkomendasikan untuk...
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Ditangkap
+    - Dikonsumsi
+    - Dilestarikan
+    - Diabadikan dalam lukisan
+    CorrectAnswer: 2
+  - Question: Ikan Badut umumnya dilindungi dan tidak direkomendasikan untuk...
+    Answer:
+    - Ditangkap
+    - Dikonsumsi
+    - Dilestarikan
+    - Dikembangbiakkan
+    CorrectAnswer: 2
+  - Question: Habitat manakah yang menjadi tempat tinggal bagi ikan Barakuda?
+    Answer:
+    - Perairan laut dangkal
+    - Perairan tropis dan subtropis
+    - Perairan terumbu karang
+    - Perairan laut yang hangat
+    CorrectAnswer: 3
+  - Question: Kandungan apa yang dimiliki oleh ikan Barakuda?
+    Answer:
+    - Lemak tinggi
+    - Omega-6 asam lemak
+    - Protein dan omega-3 asam lemak
+    - Vitamin dan mineral
+    CorrectAnswer: 3
+  - Question: Bagaimana ikan Barakuda biasanya diolah sebagai hidangan?
+    Answer:
+    - Direbus
+    - Dibakar
+    - Ditumis
+    - Dicampur dalam sup
+    CorrectAnswer: 2
+  - Question: Habitat manakah yang menjadi tempat tinggal bagi ikan Singa?
+    Answer:
+    - Perairan terumbu karang
+    - Perairan tropis dan subtropis
+    - Perairan laut dangkal
+    - Perairan terbuka
+    CorrectAnswer: 1
+  - Question: Apa kandungan yang dimiliki oleh ikan Singa?
+    Answer:
+    - Protein tinggi dan omega-3 asam lemak
+    - Lemak tinggi dan omega-6 asam lemak
+    - Vitamin dan mineral
+    - Lemak dan garam
+    CorrectAnswer: 1
+  - Question: Bagaimana cuaca yang disukai oleh cumi-cumi?
+    Answer:
+    - Hangat dan lembab
+    - Dingin dan berangin
+    - Panas dan kering
+    - Basah dan berawan
+    CorrectAnswer: 1
+  - Question: Apa kandungan yang dimiliki oleh cumi-cumi?
+    Answer:
+    - Protein tinggi dan lemak rendah
+    - Lemak tinggi dan vitamin
+    - Gula dan garam
+    - Mineral dan serat
+    CorrectAnswer: 1
+  - Question: Cumi-cumi biasanya ditemukan di perairan apa?
+    Answer:
+    - Perairan terumbu karang
+    - Perairan tropis dan subtropis
+    - Perairan laut dangkal hingga dalam
+    - Perairan terbuka
+    CorrectAnswer: 3
+  - Question: Apa yang umumnya menjadi peran ikan Anthias dalam dunia perikanan dan
+      akuarium?
+    Answer:
+    - Objek penelitian ilmiah
+    - Makanan eksklusif untuk manusia
+    - Ikan berbahaya yang harus dihindari
+    - Ikan hias di akuarium
     CorrectAnswer: 4
-  - Question: Papua D
+  - Question: Apa yang biasanya diketahui tentang ikan Anthias?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
+    - Mengandung protein dan nutrisi penting
+    - Dikonsumsi sebagai hidangan mewah
+    - Hidup di perairan yang sangat dalam
+    - Dikenal sebagai ikan beracun
+    CorrectAnswer: 1
+  - Question: Di mana ikan Hiu Paus ditemukan?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
+    - Perairan terumbu karang
+    - Perairan tropis dan subtropis
+    - Perairan laut dangkal
+    - Perairan terbuka
+    CorrectAnswer: 2
+  - Question: Mengapa ikan Hiu Paus tidak biasa dikonsumsi?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
+    - Ukurannya yang besar
+    - Kandungan lemak yang tinggi
+    - Perlindungan hukum
+    - Tidak ada rekomendasi masakan
+    CorrectAnswer: 3
+  - Question: Apa rekomendasi penggunaan ikan Hiu Paus?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
+    - Dikonsumsi dalam hidangan bakar
+    - Dijadikan bahan makanan
+    - Digunakan dalam kegiatan penelitian
+    - Diolah menjadi hidangan tumis
+    CorrectAnswer: 3
+  - Question: Di mana lumba-lumba biasa hidup?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
+    - Perairan terumbu karang
+    - Perairan tropis dan subtropis
+    - Perairan laut dangkal
+    - Perairan laut yang hangat
+    CorrectAnswer: 2
+  - Question: Apa kandungan yang dimiliki oleh lumba-lumba?
     Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
-    CorrectAnswer: 4
-  - Question: Papua D
-    Answer:
-    - Protein, vitamin D, vitamin B12
-    - Protein, vitamin C, zat besi
-    - Lemak jenuh, kolesterol, gula
-    - Vitamin A, vitamin E, serat
+    - Protein tinggi dan lemak sehat
+    - Lemak tinggi dan garam
+    - Vitamin dan mineral
+    - Tidak dikonsumsi sebagai makanan manusia
     CorrectAnswer: 4
   options:
   - {fileID: 1625410273}

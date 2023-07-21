@@ -55,15 +55,17 @@ MonoBehaviour:
       D
     rekomendasiMakanan: Sambal ikan Teri, tumis ikan Teri, Teri Balado, Sambal Goreng
       Teri.
+    sumber: dashu83 on Freepik
   - cardSprite: {fileID: 21300000, guid: 61f904d737c0b7049901bd01a9566243, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: c0c5c15dd80ed1442aab65d649586ba3, type: 3}
-    cardReal: {fileID: 21300000, guid: bd8f40f71ea514a40acde0871ff30b7e, type: 3}
+    cardReal: {fileID: 21300000, guid: db6f9b5ac9b9936448be648e45a87e69, type: 3}
     idIkan: 1
     nama: Lele
     habitat: Sungai, danau, rawa, atau kolam dengan substrat lumpur atau pasir.
     kandungan: Protein, asam lemak omega-3, vitamin D, vitamin B12, zat besi, dan
       mineral lainnya.
     rekomendasiMakanan: Pecel lele, pepes lele, ikan lele goreng, atau sup lele.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: a0ae071177694ab44b2a39c7ac1de4d8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 178b0de262e753041bb0d0da900c0609, type: 3}
     cardReal: {fileID: 21300000, guid: 41544f375bf53c04198a985338df4ee1, type: 3}
@@ -72,6 +74,7 @@ MonoBehaviour:
     habitat: Sungai, danau, rawa, dan kolam dengan air yang cukup hangat.
     kandungan: Protein, vitamin D, vitamin B12, fosfor, zat besi, dan kalsium
     rekomendasiMakanan: Ikan Nila bakar, ikan Nila goreng, atau ikan Nila asam manis.
+    sumber: '@aishu-rya-divya-kweena'
   - cardSprite: {fileID: 21300000, guid: 39f9e79915e8a374bb5ac3d0ed017bd9, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4e25b9ee8fe1587408538d928b4a2553, type: 3}
     cardReal: {fileID: 21300000, guid: d203f5a1f91bade42b929db802ae2bfa, type: 3}
@@ -84,6 +87,7 @@ MonoBehaviour:
       dan selenium.
     rekomendasiMakanan: 'Ikan belut bakar, ikan belut goreng, ikan belut asam pedas,
       ikan belut tumis '
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 98a7ed34991d1214dacefd470f39f43b, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 6880dfbab8401ec4786524f88b017b59, type: 3}
     cardReal: {fileID: 21300000, guid: f9552900115228c47a7523f0244c2627, type: 3}
@@ -95,9 +99,10 @@ MonoBehaviour:
       B12, fosfor, zat besi, dan kalsium.
     rekomendasiMakanan: Sambal ikan Bilis, tumis ikan Bilis, atau digunakan sebagai
       bumbu penyedap.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 6e76228aa88c3774d9924f20862a428f, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 3094980d07b65f64daa44f337abc40c2, type: 3}
-    cardReal: {fileID: 21300000, guid: 4a4bf7ff9bfdee64dba7903178dfd656, type: 3}
+    cardReal: {fileID: 21300000, guid: ce490d63fffbebd408133a39801c2752, type: 3}
     idIkan: 5
     nama: Gabus
     habitat: Sungai, rawa, dan danau dengan vegetasi perairan yang luas.
@@ -105,6 +110,7 @@ MonoBehaviour:
       omega-3.
     rekomendasiMakanan: Ikan Gabus goreng, ikan Gabus asam manis, atau ikan Gabus
       bakar.
+    sumber: https://www.shutterstock.com/
   - cardSprite: {fileID: 21300000, guid: c05f35199c790f1479f4e51d1d5626bd, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 8958d7b2271a11d4190f76db8522fe00, type: 3}
     cardReal: {fileID: 21300000, guid: c9b38840dbd8fc54e9f07ae16c4d384e, type: 3}
@@ -116,6 +122,7 @@ MonoBehaviour:
       juga mengandung zat besi dan kalsium.
     rekomendasiMakanan: Haruan goreng, haruan pepes, sup ikan haruan atau  dijadikan
       bahan dalam hidangan asam pedas atau tumis.
+    sumber: animaldiversity.org/accounts/Channa_striata/
   - cardSprite: {fileID: 21300000, guid: 692fe20f3bb090e4493dd63f6b33daa8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 0c4675e6d05abb74b8601a068200819c, type: 3}
     cardReal: {fileID: 21300000, guid: 342bfb3d99ce3b84a9c017532714e5f3, type: 3}
@@ -126,6 +133,7 @@ MonoBehaviour:
       D.
     rekomendasiMakanan: Ikan Betutu bakar, ikan Betutu asam pedas, atau pepes ikan
       Betutu.
+    sumber: https://fishbase.se/
   - cardSprite: {fileID: 21300000, guid: b1469fe760358aa47911068ab23360d8, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 1928b47076e25144c98bcdcb06aa9960, type: 3}
     cardReal: {fileID: 21300000, guid: 410918abffc130b4993dbaa3291d2e62, type: 3}
@@ -137,6 +145,7 @@ MonoBehaviour:
       zat besi, dan vitamin D.
     rekomendasiMakanan: Baung bisa dimasak dengan cara digoreng, direbus, atau dijadikan
       bahan dalam hidangan pepes ikan.
+    sumber: https://fishbase.se
   - cardSprite: {fileID: 21300000, guid: ae404431471a6fd4d83c72fd4257d6af, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: b8ae49077ed53604b99eedcbd8f77ef1, type: 3}
     cardReal: {fileID: 21300000, guid: b2c53a5198bf9ed479dd5dcf886fddec, type: 3}
@@ -147,6 +156,7 @@ MonoBehaviour:
     kandungan: Ikan Belida mengandung protein, vitamin D, vitamin B12, fosfor, zat
       besi, dan asam lemak omega-3.
     rekomendasiMakanan: Pepes Belida, ikan Belida bakar, atau ikan Belida asam pedas.
+    sumber: https://www.solaharthandal.com/
   - cardSprite: {fileID: 21300000, guid: 1fc921ffdd6717a4fbefb3d3d65389da, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: cffdef3e8413ed5408a646748d05473e, type: 3}
     cardReal: {fileID: 21300000, guid: 8794fc92bc56f56489b2ca53f9a51598, type: 3}
@@ -158,6 +168,7 @@ MonoBehaviour:
       dan vitamin D.
     rekomendasiMakanan: Jelawat igoreng, jelawat pepes, atau diolah menjadi sup ikan.
       Cocok dijadikan bahan dalam hidangan asam pedas atau tumis.
+    sumber: https://nakamaaquatics.id/
   - cardSprite: {fileID: 21300000, guid: 491b1847645460f47878bf68b060e48d, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 19ddf12d792f9534bae5acc7c3081c5e, type: 3}
     cardReal: {fileID: 21300000, guid: ebd96ecea8a40414fa46654ab30e9669, type: 3}
@@ -169,6 +180,7 @@ MonoBehaviour:
       masyarakat.
     rekomendasiMakanan: Lebih dikenal dan dipertahankan sebagai ikan hias yang indah
       dan eksotis. Oleh karena itu, tidak ada rekomendasi masakan khusus.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: b4b40f46b4bed5045a6a3b667d9f69b6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 601611167529fb648b2aa905472ca9ce, type: 3}
     cardReal: {fileID: 21300000, guid: 0326d513a135de0409c0b11e0979c745, type: 3}
@@ -180,6 +192,7 @@ MonoBehaviour:
       juga merupakan sumber zat besi dan vitamin D.
     rekomendasiMakanan: Beberapa rekomendasi masakan ikan Tenggiri antara lain pepes
       tenggiri, tenggiri bakar.
+    sumber: 'https://www.shutterstock.com/ '
   - cardSprite: {fileID: 21300000, guid: 95aa14bff85fbeb4cb1b6d69c4614bbf, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: e3db695fbec429f4699a94ae72243a5d, type: 3}
     cardReal: {fileID: 21300000, guid: 6d29080e9f6f0c246a274bb6669f2112, type: 3}
@@ -191,6 +204,7 @@ MonoBehaviour:
       Mereka juga merupakan sumber zat besi dan fosfor.
     rekomendasiMakanan: Beberapa rekomendasi masakan ikan Kerapu antara lain kerapu
       panggang, sup ikan kerapu.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: e03677ffe854d8c4ab7dcf19eef36971, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 91855117c67539842b45af9bb7ba794d, type: 3}
     cardReal: {fileID: 21300000, guid: 602ffe20190446b46a95efbea60bb74d, type: 3}
@@ -202,6 +216,7 @@ MonoBehaviour:
       B12, dan selenium. Mereka juga merupakan sumber fosfor dan vitamin D.
     rekomendasiMakanan: "Beberapa rekomendasi masakan ikan Layur sashimi layur, layur
       panggang\r"
+    sumber: https://www.shutterstock.com/
   - cardSprite: {fileID: 21300000, guid: ec6c85a14e84e334780cc5e5560320db, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: a07b09d510b544d4695f9b37ed8ad73c, type: 3}
     cardReal: {fileID: 21300000, guid: a4168e1812a3e0041b0c966e5fb36f00, type: 3}
@@ -213,6 +228,7 @@ MonoBehaviour:
       vitamin B12, fosfor, dan zat besi.
     rekomendasiMakanan: Beberapa rekomendasi masakan ikan Kakap Merah antara lain
       kakap merah goreng tepung, kakap merah asam manis
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 796a443185bd6a74798416befaab54e0, type: 3}
     cardReal: {fileID: 21300000, guid: 16297a947b9f9ef4fb35be99d3d6d154, type: 3}
@@ -223,6 +239,7 @@ MonoBehaviour:
     kandungan: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
       juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
     rekomendasiMakanan: Marlin hitam teriyaki, marlin hitam taco
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 615441ae5e7529c4696e6308ac31bebf, type: 3}
     cardReal: {fileID: 21300000, guid: 39fcf84a5a3f8aa40a586d92fc5b6a4b, type: 3}
@@ -233,6 +250,7 @@ MonoBehaviour:
     kandungan: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
       juga merupakan sumber vitamin D, vitamin B6, dan fosfor.
     rekomendasiMakanan: Marlin biru panggang, marlin biru sashimi
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: cc4972d73e39a164aa5d47b9acb40947, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: fddfbdd419f427f4f8217c080b876a3a, type: 3}
     cardReal: {fileID: 21300000, guid: 30cb585488b47d04c8383f062d2f635a, type: 3}
@@ -243,14 +261,22 @@ MonoBehaviour:
     kandungan: Ikan Pari mengandung protein, omega-3 asam lemak, dan beberapa mineral.
     rekomendasiMakanan: Ikan Pari dapat diolah menjadi hidangan panggang, pepes,
       atau sup ikan.
+    sumber: https://pixabay.com/
   - cardSprite: {fileID: 21300000, guid: b4a393528851f3a42ab9637b0bfe7b3c, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4e2eaed400fd7b148bc06793e27989f1, type: 3}
     cardReal: {fileID: 21300000, guid: 0bf189159a595a448b5bf96152726c8d, type: 3}
     idIkan: 19
     nama: Leter Anam
-    habitat: 
-    kandungan: 
-    rekomendasiMakanan: 
+    habitat: Ikan leter anam atau Paracanthurus hepatus biasanya ditemukan di perairan
+      hangat di Samudra Pasifik dan Samudra Hindia. Mereka sering bermigrasi di sekitar
+      terumbu karang yang kaya akan sumber makanan.
+    kandungan: Ikan leter anam kaya akan nutrisi seperti protein, lemak sehat, vitamin,
+      dan mineral. Mereka juga mengandung omega-3, asam lemak esensial yang baik
+      untuk kesehatan jantung dan otak.
+    rekomendasiMakanan: Ikan leter anam memiliki daging yang lezat dan sering digunakan
+      dalam masakan Asia, contohnya ikan leter anam goreng, sup ikan leter anam,
+      ikan leter anam panggang, dan sashimi ikan leter anam.
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: afa9416745cda28498b09029a99068c6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 4022c80c8736a0647bafe3dfa7045fb6, type: 3}
     cardReal: {fileID: 21300000, guid: 8ca50e6a9faa9d94096bf0ca056a3636, type: 3}
@@ -262,6 +288,7 @@ MonoBehaviour:
       dan beberapa mineral.
     rekomendasiMakanan: Ikan Tuna dapat diolah menjadi hidangan panggang, tumis,
       atau sushi.
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: 60b0551082d60084a9ea56aa0668374a, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 3954ec2bafd3c444c8d60bd81a4a134c, type: 3}
     cardReal: {fileID: 21300000, guid: e1ce801c1f900614fa9455bdda33dfb9, type: 3}
@@ -274,6 +301,7 @@ MonoBehaviour:
     rekomendasiMakanan: "Ikan Buntal umumnya tidak direkomendasikan untuk dikonsumsi
       karena beberapa spesies mengandung racun. \rOleh karena itu, penting untuk
       berhati-hati saat memasak atau mengonsumsi\_ikan\_ini."
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: 41db194883a83b74baed9e98c4595dd7, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 07e4bf53787b51642a7e07d008840dc8, type: 3}
     cardReal: {fileID: 21300000, guid: 336d9997766616a48b7d8a858a88dcc0, type: 3}
@@ -285,6 +313,7 @@ MonoBehaviour:
       pada jenisnya.
     rekomendasiMakanan: Ikan Badut umumnya dilindungi dan tidak direkomendasikan
       untuk dikonsumsi.
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: 26148fcb73f0a2d41a56b12964c61613, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: a9d9b2e6cca9bc841bd14d2f839db22c, type: 3}
     cardReal: {fileID: 21300000, guid: cbb52ac6f2652e64db4a1991b099514a, type: 3}
@@ -298,6 +327,7 @@ MonoBehaviour:
       untuk dikonsumsi.
 
 '
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: 900b230e291c6714ba903abf6026d4bc, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 7f677467cd546fc48a65522ca1e2c855, type: 3}
     cardReal: {fileID: 21300000, guid: 6e49ad6bea6ad0e43b75760d7389dad5, type: 3}
@@ -308,6 +338,7 @@ MonoBehaviour:
     kandungan: Ikan Barakuda kaya akan protein dan juga mengandung omega-3 asam lemak.
     rekomendasiMakanan: Ikan Barakuda sering kali menjadi target pemancingan olahraga
       dan bisa diolah menjadi hidangan panggang, bakar, atau tumis.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 6570c26e5a5440b4e9156e9932fe2933, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: b598a90fed01ab24f90fd06683efbb70, type: 3}
     cardReal: {fileID: 21300000, guid: c43ec833e38dd8246a6ca3263e97a648, type: 3}
@@ -315,10 +346,12 @@ MonoBehaviour:
     nama: Singa
     habitat: Ikan Singa biasanya ditemukan di perairan terumbu karang dan daerah
       berbatu di sekitar Laut Arafura.
-    kandungan: 
-    rekomendasiMakanan: Meskipun ikan Lionfish memiliki daging yang dapat dikonsumsi,
+    kandungan: Ikan Singa mengandung protein tinggi, asam lemak omega-3, vitamin,
+      dan mineral yang penting untuk kesehatan tubuh.
+    rekomendasiMakanan: Meskipun ikan Singa memiliki daging yang dapat dikonsumsi,
       beberapa spesies Lionfish mengandung duri berbisa pada tubuhnya. Oleh karena
       itu tidak dianjurkan dimasak sendiri kecuali oleh ahlinya.
+    sumber: ' https://pixabay.com/'
   - cardSprite: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 84683cd55d357ee40b34633f8d0e55f8, type: 3}
     cardReal: {fileID: 21300000, guid: 86d90de5ce4953443b6492da03828774, type: 3}
@@ -330,6 +363,7 @@ MonoBehaviour:
       mineral dan vitamin.
     rekomendasiMakanan: Cumi-cumi dapat diolah menjadi berbagai hidangan, seperti
       tumis, goreng, atau dimasak dalam saus.
+    sumber: https://www.gettyimages.com/
   - cardSprite: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 6946a9751e664a54d9b6039af9b88d0c, type: 3}
     cardReal: {fileID: 21300000, guid: 5db9e6daa73f9194b98ea23a42d128f7, type: 3}
@@ -341,6 +375,7 @@ MonoBehaviour:
       pada jenisnya.
     rekomendasiMakanan: Beberapa spesies ikan Anthias mungkin kurang umum untuk dikonsumsi
       dan umumnya lebih dikenal sebagai ikan hias dalam akuarium.
+    sumber: https://unsplash.com/
   - cardSprite: {fileID: 21300000, guid: 6beb080b1cbb25249b3850442d317fcb, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 24129ae1864f4e5498d9bbd770e9c8eb, type: 3}
     cardReal: {fileID: 21300000, guid: a826d77ce559b2b4d80b40cdd779a40a, type: 3}
@@ -352,6 +387,7 @@ MonoBehaviour:
       yang besar dan perlindungan hukum yang mengatur penangkapannya.
     rekomendasiMakanan: Ikan Hiu Paus umumnya tidak direkomendasikan untuk dikonsumsi,
       melainkan untuk dinikmati dalam kegiatan penelitian, wisata alam, atau snorkeling.
+    sumber: ' https://unsplash.com/ '
   - cardSprite: {fileID: 21300000, guid: cb77ed73878d6a6438a9d236ea0bbacb, type: 3}
     cardSiluetSprite: {fileID: 21300000, guid: 0a93d361e7eced4448732cfe65f25e04, type: 3}
     cardReal: {fileID: 21300000, guid: e6594ab0f26c0a349826656ddeaeeb8a, type: 3}
@@ -361,3 +397,4 @@ MonoBehaviour:
     kandungan: Lumba-lumba biasanya tidak dikonsumsi sebagai makanan manusia, melainkan
       menjadi objek wisata dan perlindungan satwa liar.
     rekomendasiMakanan: Lumba-lumba bukanlah target umum untuk dikonsumsi.
+    sumber: https://unsplash.com/
