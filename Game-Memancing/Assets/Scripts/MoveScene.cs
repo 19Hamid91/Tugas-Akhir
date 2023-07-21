@@ -53,6 +53,11 @@ public class MoveScene : MonoBehaviour
       getSceneName();
       SceneManager.LoadScene("Map");
    }
+   public void ending()
+   {
+      SaveLoadData.SaveToJson();
+      SceneManager.LoadScene("Ending");
+   }
    public void informasi()
    {
       SceneManager.LoadScene("Informasi");

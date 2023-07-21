@@ -17,6 +17,10 @@ public class QuizManager : MonoBehaviour
     public GameObject ResultPanel;
     public GameObject Disabler;
 
+    public GameObject Disabler2;
+    public GameObject BtnEnding;
+
+    public GameObject BtnKoleksi;
     public GameObject BtnRetry;
     public GameObject BtnNext;
 
@@ -81,6 +85,8 @@ public class QuizManager : MonoBehaviour
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
         Disabler.SetActive(false);
+        Disabler2.SetActive(false);
+        BtnEnding.SetActive(false);
         benar.SetActive(false);
         salah.SetActive(false);
         lulus.SetActive(false);
@@ -135,23 +141,6 @@ public class QuizManager : MonoBehaviour
         else
         {
             lulus.SetActive(true);
-            if (Data.Level == 3)
-            {
-                if (Data.Tempat == "GamePlayPapua")
-                {
-                    // berpindah ke ending
-                    Debug.Log("Ending");
-                    return;
-                }
-                else
-                {
-                    Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
-                }
-            }
-            else
-            {
-                Ucapan.text = "Selamat Level Baru Telah Terbuka";
-            }
             
             if (Data.Tempat == "GamePlayJawa")
             {
@@ -173,10 +162,37 @@ public class QuizManager : MonoBehaviour
             {
                 Data.PapuaLevel++;
             }
+            
             Data.noProgress = true;
             SaveLoadData.SaveToJson();
-            BtnRetry.SetActive(false);
-            BtnNext.SetActive(true);
+            if (Data.Level == 3)
+            {
+                if (Data.Tempat == "GamePlayPapua")
+                {
+                    // berpindah ke ending
+                    Ucapan.text = "Selamat Anda Telah Menyelesaikan Semua Level";
+                    BtnRetry.SetActive(false);
+                    BtnNext.SetActive(false);
+                    BtnKoleksi.SetActive(false);
+                    Disabler2.SetActive(true);
+                    BtnEnding.SetActive(true);
+                    Debug.Log("Ending");
+                    return;
+                }
+                else
+                {
+                    Ucapan.text = "Selamat Tempat Mancing Baru Telah Terbuka";
+                    BtnRetry.SetActive(false);
+                    BtnNext.SetActive(true);
+                }
+            }
+            else
+            {
+                Ucapan.text = "Selamat Level Baru Telah Terbuka";
+                BtnRetry.SetActive(false);
+                BtnNext.SetActive(true);
+            }
+            
 
         }
 

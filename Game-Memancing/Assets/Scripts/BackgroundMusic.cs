@@ -29,6 +29,10 @@ public class BackgroundMusic : MonoBehaviour
         {
            AudioListener.pause = true;
         }   
+        else if (SceneManager.GetActiveScene().name == "Ending")
+        {
+           AudioListener.pause = true;
+        }   
         else if(SceneManager.GetActiveScene().name != "MainMenu")
         {
             AudioListener.pause = Data.muted;
