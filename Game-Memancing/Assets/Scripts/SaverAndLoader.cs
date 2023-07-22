@@ -29,6 +29,5 @@ public class SaverAndLoader : MonoBehaviour
     public void ResetData()
     {
         SaveLoadData.ResetDataJson();
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

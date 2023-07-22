@@ -17,12 +17,12 @@ public class QuizManager : MonoBehaviour
     public GameObject ResultPanel;
     public GameObject Disabler;
 
-    public GameObject Disabler2;
     public GameObject BtnEnding;
 
     public GameObject BtnKoleksi;
     public GameObject BtnRetry;
     public GameObject BtnNext;
+    public GameObject BtnBack;
 
     public GameObject benar;
     public GameObject salah;
@@ -85,7 +85,6 @@ public class QuizManager : MonoBehaviour
         QuizPanel.SetActive(true);
         ResultPanel.SetActive(false);
         Disabler.SetActive(false);
-        Disabler2.SetActive(false);
         BtnEnding.SetActive(false);
         benar.SetActive(false);
         salah.SetActive(false);
@@ -170,11 +169,11 @@ public class QuizManager : MonoBehaviour
                 if (Data.Tempat == "GamePlayPapua")
                 {
                     // berpindah ke ending
-                    Ucapan.text = "Selamat Anda Telah Menyelesaikan Semua Level";
+                    Ucapan.text = "Selamat Telah Menyelesaikan Semua Level";
                     BtnRetry.SetActive(false);
                     BtnNext.SetActive(false);
                     BtnKoleksi.SetActive(false);
-                    Disabler2.SetActive(true);
+                    BtnBack.SetActive(false);
                     BtnEnding.SetActive(true);
                     Debug.Log("Ending");
                     return;

@@ -13,6 +13,10 @@ public class MoveScene : MonoBehaviour
    {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
    }
+   public void thisScene()
+   {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+   }
    public void keluar()
    {
       SaveLoadData.SaveToJson();

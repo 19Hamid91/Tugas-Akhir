@@ -9,6 +9,8 @@ public class Swipe_Control : MonoBehaviour
     float scroll_pos = 0;
     float [] pos;
     int posisi = 0;
+    public GameObject BtnKiri;
+    public GameObject BtnKanan;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,7 @@ public class Swipe_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         pos = new float[transform.childCount];
         float distance = 1f / (pos.Length - 1f);
         for (int i = 0; i < pos.Length; i++)
@@ -54,6 +57,20 @@ public class Swipe_Control : MonoBehaviour
                 {
                     scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp (scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.15f);
                     posisi = i;
+
+                    if (posisi == 0)
+                    {
+                        BtnKiri.SetActive(false);
+                    }
+                    else if (posisi == 3)
+                    {
+                        BtnKanan.SetActive(false);
+                    }
+                    else
+                    {
+                        BtnKiri.SetActive(true);
+                        BtnKanan.SetActive(true);
+                    }
                 }
             }
         }

@@ -1896,6 +1896,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162459247}
   m_CullTransparentMesh: 1
+--- !u!1 &1163445258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7114461037977286766, guid: ebccac25044edb84faca40f8596aab74, type: 3}
+  m_PrefabInstance: {fileID: 1281064403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1166645419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,7 +2367,7 @@ MonoBehaviour:
     Answer:
     - Protein, vitamin C, dan kalsium
     - Serat, vitamin A, dan magnesium
-    - Vitamin D, vitamin B12, dan fosfo
+    - Vitamin D, vitamin B12, dan fosfor
     - Lemak, vitamin K, dan kalium
     CorrectAnswer: 3
   - Question: 'Rekomendasi masakan yang umum untuk ikan nila adalah:'
@@ -2862,11 +2867,11 @@ MonoBehaviour:
   QuizPanel: {fileID: 180352295}
   ResultPanel: {fileID: 2059265923}
   Disabler: {fileID: 1230137091}
-  Disabler2: {fileID: 1419259493}
   BtnEnding: {fileID: 2021015420}
   BtnKoleksi: {fileID: 510451698}
   BtnRetry: {fileID: 1978392096}
   BtnNext: {fileID: 390610821}
+  BtnBack: {fileID: 1163445258}
   benar: {fileID: 1965995203}
   salah: {fileID: 1953178215}
   lulus: {fileID: 940917736}
@@ -3021,82 +3026,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 1370539924}
---- !u!1 &1419259493
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1419259494}
-  - component: {fileID: 1419259496}
-  - component: {fileID: 1419259495}
-  m_Layer: 5
-  m_Name: Disable2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1419259494
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419259493}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1634114151}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1419259495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419259493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1419259496
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419259493}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1570317173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3104,6 +3033,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1634114151}
     m_Modifications:
+    - target: {fileID: 5567501115126793967, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567501115126793967, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 5567501115344676162, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3199,6 +3136,14 @@ PrefabInstance:
     - target: {fileID: 5567501115344676164, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
       propertyPath: m_Name
       value: BtnSound
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567501115524870358, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5567501115524870358, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90e1737ad7d8e804e9a39131d5c7a0c6, type: 3}
@@ -3476,7 +3421,6 @@ RectTransform:
   - {fileID: 180352296}
   - {fileID: 1570317175}
   - {fileID: 1281064404}
-  - {fileID: 1419259494}
   - {fileID: 2021015421}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -4860,7 +4804,7 @@ RectTransform:
   m_Children:
   - {fileID: 1186931372}
   m_Father: {fileID: 1634114151}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

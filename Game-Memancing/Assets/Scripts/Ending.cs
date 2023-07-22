@@ -12,11 +12,15 @@ public class Ending : MonoBehaviour
     public VideoPlayer videoPlayer;
     public GameObject tetapBtn;
     public GameObject pulangBtn;
+    public GameObject panelHitam;
+    public Text narasi;
+
     // Start is called before the first frame update
     void Start()
     {
         tetapBtn.SetActive(false);
         pulangBtn.SetActive(false);
+        panelHitam.SetActive(false);
         videoPlayer.loopPointReached += popupBtn;
     }
 
@@ -31,7 +35,8 @@ public class Ending : MonoBehaviour
         tetapBtn.SetActive(false);
         pulangBtn.SetActive(false);
         videoPlayer.clip = clipMenetap;
-        videoPlayer.loopPointReached += map;
+        narasi.text = "Pina memilih untuk menetap dan melanjutkan petualangannya bersama Millo";
+        videoPlayer.loopPointReached += kembali;
     }
 
     public void pulang()
@@ -39,7 +44,8 @@ public class Ending : MonoBehaviour
         tetapBtn.SetActive(false);
         pulangBtn.SetActive(false);
         videoPlayer.clip = clipPulang;
-        videoPlayer.loopPointReached += mainMenu;
+        narasi.text = "Pina akhirnya berhasil pulang ke rumahnya...";
+        videoPlayer.loopPointReached += kembali;
     }
 
     void popupBtn(VideoPlayer vp)
@@ -48,13 +54,16 @@ public class Ending : MonoBehaviour
         pulangBtn.SetActive(true);
     }
 
-    void mainMenu(VideoPlayer vp)
+    void kembali(VideoPlayer vp)
     {
-        SceneManager.LoadScene("MainMenu");
+        panelHitam.SetActive(true);
+        StartCoroutine(delay());
+        
     }
 
-    void map(VideoPlayer vp)
+    IEnumerator delay()
     {
-        SceneManager.LoadScene("Map");
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("MainMenu");
     }
 }

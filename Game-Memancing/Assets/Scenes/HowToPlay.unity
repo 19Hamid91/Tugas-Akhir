@@ -1222,6 +1222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollbar: {fileID: 2034924215}
+  BtnKiri: {fileID: 591818367}
+  BtnKanan: {fileID: 41614424}
 --- !u!1 &932091293
 GameObject:
   m_ObjectHideFlags: 0
