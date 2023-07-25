@@ -1030,6 +1030,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -23.7
       objectReference: {fileID: 0}
+    - target: {fileID: 2275454132331235286, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 305.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275454132331235286, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -95.94
+      objectReference: {fileID: 0}
     - target: {fileID: 2275454133027377970, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
       propertyPath: m_Name
       value: QuestPanel
@@ -1618,24 +1626,48 @@ PrefabInstance:
       value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[0].sumber
+      value: https://www.gettyimages.com/
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].idIkan
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[1].sumber
+      value: ' https://pixabay.com/'
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].idIkan
       value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[2].sumber
+      value: https://www.gettyimages.com/
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[3].idIkan
       value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[3].sumber
+      value: https://unsplash.com/
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].idIkan
       value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[4].sumber
+      value: ' https://unsplash.com/ '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].idIkan
       value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
+      propertyPath: cards.Array.data[5].sumber
+      value: https://unsplash.com/
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].habitat
@@ -1669,34 +1701,34 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 3ca3d177381ccb4458d817eddab96122, type: 3}
+      objectReference: {fileID: 21300000, guid: 6203bb714b8918849b977e9f953ccd2e, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 7558319c4d7a9e24c8d2a93935f24516, type: 3}
+      objectReference: {fileID: 21300000, guid: 4cb29939e9a51a84899b3a2ec8e73db4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: b59b3311482cf21418d6edb374ac46b7, type: 3}
+      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[3].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 3dd7cc60b28320142b5b3d1aad827c11, type: 3}
+      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 99274994092d3fa4f83d38e56c82b806, type: 3}
+      objectReference: {fileID: 21300000, guid: 77b1bfea6055b1f48975b8bed5a9bafd, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: dd865d2c113775b4284e01c61f525610, type: 3}
+      objectReference: {fileID: 21300000, guid: 4a33cbec7cce3dd49abade41622fc6a4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].kandungan
       value: Ikan Barakuda kaya akan protein dan juga mengandung omega-3 asam lemak.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].kandungan
-      value: Ikan singa mengandung protein tinggi, asam lemak omega-3, vitamin, dan
+      value: Ikan Singa mengandung protein tinggi, asam lemak omega-3, vitamin, dan
         mineral yang penting untuk kesehatan tubuh.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
@@ -1730,11 +1762,11 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
+      objectReference: {fileID: 21300000, guid: f3f8874b76bcd3b4a8512c1438428b6e, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[3].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
+      objectReference: {fileID: 21300000, guid: fcc98e9ec43104c4ea01116d6c2ccc7f, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardSprite
       value: 
@@ -1774,7 +1806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].rekomendasiMakanan
-      value: Meskipun ikan Lionfish memiliki daging yang dapat dikonsumsi, beberapa
+      value: Meskipun ikan Singa memiliki daging yang dapat dikonsumsi, beberapa
         spesies Lionfish mengandung duri berbisa pada tubuhnya. Oleh karena itu tidak
         dianjurkan dimasak sendiri kecuali oleh ahlinya.
       objectReference: {fileID: 0}

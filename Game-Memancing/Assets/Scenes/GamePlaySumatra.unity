@@ -1499,30 +1499,6 @@ PrefabInstance:
       value: Lumba lumba
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].nama
-      value: Barakuda
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].nama
-      value: Singa
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].nama
-      value: Cumi cumi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].nama
-      value: Anthias
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].nama
-      value: Hiu Paus
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].nama
-      value: Lumba lumba
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].idIkan
       value: 12
       objectReference: {fileID: 0}
@@ -1533,10 +1509,6 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].idIkan
       value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[1].sumber
-      value: https://www.gettyimages.com/
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].idIkan
@@ -1551,16 +1523,8 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[3].sumber
-      value: https://www.gettyimages.com/
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].idIkan
       value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[4].sumber
-      value: https://www.gettyimages.com/
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].idIkan
@@ -1672,49 +1636,9 @@ PrefabInstance:
       value: https://unsplash.com/
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].idIkan
-      value: 24
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].sumber
-      value: https://www.gettyimages.com/
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].idIkan
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].sumber
-      value: ' https://pixabay.com/'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].habitat
       value: Perairan tropis dan subtropis. Dapat ditemukan di terumbu karang, batu-batuan,
         dan perairan dangkal yang berdekatan dengan perlindungan.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].idIkan
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].sumber
-      value: https://www.gettyimages.com/
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].idIkan
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].idIkan
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].sumber
-      value: ' https://unsplash.com/ '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].idIkan
-      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].habitat
@@ -1760,7 +1684,7 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 0326d513a135de0409c0b11e0979c745, type: 3}
+      objectReference: {fileID: 21300000, guid: b4b40f46b4bed5045a6a3b667d9f69b6, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[10].habitat
       value: Ikan Badut sering ditemukan di terumbu karang dan daerah berlumpur di
@@ -1801,70 +1725,41 @@ PrefabInstance:
       value: Lumba-lumba hidup di perairan laut yang hangat, termasuk Laut Arafura.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].habitat
-      value: Ikan Barakuda biasanya ditemukan di perairan terbuka, terumbu karang,
-        dan dekat dengan permukaan.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].habitat
-      value: Ikan Singa biasanya ditemukan di perairan terumbu karang dan daerah
-        berbatu di sekitar Laut Arafura.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 6d29080e9f6f0c246a274bb6669f2112, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].habitat
-      value: Cumi-cumi biasanya ditemukan di perairan laut dangkal hingga dalam,
-        termasuk Laut Arafura.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].habitat
-      value: kan Anthias ditemukan di perairan terumbu karang dan sering berkumpul
-        dalam kelompok.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].habitat
-      value: Ikan Hiu Paus ditemukan di perairan tropis dan subtropis, termasuk Laut
-        Arafura.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].habitat
-      value: Lumba-lumba hidup di perairan laut yang hangat, termasuk Laut Arafura.
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 95aa14bff85fbeb4cb1b6d69c4614bbf, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 602ffe20190446b46a95efbea60bb74d, type: 3}
+      objectReference: {fileID: 21300000, guid: e03677ffe854d8c4ab7dcf19eef36971, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[3].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: a4168e1812a3e0041b0c966e5fb36f00, type: 3}
+      objectReference: {fileID: 21300000, guid: ec6c85a14e84e334780cc5e5560320db, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 16297a947b9f9ef4fb35be99d3d6d154, type: 3}
+      objectReference: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 39fcf84a5a3f8aa40a586d92fc5b6a4b, type: 3}
+      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[6].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 30cb585488b47d04c8383f062d2f635a, type: 3}
+      objectReference: {fileID: 21300000, guid: cc4972d73e39a164aa5d47b9acb40947, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[7].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 0bf189159a595a448b5bf96152726c8d, type: 3}
+      objectReference: {fileID: 21300000, guid: 5813e7ffdbf273749bd55839e22bbfc2, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[8].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 8ca50e6a9faa9d94096bf0ca056a3636, type: 3}
+      objectReference: {fileID: 21300000, guid: afa9416745cda28498b09029a99068c6, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[9].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: e1ce801c1f900614fa9455bdda33dfb9, type: 3}
+      objectReference: {fileID: 21300000, guid: 60b0551082d60084a9ea56aa0668374a, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].kandungan
       value: Protein tinggi, omega-3 asam lemak, vitamin B12, dan selenium. Mereka
@@ -1873,64 +1768,40 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[10].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 336d9997766616a48b7d8a858a88dcc0, type: 3}
+      objectReference: {fileID: 21300000, guid: 41db194883a83b74baed9e98c4595dd7, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[11].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: cbb52ac6f2652e64db4a1991b099514a, type: 3}
+      objectReference: {fileID: 21300000, guid: 26148fcb73f0a2d41a56b12964c61613, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[12].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 6e49ad6bea6ad0e43b75760d7389dad5, type: 3}
+      objectReference: {fileID: 21300000, guid: 6203bb714b8918849b977e9f953ccd2e, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[13].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: c43ec833e38dd8246a6ca3263e97a648, type: 3}
+      objectReference: {fileID: 21300000, guid: 4cb29939e9a51a84899b3a2ec8e73db4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[14].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 86d90de5ce4953443b6492da03828774, type: 3}
+      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[15].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: 5db9e6daa73f9194b98ea23a42d128f7, type: 3}
+      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[16].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: a826d77ce559b2b4d80b40cdd779a40a, type: 3}
+      objectReference: {fileID: 21300000, guid: 77b1bfea6055b1f48975b8bed5a9bafd, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[17].cardReal
       value: 
-      objectReference: {fileID: 21300000, guid: e6594ab0f26c0a349826656ddeaeeb8a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 6e49ad6bea6ad0e43b75760d7389dad5, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: c43ec833e38dd8246a6ca3263e97a648, type: 3}
+      objectReference: {fileID: 21300000, guid: 4a33cbec7cce3dd49abade41622fc6a4, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].kandungan
       value: Protein tinggi, omega-3 asam lemak, vitamin D, vitamin B6, dan selenium.
         Mereka juga merupakan sumber zat besi dan fosfor.
       objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 86d90de5ce4953443b6492da03828774, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: 5db9e6daa73f9194b98ea23a42d128f7, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: a826d77ce559b2b4d80b40cdd779a40a, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].cardReal
-      value: 
-      objectReference: {fileID: 21300000, guid: e6594ab0f26c0a349826656ddeaeeb8a, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].kandungan
       value: Ikan Layur mengandung protein tinggi, omega-3 asam lemak, vitamin B12,
@@ -1974,7 +1845,7 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[0].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: b4b40f46b4bed5045a6a3b667d9f69b6, type: 3}
+      objectReference: {fileID: 21300000, guid: 98e0ae9cb53d4ff4fa106b942d9ed1f0, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[10].kandungan
       value: Ikan Badut mengandung protein dan nutrisi yang bervariasi tergantung
@@ -2014,58 +1885,29 @@ PrefabInstance:
         menjadi objek wisata dan perlindungan satwa liar.
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].kandungan
-      value: Ikan Barakuda kaya akan protein dan juga mengandung omega-3 asam lemak.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].kandungan
-      value: Ikan Singa mengandung protein tinggi, asam lemak omega-3, vitamin, dan
-        mineral yang penting untuk kesehatan tubuh.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[1].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 95aa14bff85fbeb4cb1b6d69c4614bbf, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].kandungan
-      value: Cumi-cumi mengandung protein tinggi, rendah lemak, dan juga beberapa
-        mineral dan vitamin.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].kandungan
-      value: Ikan Anthias mengandung protein dan nutrisi yang bervariasi tergantung
-        pada jenisnya.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].kandungan
-      value: Ikan Hiu Paus tidak biasa dikonsumsi secara umum, karena ukurannya yang
-        besar dan perlindungan hukum yang mengatur penangkapannya.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].kandungan
-      value: Lumba-lumba biasanya tidak dikonsumsi sebagai makanan manusia, melainkan
-        menjadi objek wisata dan perlindungan satwa liar.
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: fd8cf4e9e33147346a40c625d80651fc, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[2].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: e03677ffe854d8c4ab7dcf19eef36971, type: 3}
+      objectReference: {fileID: 21300000, guid: ecb84f625641d5747b22c200729243a2, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[3].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: ec6c85a14e84e334780cc5e5560320db, type: 3}
+      objectReference: {fileID: 21300000, guid: ed2efdc54e1f6b648bb39c88b42e4ef6, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[4].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 7ce9493f8196f11409a5ef51e0320d9d, type: 3}
+      objectReference: {fileID: 21300000, guid: c3d47e42008ae9a48897b6ecadbc5bf7, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[5].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 182e6333d1764b14e8fe8c6fd680d93a, type: 3}
+      objectReference: {fileID: 21300000, guid: 98fb5e0502b070049b5f11a53870d299, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[6].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: cc4972d73e39a164aa5d47b9acb40947, type: 3}
+      objectReference: {fileID: 21300000, guid: 62ba8fc37cd886741bf10fd0c3e84004, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[7].cardSprite
       value: 
@@ -2073,19 +1915,19 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[8].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: afa9416745cda28498b09029a99068c6, type: 3}
+      objectReference: {fileID: 21300000, guid: 063b174062de07c4aa2fc9113cc928dd, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[9].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 60b0551082d60084a9ea56aa0668374a, type: 3}
+      objectReference: {fileID: 21300000, guid: bccba19c73d1eeb489df09f2521e8d61, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[10].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 41db194883a83b74baed9e98c4595dd7, type: 3}
+      objectReference: {fileID: 21300000, guid: c50230dabed5d0647af0a7d852c086a3, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[11].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 26148fcb73f0a2d41a56b12964c61613, type: 3}
+      objectReference: {fileID: 21300000, guid: a919a5e1136bf8c4c978b92d451f1062, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[12].cardSprite
       value: 
@@ -2097,41 +1939,17 @@ PrefabInstance:
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[14].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
+      objectReference: {fileID: 21300000, guid: f3f8874b76bcd3b4a8512c1438428b6e, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[15].cardSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
+      objectReference: {fileID: 21300000, guid: fcc98e9ec43104c4ea01116d6c2ccc7f, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[16].cardSprite
       value: 
       objectReference: {fileID: 21300000, guid: 6beb080b1cbb25249b3850442d317fcb, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[17].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: cb77ed73878d6a6438a9d236ea0bbacb, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 900b230e291c6714ba903abf6026d4bc, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6570c26e5a5440b4e9156e9932fe2933, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ee0c8990c0e68dc448002efdf01c0ab6, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 21fd090f68688424cbb0325421c416c4, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].cardSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6beb080b1cbb25249b3850442d317fcb, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].cardSprite
       value: 
       objectReference: {fileID: 21300000, guid: cb77ed73878d6a6438a9d236ea0bbacb, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
@@ -2204,30 +2022,6 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 24129ae1864f4e5498d9bbd770e9c8eb, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[17].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0a93d361e7eced4448732cfe65f25e04, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7f677467cd546fc48a65522ca1e2c855, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b598a90fed01ab24f90fd06683efbb70, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 84683cd55d357ee40b34633f8d0e55f8, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 6946a9751e664a54d9b6039af9b88d0c, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].cardSiluetSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 24129ae1864f4e5498d9bbd770e9c8eb, type: 3}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].cardSiluetSprite
       value: 
       objectReference: {fileID: 21300000, guid: 0a93d361e7eced4448732cfe65f25e04, type: 3}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
@@ -2316,36 +2110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
       propertyPath: cards.Array.data[17].rekomendasiMakanan
-      value: Lumba-lumba bukanlah target umum untuk dikonsumsi.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[18].rekomendasiMakanan
-      value: Ikan Barakuda sering kali menjadi target pemancingan olahraga dan bisa
-        diolah menjadi hidangan panggang, bakar, atau tumis.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[19].rekomendasiMakanan
-      value: Meskipun ikan Singa memiliki daging yang dapat dikonsumsi, beberapa
-        spesies Lionfish mengandung duri berbisa pada tubuhnya. Oleh karena itu tidak
-        dianjurkan dimasak sendiri kecuali oleh ahlinya.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[20].rekomendasiMakanan
-      value: Cumi-cumi dapat diolah menjadi berbagai hidangan, seperti tumis, goreng,
-        atau dimasak dalam saus.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[21].rekomendasiMakanan
-      value: Beberapa spesies ikan Anthias mungkin kurang umum untuk dikonsumsi dan
-        umumnya lebih dikenal sebagai ikan hias dalam akuarium.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[22].rekomendasiMakanan
-      value: Ikan Hiu Paus umumnya tidak direkomendasikan untuk dikonsumsi, melainkan
-        untuk dinikmati dalam kegiatan penelitian, wisata alam, atau snorkeling.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6060439139005428351, guid: 14cdb967330739747bfe946be6dc6ff4, type: 3}
-      propertyPath: cards.Array.data[23].rekomendasiMakanan
       value: Lumba-lumba bukanlah target umum untuk dikonsumsi.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2742,6 +2506,14 @@ PrefabInstance:
     - target: {fileID: 2275454132206048327, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275454132331235286, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 305.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275454132331235286, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -95.94
       objectReference: {fileID: 0}
     - target: {fileID: 2275454133027377970, guid: b8fdcf80e2298f44e8aee47945dc2f75, type: 3}
       propertyPath: m_Name
