@@ -17,7 +17,7 @@ public class Gameplay : MonoBehaviour
     public Text Nyawa;
 
     float moveArea;
-    string tempat;
+    // string tempat;
     int questProgress;
     // Start is called before the first frame update
     void Start()
@@ -55,26 +55,26 @@ public class Gameplay : MonoBehaviour
         nyawaHabisPanel.SetActive(false);
         resultPanel.SetActive(false);
         disabler.SetActive(false);
-        if (Data.Tempat == "GamePlayKalimantan")
-        {
-            tempat = "Kalimantan";
-        }
-        else if(Data.Tempat == "GamePlaySumatra")
-        {
-            tempat = "Sumatra";
-        }
-        else if(Data.Tempat == "GamePlaySulawesi")
-        {
-            tempat = "Sulawesi";
-        }
-        else if(Data.Tempat == "GamePlayPapua")
-        {
-            tempat = "Papua";
-        }
-        else
-        {
-            tempat = "Jawa";
-        }
+        // if (Data.Tempat == "GamePlayKalimantan")
+        // {
+        //     tempat = "Kalimantan";
+        // }
+        // else if(Data.Tempat == "GamePlaySumatra")
+        // {
+        //     tempat = "Sumatra";
+        // }
+        // else if(Data.Tempat == "GamePlaySulawesi")
+        // {
+        //     tempat = "Sulawesi";
+        // }
+        // else if(Data.Tempat == "GamePlayPapua")
+        // {
+        //     tempat = "Papua";
+        // }
+        // else
+        // {
+        //     tempat = "Jawa";
+        // }
         Data.direction = -1;
         Data.isInsideArea = false;
         if(Data.Level == 2)
@@ -212,7 +212,7 @@ public class Gameplay : MonoBehaviour
     IEnumerator playAnimasi()
     {
         Data.speed = 0f;
-        Pina.SetTrigger(tempat);
+        Pina.SetTrigger("Tangkap");
         yield return new WaitForSeconds(2);
         TangkapIkan();
     }
