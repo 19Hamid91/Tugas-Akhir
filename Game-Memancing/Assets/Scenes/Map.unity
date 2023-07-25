@@ -876,7 +876,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: bf217680873ece74a8699a1b54ce4fa0, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2249,8 +2249,8 @@ RectTransform:
   - {fileID: 216865527}
   - {fileID: 320858331}
   - {fileID: 1951346738}
-  - {fileID: 1008240448}
   - {fileID: 1224428723}
+  - {fileID: 1008240448}
   - {fileID: 1670200469}
   - {fileID: 1325731464}
   - {fileID: 214890711}
@@ -2555,7 +2555,7 @@ RectTransform:
   m_Children:
   - {fileID: 1561802022}
   m_Father: {fileID: 894204414}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2940,7 +2940,7 @@ RectTransform:
   m_Children:
   - {fileID: 1956533847}
   m_Father: {fileID: 894204414}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4023,6 +4023,19 @@ MonoBehaviour:
   - {fileID: 1278079236}
   - {fileID: 361446857}
   - {fileID: 214890710}
+  pin:
+  - {fileID: 1325731463}
+  - {fileID: 1670200468}
+  - {fileID: 1008240447}
+  - {fileID: 1224428722}
+  - {fileID: 1951346737}
+  mapLocked:
+  - {fileID: 21300000, guid: 721e19c3afd44174a999f33bd3f44527, type: 3}
+  - {fileID: 21300000, guid: 16a3cc0b74a0c4c48a6a5548be78bea7, type: 3}
+  - {fileID: 21300000, guid: 8a7f2ca2ca5a0b241a529edb0840488d, type: 3}
+  - {fileID: 21300000, guid: aa76a62b6a5b9b642b293f554635c930, type: 3}
+  - {fileID: 21300000, guid: 5c1de037c9019834593c6f9c06a42889, type: 3}
+  bgMap: {fileID: 312945502}
 --- !u!4 &1582223038
 Transform:
   m_ObjectHideFlags: 0
