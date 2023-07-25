@@ -2443,7 +2443,7 @@ MonoBehaviour:
   - Question: 'Rekomendasi masakan yang umum untuk ikan haruan adalah:'
     Answer:
     - Ikan haruan bakar
-    - Ikan haruan goreng
+    - Makan mentah
     - ' Digoreng'
     - Ikan haruan kukus
     CorrectAnswer: 3
