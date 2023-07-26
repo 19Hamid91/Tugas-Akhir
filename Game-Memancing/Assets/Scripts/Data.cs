@@ -7,6 +7,7 @@ public class Data
 {
     public static bool muted = false;
     public static bool storyWatched = false;
+    public static bool tutorialWatched = false;
 
     public static string Tempat;
     public static int Level;
@@ -40,6 +41,7 @@ public class Data
         // Set all variables to their default values
         muted = false;
         storyWatched = false;
+        tutorialWatched = false;
         Tempat = null;
         Level = 0;
         indexIkan = 0;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Popup : MonoBehaviour
 {
@@ -8,9 +9,20 @@ public class Popup : MonoBehaviour
     private bool hide = true;
 
     private void Start() {
-        for (int i = 0; i < popups.Count; i++)
+        
+        if (SceneManager.GetActiveScene().name == "GamePlayJawa" && Data.tutorialWatched == false)
         {
-            popups[i].SetActive(false);
+            for (int i = 0; i < popups.Count; i++)
+            {
+                popups[i].SetActive(true);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < popups.Count; i++)
+            {
+                popups[i].SetActive(false);
+            }
         }
     }
 
@@ -24,6 +36,11 @@ public class Popup : MonoBehaviour
         for (int index = 0; index < popups.Count; index++)
         {
             popups[index].SetActive(false);
+        }
+        if (SceneManager.GetActiveScene().name == "GamePlayJawa" && Data.tutorialWatched == false)
+        {
+            Data.tutorialWatched = true;
+            SaveLoadData.SaveToJson();
         }
     }
 

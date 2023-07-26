@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Swipe_Control : MonoBehaviour
 {
@@ -11,10 +12,14 @@ public class Swipe_Control : MonoBehaviour
     int posisi = 0;
     public GameObject BtnKiri;
     public GameObject BtnKanan;
+    public GameObject btnOK;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (SceneManager.GetActiveScene().name == "GamePlayJawa" && Data.tutorialWatched == false)
+        {
+            btnOK.SetActive(false);
+        }
     }
 
     public void next()
@@ -61,13 +66,25 @@ public class Swipe_Control : MonoBehaviour
                     if (posisi == 0)
                     {
                         BtnKiri.SetActive(false);
+                        if (SceneManager.GetActiveScene().name == "GamePlayJawa")
+                        {
+                            btnOK.SetActive(false);
+                        }
                     }
                     else if (posisi == 3)
                     {
                         BtnKanan.SetActive(false);
+                        if (SceneManager.GetActiveScene().name == "GamePlayJawa")
+                        {
+                            btnOK.SetActive(true);
+                        }
                     }
                     else
                     {
+                        if (SceneManager.GetActiveScene().name == "GamePlayJawa")
+                        {
+                            btnOK.SetActive(false);
+                        }
                         BtnKiri.SetActive(true);
                         BtnKanan.SetActive(true);
                     }

@@ -15,6 +15,7 @@ public static class SaveLoadData
         {
             { "muted", Data.muted },
             { "storyWatched", Data.storyWatched },
+            { "tutorialWatched", Data.tutorialWatched },
             { "lastNamedFish", Data.lastNamedFish },
             { "unlockedFish", Data.unlockedFish },
             { "uniqueRate", Data.uniqueRate },
@@ -47,6 +48,7 @@ public static class SaveLoadData
             // Memasukkan nilai dari dictionary ke variabel pada kelas Data
             Data.muted = (bool)dataDict["muted"];
             Data.storyWatched = (bool)dataDict["storyWatched"];
+            Data.tutorialWatched = (bool)dataDict["tutorialWatched"];
             Data.lastNamedFish = (string)dataDict["lastNamedFish"];
             
             object value;

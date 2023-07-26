@@ -626,26 +626,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questData:
-  - Misi1: Tangkap 10 ikan
-    Misi2: Tangkap 2
-    NamedFish: 
-    fishAmount: 2
-    namedFishAmount: 1
-    questCompleted: 0
-  - Misi1: Tangkap 15 ikan
+  - Misi1: Tangkap 5 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 2
+    fishAmount: 5
     namedFishAmount: 1
     questCompleted: 0
-  - Misi1: Tangkap 20 ikan
+  - Misi1: Tangkap 4 ikan
     Misi2: Tangkap 1
     NamedFish: 
-    fishAmount: 2
+    fishAmount: 4
     namedFishAmount: 1
     questCompleted: 0
-  - Misi1: Tangkap 15 ikan
-    Misi2: Tangkap 2
+  - Misi1: Tangkap 3 ikan
+    Misi2: Tangkap 1
+    NamedFish: 
+    fishAmount: 3
+    namedFishAmount: 1
+    questCompleted: 0
+  - Misi1: Tangkap 2 ikan
+    Misi2: Tangkap 1
     NamedFish: 
     fishAmount: 2
     namedFishAmount: 1
