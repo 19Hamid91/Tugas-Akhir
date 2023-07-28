@@ -16,6 +16,10 @@ public class Gameplay : MonoBehaviour
     public Animator Pina;
     public Text Nyawa;
 
+    public GameObject berhasil;
+    public GameObject gagal;
+    public GameObject tarikan;
+
     float moveArea;
     // string tempat;
     int questProgress;
@@ -52,6 +56,9 @@ public class Gameplay : MonoBehaviour
         {
             Nyawa.text = ""+Data.nyawaCounter;
         }
+        berhasil.SetActive(false);
+        gagal.SetActive(false);
+        tarikan.SetActive(false);
         nyawaHabisPanel.SetActive(false);
         resultPanel.SetActive(false);
         disabler.SetActive(false);
@@ -137,6 +144,7 @@ public class Gameplay : MonoBehaviour
 
         if (Data.isInsideArea == true)
         {
+            berhasil.SetActive(true);
             if (Data.Level == 3)
             {
                 var diceroll = Random.Range(1,100);
@@ -175,6 +183,7 @@ public class Gameplay : MonoBehaviour
         }
         else
         {
+            gagal.SetActive(true);
             if(questProgress <= Data.Level)
             {
                 Data.nyawaCounter--;
@@ -203,6 +212,9 @@ public class Gameplay : MonoBehaviour
         {
             Data.speed = 5f;
         }
+        berhasil.SetActive(false);
+        gagal.SetActive(false);
+        tarikan.SetActive(false);
         moveArea = Random.Range(-2.5f, 2.5f);
         resultPanel.SetActive(false);
         area.transform.position = new Vector3(moveArea, area.transform.position.y, area.transform.position.z);
@@ -213,6 +225,7 @@ public class Gameplay : MonoBehaviour
     {
         Data.speed = 0f;
         Pina.SetTrigger("Tangkap");
+        tarikan.SetActive(true);
         yield return new WaitForSeconds(2);
         TangkapIkan();
     }
