@@ -22,6 +22,7 @@ public class Skip : MonoBehaviour
         } else
         {
             skip.SetActive(true);  
+            myVideoPlayer.loopPointReached += LoadNextScene;
         }
     }
     
