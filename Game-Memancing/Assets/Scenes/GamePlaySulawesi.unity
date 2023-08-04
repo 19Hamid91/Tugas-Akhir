@@ -766,7 +766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgLvl1: {fileID: 21300000, guid: 24d5d26e55c2c8748b80842e95b4837b, type: 3}
-  bgLvl2: {fileID: 21300000, guid: edeced41b267dc0449368c24e4efa1da, type: 3}
+  bgLvl2: {fileID: 21300000, guid: 55d727d613ec15440a0853dbd0749b6e, type: 3}
   bgLvl3: {fileID: 21300000, guid: edeced41b267dc0449368c24e4efa1da, type: 3}
 --- !u!1 &402424910
 GameObject:
