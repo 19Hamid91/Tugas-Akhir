@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class DescManager : MonoBehaviour
 {
     public CardManager cardManager;
-    // public GameObject[] inputField;
     public GameObject spriteIkan;
     public GameObject gambarIkan;
     public GameObject borderIkan;

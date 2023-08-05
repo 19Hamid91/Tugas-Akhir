@@ -109,19 +109,14 @@ public class QuizManager : MonoBehaviour
     }
     public void correct()
     {
-        // benar.SetActive(true);
         score++;
         QnA.RemoveAt(currentQuestion);
         StartCoroutine(feedbackBenar());
-        // generateQuestion();
     }
     public void incorrect()
     {
-        // salah.SetActive(true);
         QnA.RemoveAt(currentQuestion);
         StartCoroutine(feedbackSalah());
-        // generateQuestion();
-        // Data.IncorrectAnswer +=1;
     }
     public void QuizResult()
     {

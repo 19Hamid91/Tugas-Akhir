@@ -56,7 +56,6 @@ public class QuestManager : MonoBehaviour
         }
         else if(Data.noProgress == false)
         {
-            // Debug.Log("test");
             indexQuest = Data.lastIndexQuest;
             fishCounter = Data.lastFishCounter;
             namedFishCounter = Data.lastNamedFishCounter;

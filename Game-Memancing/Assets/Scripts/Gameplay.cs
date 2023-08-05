@@ -62,26 +62,6 @@ public class Gameplay : MonoBehaviour
         nyawaHabisPanel.SetActive(false);
         resultPanel.SetActive(false);
         disabler.SetActive(false);
-        // if (Data.Tempat == "GamePlayKalimantan")
-        // {
-        //     tempat = "Kalimantan";
-        // }
-        // else if(Data.Tempat == "GamePlaySumatra")
-        // {
-        //     tempat = "Sumatra";
-        // }
-        // else if(Data.Tempat == "GamePlaySulawesi")
-        // {
-        //     tempat = "Sulawesi";
-        // }
-        // else if(Data.Tempat == "GamePlayPapua")
-        // {
-        //     tempat = "Papua";
-        // }
-        // else
-        // {
-        //     tempat = "Jawa";
-        // }
         Data.direction = -1;
         Data.isInsideArea = false;
         if(Data.Level == 2)
@@ -113,7 +93,6 @@ public class Gameplay : MonoBehaviour
     {
         if (col.transform.tag.Equals("Area"))
         {
-            // Debug.Log("Didalam area");
             Data.isInsideArea = true;
         }       
     }
